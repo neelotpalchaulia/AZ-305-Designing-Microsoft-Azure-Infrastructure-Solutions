@@ -15,10 +15,6 @@ In this Exercise, you will have:
 
 In this task, you are going to verify the hub and spoke virtual network connectivity from a virtual network.
 
-#### Pre-requisites for this task
-
-Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5
-
 #### Steps:
 
 1. Go to **Contoso-Vnet-EastUS** virtual network and select **Network Manager** under **Settings**. You'll see the **HubA** connectivity configuration applied.
@@ -36,10 +32,6 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5
 ### Task 2: Verify from a Virtual machine
 
 In this task you are going to dpeloy a test virtual machine into **Contoso-Vnet-EastUS** virtual network and then verify the connection configurations.
-
-#### Pre-requisites for this task
-
-Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5
 
 #### Steps:
 
