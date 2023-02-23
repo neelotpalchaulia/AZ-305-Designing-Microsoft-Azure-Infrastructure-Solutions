@@ -18,10 +18,6 @@ In this exercise, you will:
 
 In this task, you will learn how to create an Azure SQL database by using Azure portal.
 
-#### Pre-requisites for this task
-
-Completed Exercise 1
-
 #### Steps:
 
 1. In the home page of Azure portal, please enter **SQL database** on the search bar and select **SQL databases** from the list.
@@ -73,10 +69,6 @@ Completed Exercise 1
 
 In this task you will configure Server firewall. Azure SQL Server is protected by server-level firewall rules. As a result, it applies to all underlying Azure SQL Databases. Before reaching the Azure server or database, each connection must pass through the firewall.
 
-#### Pre-requisites for this task
-
-Completed Exercise 1 & Exercise 2 - Task 1
-
 #### Steps:
 
 1. In the Azure portal, go to the database you have created in the previous task. Select **Set Server Firewall** on the **Overview** section.
@@ -94,10 +86,6 @@ You have successfully logged into the contosodb1 database.
 ### Task 3: Install the Data Migration Assistant (DMA) on Windows
 
 In this task, you will learn how to install and configure Data Migration Assistant (DMA) on Windows.
-
-#### Pre-requisites for this task
-
-Completed Exercise 1 & Exercise 2 - Task 1 & Task 2
 
 #### Steps:
  
@@ -120,10 +108,6 @@ Completed Exercise 1 & Exercise 2 - Task 1 & Task 2
 8. To complete install, select **Finish**.
 
 ### Task 4: Use the Data Migration Assistant to prepare for migration from SQL Server to Azure SQL Database
-
-#### Pre-requisites for this task
-
-Completed Exercise 1 & Exercise 2 - Task 1 & Task 2 & Task 3
 
 #### Steps:
 
@@ -184,10 +168,6 @@ Completed Exercise 1 & Exercise 2 - Task 1 & Task 2 & Task 3
 13. Expand the **Tables**, you can see there are no tables listed.
 
 ### Task 5: Use Data Migration Assistant to migrate Schema and Data
-
-#### Pre-requisites for this task
-
-Completed Exercise 1 & Exercise 2 - Task 1 & Task 2 & Task 3 & Task 4
 
 #### Steps:
 
