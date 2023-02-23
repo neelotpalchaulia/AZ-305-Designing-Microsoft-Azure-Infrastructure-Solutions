@@ -14,10 +14,6 @@ In this exercise, you will:
 
 In this task you are going to create a Conditional access policy to access Office 365 application.
 
-#### Pre-requisites for this task
-
-An Azure account with security administrator, Conditional Access administrator, or global administrator privilege.
-
 #### Steps:
 
 1. Browse to **Azure Active Directory** then under **Manage** select **Security** then select **Conditional Access**.
