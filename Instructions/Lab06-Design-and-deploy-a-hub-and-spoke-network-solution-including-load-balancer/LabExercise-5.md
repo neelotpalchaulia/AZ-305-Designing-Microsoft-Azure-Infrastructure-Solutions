@@ -15,10 +15,6 @@ In this Exercise, you will have:
 
 In this task, you are going to create secuirty configuration for the virtual network manager created on the previous exercise.
 
-#### Pre-requisites for this task
-
-Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4.
-
 #### Steps:
 
 1. Go to the **contosonetmanager** page, select **Configuration** under **Settings**, then select **+ Create**. Select **Security Configuration** from the menu to begin configuration of SecurityAdmin.
@@ -64,10 +60,6 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4.
 ### Task 2: Deploy the security admin configuration
 
 In this task, you are going to deploy the security admin configuration.
-
-#### Pre-requisites for this task
-
-Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5- Task 1
 
 #### Steps:
 
