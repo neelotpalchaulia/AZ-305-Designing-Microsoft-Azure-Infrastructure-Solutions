@@ -4,7 +4,7 @@
 
 In this exercise you are going to add an assignment policy through an Azure buil-in policy and enforcing it to a storage account.
 
-In this Exercise, you will have:
+In this Exercise, you will:
 
 + Task 1: Create an Assignment through an Azure built-in Policy.
 + Task 2: Applying the Policy definition to a Storage account.
@@ -74,7 +74,7 @@ Complete Exercise 1
 
 #### Task 2: Applying the Policy definition to a Storage account.
 
-In this task you are going to create a storage account by using the resource group which you have applied the Policy assignment.Then you will check the Policy assigment validation.
+In this task you are going to create a storage account by using the resource group which you have applied the Policy assignment. Then you will check the Policy assigment validation.
 
 #### Pre-requisites for this task
 
