@@ -6,7 +6,7 @@
 
     ![](../media/inst1.png)
 
-1. You can also open the Lab Guide on a separate full window by selecting the **Split Window** button on the bottom right corner.
+1. You can also open the Lab Guide on a separate full window by selecting the **Split Window** button from the bottom right corner.
 
     ![](../media/inst2.png)    
 
@@ -38,7 +38,7 @@
 
 1. Now, you will see two tabs in the edge browser, close the first tab named with Microsoft Edge.
 
-1. On the **Sign into Microsoft Azure** tab, you will see the login screen. In that enter the following **Email/Username** and then click on **Next**. 
+1. On the **Sign into Microsoft Azure** tab, you will see the login screen. Enter the following **Email/Username** and then click on **Next**. 
    
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
    
