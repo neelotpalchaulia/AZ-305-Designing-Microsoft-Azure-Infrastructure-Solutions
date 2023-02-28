@@ -80,9 +80,9 @@ An Azure account, a resource group
 
     ![image](../media/db10.png)
 
-12. After validation completed successfully, please select **Create**.
+12. After validation is completed successfully, please select **Create**.
 
-13. Once the deployment completed, please select **Go to Resource**.
+13. Once the deployment is complete, please select **Go to Resource**.
 
 
 ### Review
