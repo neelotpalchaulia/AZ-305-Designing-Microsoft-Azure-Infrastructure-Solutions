@@ -27,7 +27,7 @@ An Azure account
 
     ![img](../media/depl1.png)
 
-2. On the **Custom deployment** page please select template source as **Quickstart templates**, Select **demos/web-app-regional-vnet-private-endpoint-sql-storage** from the Quickstart template dropdown, then select **Select template**.
+2. On the **Custom deployment** page, please select template source as **Quickstart templates**, Select **demos/web-app-regional-vnet-private-endpoint-sql-storage** from the Quickstart template dropdown, then select **Select template**.
 
     ![img](../media/depl2a.png)
 
