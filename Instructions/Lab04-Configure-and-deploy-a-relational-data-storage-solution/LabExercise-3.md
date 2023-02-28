@@ -6,7 +6,7 @@ Each Azure server (which hosts SQL Database) starts with a single server adminis
 
 In this Exercise, you will grant Azure AD admin role to access your SQL server.
 
-In this Exercise you will have:
+In this Exercise you will:
     
   + Task 1: Set the current user as Admin and Query the data by using Azure Active Directory Authentication
 
@@ -58,7 +58,7 @@ Complete Exercise 1 & Exercise 2.
 
     ![img](../media/aa5.png)
     
-12. You can see the authentication completed suucessfully and can retreive the data from any table.
+12. You can see the authentication is completed suucessfully and can retreive the data from any table.
 
     ![img](../media/aa6.png) 
     
