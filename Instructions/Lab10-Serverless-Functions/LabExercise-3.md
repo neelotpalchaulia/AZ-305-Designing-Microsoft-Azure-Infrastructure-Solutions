@@ -3,7 +3,7 @@
 
 In this exercise, you are going to create a basic function that echoes the content sent through an HTTP POST request. 
 
-In this exercise, you will have:
+In this exercise, you will:
 
   + Task 1: Create an HTTP-triggered function.
   + Task 2: Write HTTP-triggered function code.
@@ -33,7 +33,7 @@ Completed Exercise 1 & Exercise 2
     ![img](../media/echo2.png)
 
 
-1. After installing, please select **Sign In** for signing into Azure portal. If it ask for username and password, please enter the username and password provided on **Environment details** tab of the Lab guide. After a while you will get a message showing **You are signed in now and can close this page**. Please check the Azure tab of the Visual studio code you can see the default subscription of Azure. Please close the browser page.
+1. After installing, please select **Sign In** for signing into Azure portal. If it asks for username and password, please enter the username and password provided on **Environment details** tab of the Lab guide. After a while you will get a message showing **You are signed in now and can close this page**. Please check the Azure tab of the Visual studio code you can see the default subscription of Azure. Please close the browser page.
 
     ![img](../media/echo3.png)
 
@@ -41,7 +41,7 @@ Completed Exercise 1 & Exercise 2
 
     ![img](../media/echo4.png)
 
-1. Enter the name **global.json** and hit **Enter**, you have created the file named global.json. Enter the following code on it.
+1. Enter the name **global.json** and hit **Enter**, you have created the file named global.json. Enter the following code to it.
 
     ```JSON
     {
@@ -65,7 +65,7 @@ Completed Exercise 1 & Exercise 2
 
     ![img](../media/echo6.png)
 
->**Note:** If its asking of installing C# extension, please install. Or else please go to the Extension tab and type C# on the search box and install C# for Visual studio code.
+>**Note:** If it's asking to install C# extension, please install. Else please go to the Extension tab and type C# on the search box and install C# for Visual studio code.
 
 >**Note:** No need to close the Terminal.
 
