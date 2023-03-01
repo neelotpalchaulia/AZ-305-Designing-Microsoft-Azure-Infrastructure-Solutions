@@ -67,7 +67,7 @@ Complete Exercise 1 & Exercise 2
 
 ### Task 2: Fail over Azure Virtual Machine to a secondary region
 
-In this task, you are going to do a failover on azure virtual machines and review it.
+In this task, you are going to do a failover on Azure virtual machines and review it.
 
 #### Pre-requisites for this task
 
@@ -75,7 +75,7 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 - Task 1
 
 #### Steps:
 
-1. Go to the **Recovery service vault** named **contosovault1** that you hvae created on Exercise-1.
+1. Go to the **Recovery service vault** named **contosovault1** that you have created in Exercise-1.
 
 2. Please select the replicated virtual machine named **contoso-vm-1** on the **Replicated items** section.
 
