@@ -50,7 +50,7 @@ An Azure account
    ```
 10. Open a notepade and type **Hello World**, then save it as **file.txt**.
 
-11. On the Powershell terminal, click on **Upload**, select the file **file.txt** from the saved location, then click on **Open** to upload the file. You will get a message shows Successfully Uploaded.
+11. On the Powershell terminal, click on **Upload**, select the file **file.txt** from the saved location, then click on **Open** to upload the file. You will get a message showing it is Successfully Uploaded.
 
 12. On the Powershell terminal, run the following script.
 
