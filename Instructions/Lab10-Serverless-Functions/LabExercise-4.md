@@ -4,7 +4,7 @@
 
 In this exercise, you are going to create a function that runs automatically based on a fixed schedule.
 
-In this exercise, you have
+In this exercise, you will:
 
    + Task 1: Create a schedule-triggered function
    + Task 2: Observe function code
@@ -75,7 +75,7 @@ Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1
 
 #### Task 3: Observe function runs
 
-In this task, you are observing the function run that occurs about every five minutes.
+In this task, you are observing the function run that occurs in about every five minutes.
 
 #### Pre-requisites
 
@@ -89,7 +89,7 @@ Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1 & Task 2
     func start --build
     ```
     
-1. Observe the function run that occurs about every five minutes. Each function run should render a simple message to the log.
+1. Observe the function run that occurs in about every five minutes. Each function run should render a simple message to the log.
 
 
 #### Task 4: Update the function integration configuration
@@ -146,13 +146,13 @@ Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1 & Task 2 & 
 
 ### Clean up resources
 
->**Note : Please do not delete resources you deployed in this lab. You will reference them in the next Exercises of this module.**
+>**Note : Please do not delete resources you deployed in this lab. You will refer to them in the next Exercises of this module.**
 
 #### Review
 
 In this lab, you have:
 
-- Create a schedule-triggered function.
+- Created a schedule-triggered function.
 - Observed it runs every 5 seconds.
 - Updated the function.
 - Observed it runs every 30 seconds.
