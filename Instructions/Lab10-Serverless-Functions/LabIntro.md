@@ -18,7 +18,7 @@ You want to deploy a serverless solution which lets you write less code, manage 
 
 ## Objectives
 
-In this lab, you will have:
+In this lab, you will:
 
 + Exercise 1: Create Azure resources.
 + Exercise 2: Configure a local Azure Functions project.
