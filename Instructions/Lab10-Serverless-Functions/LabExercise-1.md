@@ -4,7 +4,7 @@
 
 In this exercise, you are going to create an Azure storage account and a function app. Azure Functions are best suited for small apps with events that can function independently of other websites.
 
-In this exercise, you will have:
+In this exercise, you will:
 
   + Task 1: Create an Azure Storage account.
   + Task 2: Create a function app
