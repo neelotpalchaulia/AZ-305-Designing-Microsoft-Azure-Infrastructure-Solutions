@@ -18,7 +18,7 @@ In this task you are going to create two virtual networks. One will be in the We
 
 #### Pre-requisites for this task
 
-An azure account
+An Azure account
 
 #### Steps:
 
@@ -174,7 +174,7 @@ You have successfully enabled the replication for **contoso-vm-1**.
 
 ### Clean up resources
 
->**Note : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
+>**Note : Please do not delete resources you deployed in this lab. You will refer to them in the next lab of this module.**
 
 #### Review
 
