@@ -4,7 +4,7 @@
 
 Deploy a Network manager instance with the defined scope and access you need. You are going to use this Network manager for the deployment of hub and spoke network topology.
 
-In this Exercise, you will have:
+In this Exercise, you will:
 
   + Task 1: Create a Virtual Network Manager.
 
@@ -50,13 +50,13 @@ An Azure account
 
    ![img](../media/vn4.png)
 
-7. Once entered all the values, select **Review + Create**.
+7. Once all the values have been entered, select **Review + Create**.
 
    ![img](../media/vn5.png)
 
 8. After completing the review, select **Create**.
 
-9. Once the deployment is succeeded, click on **Go to resource**. 
+9. Once the deployment is successful, click on **Go to resource**. 
 
 10. You can see the newly created virtual network manager named **contosonetmanager**.
 
