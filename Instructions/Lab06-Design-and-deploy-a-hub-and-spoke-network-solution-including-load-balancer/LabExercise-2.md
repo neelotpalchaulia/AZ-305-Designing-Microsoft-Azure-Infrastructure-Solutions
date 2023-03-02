@@ -55,7 +55,8 @@ In this task you are going to create three virtual networks. One will be in the 
     | Region | **East US** |
   
   
-   For the **IP Addresses** tab keep the default settings.
+    For the **IP Addresses** tab keep the default settings.
+  
   
    **Third Virtual Network:**
   

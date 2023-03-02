@@ -19,7 +19,7 @@ In this task, you are going to verify the hub and spoke virtual network connecti
 
 1. Go to **Contoso-Vnet-EastUS** virtual network and select **Network Manager** under **Settings**. You'll see the **HubA** connectivity configuration applied.
 
-    ![img](../media/ver1.png)
+    ![img](../media/M6-img1.jpg)
 
 2. Go to **Contoso-Vnet-WestUS** virtual network and select **Peerings** under **Settings**. You'll see virtual network peerings created by Virtual Network Manager with ANM in the name.
 

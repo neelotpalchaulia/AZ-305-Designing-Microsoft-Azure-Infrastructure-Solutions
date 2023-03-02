@@ -32,7 +32,7 @@ In this task, you will assign the built-in *Require a tag and its value on resou
 
 4. Please click on **Exclusions** elipsis **(...)** towards the right side of the exclusions.
 
-5. On the Exclusions side screen Select the Resource group named similar to **ODL-AZ-305M02-838938** and then select **Add to selected scope** and then **Save**.
+5. On the Exclusions side screen Select the Resource group named similar to **ODL-AZ-305M02-<inject key="Deployment-id"></inject>** and then select **Add to selected scope** and then **Save**.
 
       ![image](../media/pol6a.png)
 
@@ -132,33 +132,6 @@ In this task, you are going to Get started in cost analysis, Select a cost view 
 ![image](../media/costm2.png)
 
 You can check the different views by clicking on the **Views** in cost analysis.
-
-### Task 4: Clean up resources
-
-   >**Note**: Remember to remove any newly created Azure resources that you no longer use. Removing unused resources ensures you will not see unexpected charges, although keep in mind that Azure policies do not incur extra cost.
-   
-   >**Note**:  Don't worry if the lab resources cannot be immediately removed. Sometimes resources have dependencies and take a longer time to delete. It is a common Administrator task to monitor resource usage, so just periodically review your resources in the Portal to see how the cleanup is going. 
-
-1. In the portal, search for and select **Policy**.
-
-1. In the **Authoring** section, click **Assignments**, click the ellipsis icon to the right of the assignment you created in the previous task and click **Delete assignment**. 
-
-1. In the portal, search for and select **Storage accounts**.
-
-1. In the list of storage accounts, select the resource group corresponding to the storage account you created in the last task of this lab. Select **Tags** and click **Delete** (Trash can to the right) to the **Role:Owner** tag and press **Apply**. 
-
-1. Click **Overview** and click **Delete** on the top of the storage account blade. When prompted for the confirmation, in the **Delete storage account** blade, type the name of the storage account to confirm and click **Delete**. 
-
-In the Azure portal, navigate back to the **Management groups** blade. 
-
-1. On the **Management groups** blade, select the **ellipsis** icon next to your subscription under the **IT-Service-c & IT-Support-c & IT-Contoso** management groups and select **Move** to move the subscription to the **Tenant Root management group**.
-
-   >**Note**: It is likely that the target management group is the **Tenant Root management group**, unless you created a custom management group hierarchy before running this lab.
-   
-1. Select **Refresh** to verify that the subscription has successfully moved to the **Tenant Root management group**.
-
-1. Navigate back to the **Management groups** blade, click the **ellipsis** icon to the right of the management groups and click **Delete**.
-  >**Note**: If you are unable to delete the **Tenant Root management group**, chances are that the **Azure Subscription** is under the resource group. You need to move **Azure Subscription** out of the **Tenant Root management group** and then delete the group.
 
 
 #### Review
