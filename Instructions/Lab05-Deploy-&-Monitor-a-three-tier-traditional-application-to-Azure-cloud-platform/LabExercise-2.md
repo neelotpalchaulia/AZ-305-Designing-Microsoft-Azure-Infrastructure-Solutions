@@ -4,7 +4,7 @@
 
 In this exercise, you are going to review the test failover for two app services deployed on different regions.
 
-In this exercise, you will have:
+In this exercise, you will:
 
 + Task 1: Add Traffic Manager endpoints.
 + Task 2: Test Traffic Manager profile
