@@ -16,19 +16,13 @@ In this exercise, you will:
 
 In this task you are going to create two virtual networks. One will be in the West US region and the other will be in the East US region.
 
-#### Pre-requisites for this task
+1. In Azure portal, search for **Virtual networks**, then select **Virtual networks** from the list below.
 
-An azure account
-
-#### Steps:
-
-1. Search for **Virtual networks** on the **search** box of the **Home** page, then select **Virtual networks** from the list below.
-
-2. Please select the **+ Create** on the **Virtual network** page.
+2. Select the **+ Create** on the **Virtual networks** page.
 
     ![img](../media/vnt1.png)
   
-3. On the **Create Virtual Network** page, please enter the following details on Basics tab:
+3. On the **Create virtual network** page, enter the following details on **Basics** tab:
 
     | Section | Values |
     | ------- | ------ |
@@ -39,13 +33,13 @@ An azure account
   
     ![img](../media/vnt2.png)
   
-4. Go to **Next: IP Addresses**, then on the **IP Addresses** tab, please review the default IP addresses and subnet given, then select **Review + Create**.
+4. Go to **Next: IP Addresses**, on the **IP Addresses** tab, review the default IP addresses and subnet given, then select **Review + Create**.
   
-    ![img](../media/vir2.png)
+    ![img](../media/L11E1T1S4.png)
   
-5. Once the validation passed successfully, please click on **Create**.   
+5. Once the validation is passed successfully, click on **Create**.   
  
-6. After completing the deployment, please select **Go to resource**.
+6. After completion of deployment, select **Go to resource**.
 
 7. Repeat steps 2-5 to create another virtual network into the same resource group with the following information:
 
@@ -59,25 +53,21 @@ An azure account
     
    For the **IP Addresses** tab keep the default settings.
    
-   After completing this task, you deployed two virtual networks.
+   After completing this task, two virtual networks will be present in the Resource group.
 
 ### Task 2: Create two Virtual Machines
 
 In this task, you will learn how to use Azure portal to create two virtual machines
 
-#### Pre-requisites for this task
-
-Completed Exercise 1 - Task 1
-
 #### Steps
 
-1. Sign in to Azure portal, search for **Virtual machines**, then select **Virtual machines** from the list.
+1. In Azure portal, search for **Virtual machines**, then select **Virtual machines** from the list.
 
-2. On the Virtaul machines page please select **+ Create**, then select **Azure virtual machine**.
+2. On the Virtaul machines page, select **+ Create**, then select **Azure virtual machine**.
 
     ![img](../media/vir1.png)
   
-3. On the **Create a Virtual machine** page please enter the following details on the **Basics** tab:
+3. On the **Create a Virtual machine** page, enter the following details on the **Basics** tab:
 
     | Section | Values |
     | ------- | ------ |
@@ -93,37 +83,33 @@ Completed Exercise 1 - Task 1
     | Username | **contosoadmin** |
     | Password | **Pa$$w0rd123!** | 
 
- 4. Keep the default options for rest of the settings on the basic tab and select **Next: Disks>** at the bottom. Please select **Standard SSD(Locally-redundant storage)** for **OS disk type**, then select **Next: Networking>** at the bottom.
+ 4. Keep the default options for rest of the settings on the Basics tab and select **Next: Disks>** at the bottom. Select **Standard SSD(Locally-redundant storage)** for **OS disk type**, then click on **Next: Networking>** at the bottom.
 
     ![img](../media/vir3.png)
     
-5. On the **Networking** tab please review all the default settings and the values, also notice default value of **virtual network** as **Contoso-Vnet-EastUS**, then select **Review + create** at the bottom.
+5. On the **Networking** tab, review all the default settings and the values, also notice default value of **Virtual network** as **Contoso-Vnet-EastUS**, then select **Review + create** at the bottom.
 
-6. After validation, please select **Create**.
+6. After validation is passed, click on **Create**.
 
-7. After completing the deployment, please select **Go to resource**.
+7. Once the deployment is succeeded, select **Go to resource**.
 
-8. Repeat steps 2-6 to create another virtual machine with name **contoso-vm-2**.
+8. Repeat steps 2-6 to create another Virtual machine with name **contoso-vm-2**.
    
-After completing this task, you deployed two virtual machines named **contoso-vm-1** and **contoso-vm-2**.
+After completing this task, two Virtual machines named **contoso-vm-1** and **contoso-vm-2** will be present in the Resource group.
 
 ### Task 3: Create a Recovery Services Vault
 
 In this task you are going to a Recovery service vault.
 
-#### Pre-requisites for this task
-
-Completed Exercise 1 - Task 1 & Task 2
-
 #### Steps:
 
-1. On the Home page of Azure portal, please search for **Recovery Service Vaults** and then select **Recovery Service Vaults** from the list.
+1. In Azure portal, search for **Recovery Service Vaults** and then select **Recovery Services vaults** from the list.
 
-2. On the **Recovery Service Vaults** page please select **+ Create**.
+2. On the **Recovery Services vaults** page, select **+ Create**.
 
     ![img](../media/reco1.png)
 
-3. On the **Create Recovery Services vault** page, please enter the following details on the **Basics** tab.
+3. On the **Create Recovery Services vault** page, enter the following details on the **Basics** tab.
     
     | Section | Values |
     | ------- | ------ |
@@ -132,49 +118,46 @@ Completed Exercise 1 - Task 1 & Task 2
     | Virtual machine name  | **contosovault1** |
     | Region | **West US** |
     
+    
     ![img](../media/reco2.png)  
     
-4. Please select **Review + create**, after the validation select **Create**. 
+4. Select **Review + create**, and then click on **Create**. 
     
 5.  Click on **Go To Resource** to open the vault for further configuration.
 
-6.  On the **contosovault1** page, at the **Overview** section, please select **+ Enable Site Recovery**.
+6.  On the **contosovault1** page, at the **Overview** section, select **+ Enable Site Recovery**.
 
     ![img](../media/reco3.png)  
     
-7. On the **Site recovery** section please select **Enable replication**.
+7. On the **Site Recovery** section, select **Enable replication** under **Azure virtual machines**.
 
     ![img](../media/reco4.png)    
     
-8. On the **Enable replication** page, please select the **Resource group** as **contosovnet** and then select **Next**.
+8. On the **Enable replication** page, select the **Resource group** as **contosovnet** and then click on **Next**.
 
     ![img](../media/reco5.png)    
 
-9. Please select **contoso-vm-1** under **Virtual machines** tab and then select **Next**.
+9. Select **contoso-vm-1** under **Virtual machines** tab and then click on **Next**.
 
     ![img](../media/reco6.png)  
 
-10. On the **Replication settings** tab, please review the default settings and the values, then select **Next**. 
+10. On the **Replication settings** tab, review the default settings and the values, then select **Next**. 
 
     ![img](../media/reco7.png) 
 
-11. On the **Manage** tab, please review the default settings and the values, then select **Next**
+11. On the **Manage** tab, review the default settings and the values, then select **Next**
 
     ![img](../media/reco8.png) 
 
-12. On the **Review** tab, please select **Enable replication**.
+12. On the **Review** tab, select **Enable replication**.
 
     ![img](../media/reco9.png)
 
-13. It will take 5-7 minutes to complete the replication, please select **Replicated items** on **contosovault1** page. You can see the Virtual machine enabled for replication. Please keep refreshing as the status of replicated Virtual machine should be **0% Synchronized**.
+13. It will take 5-7 minutes to complete the replication. Select **Replicated items** on **contosovault1** page. You can see the Virtual machine enabled for replication. Please keep refreshing as the status of replicated Virtual machine should be **0% Synchronized**.
 
     ![img](../media/reco11.png)
 
 You have successfully enabled the replication for **contoso-vm-1**.
-
-### Clean up resources
-
->**Note : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
 
 #### Review
 

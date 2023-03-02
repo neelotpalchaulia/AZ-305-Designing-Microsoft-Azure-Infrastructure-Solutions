@@ -13,7 +13,7 @@ As a Cloud administrator you want to implement a secured disaster solution in Co
 
 ## Objectives
 
-In this lab, you will have:
+In this lab, you will:
 
 + Exercise 1: Setup Azure Site Recovery
 + Exercise 2: Setup Traffic Manager

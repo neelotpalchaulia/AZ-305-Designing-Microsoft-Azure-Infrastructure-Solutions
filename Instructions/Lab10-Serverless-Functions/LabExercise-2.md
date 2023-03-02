@@ -4,7 +4,7 @@
 
 In this exercise, you are going to create a local project which will use for Azure functions development. 
 
-In this Exercise, you will have:
+In this Exercise, you will:
 
   + Task 1: Initialize a function project.
   + Task 2: Configure a connection string.
@@ -15,10 +15,6 @@ In this Exercise, you will have:
 ### Task 1: Initialize a function project
 
 In this task, you will initialize a function project.
-
-#### Pre-requisites for this task
-
-Completed Exercise 1
 
 #### Steps:
 
@@ -45,10 +41,6 @@ Completed Exercise 1
 
 In this task, you will configure a connection string.
 
-#### Pre-requisites for this task
-
-Completed Exercise 1 & Exercise 2 - Task 1
-
 #### Steps:
 
 1. Launch the **Visual Studio Code** by double clicking on the icon on dekstop.
@@ -74,10 +66,6 @@ Completed Exercise 1 & Exercise 2 - Task 1
 1. Save the **local.settings.json** file.
 
 #### Task 3: Build and validate a project
-
-#### Pre-requisites for this task
-
-Completed Exercise 1 & Exercise 2 - Task 1 & Task 2
 
 #### Steps:
 

@@ -4,7 +4,7 @@
 
 ## Lab scenario
 
-As a cloud architect at contoso organization, you have been tasked to create a sample AdvetureWorks database and configure firewalls and Azure Active directory to access the database server. Also configure the geo-replication and test the failover. After completing all these tasks you need to review the database cost and convert database into elastic pool. 
+As a cloud architect at contoso organization, you have been tasked to create a sample AdvetureWorks database and configure firewalls and Azure Active directory to access the database server. Also, configure the geo-replication and test the failover. After completing all these tasks you need to review the database cost and convert database into elastic pool. 
 
 - Create a single database with Adventure Works pre-loaded. In Azure SQL Database, you can create a single database using the Azure portal, a PowerShell script, or an Azure CLI script. In this example we are using Azure portal to create the database. The database is then queried using the Azure portal's Query editor.
 
@@ -27,7 +27,7 @@ A database in Azure SQL Database: The primary database that you want to replicat
 
 ## Objectives
 
-In this lab, you will have:
+In this lab, you will:
 
 + Exercise 1: Create a single database with Adventure Works pre-loaded. 
 + Exercise 2: Enable Firewall rules and connect to AdventureWorks database..
