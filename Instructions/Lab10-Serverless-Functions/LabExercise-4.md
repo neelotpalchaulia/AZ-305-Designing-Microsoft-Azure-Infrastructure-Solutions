@@ -24,9 +24,9 @@ Completed Exercise 1 & Exercise 2 & Exercise 3
 
 #### Steps:
 
-1.Open **Visual studio code** from the **Start** button, Open a new terminal.
+1. Open **Visual studio code** from the **Start** button, Open a new terminal.
 
-1.Run the following command to change the current directory to the **C:\AllFiles\func* directory:
+1. Run the following command to change the current directory to the **C:\AllFiles\func* directory:
 
     ```powershell
     cd C:\AllFiles\func
