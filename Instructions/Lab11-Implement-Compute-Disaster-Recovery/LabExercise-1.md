@@ -129,7 +129,7 @@ Completed Exercise 1 - Task 1 & Task 2
     | ------- | ------ |
     | Subscriptioon | Select the default subscription |
     | Resource group | **contosovnet** |
-    | Virtual machine name  | **contosovault1** |
+    | Vault Name | **contosovault1** |
     | Region | **West US** |
     
     ![img](../media/reco2.png)  
@@ -142,7 +142,7 @@ Completed Exercise 1 - Task 1 & Task 2
 
     ![img](../media/reco3.png)  
     
-7. On the **Site recovery** section please select **Enable replication**.
+7. On the **Site recovery** section please select **Enable replication** under **Azure virtual machines**.
 
     ![img](../media/reco4.png)    
     
@@ -172,9 +172,7 @@ Completed Exercise 1 - Task 1 & Task 2
 
 You have successfully enabled the replication for **contoso-vm-1**.
 
-### Clean up resources
-
->**Note : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
+>**Note** : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.
 
 #### Review
 
@@ -183,14 +181,3 @@ In this exercise, you have:
 - Created a Virtual network
 - Created two Virtual Machines.
 - Created a Recovery Services Vault and enable Replication.
-
-
-
-
-
-
-
-
-
-
-
