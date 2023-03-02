@@ -87,7 +87,7 @@ In this task, you will review default monitoring settings of Azure virtual machi
 
 3. On the **labvm-XXXXX| Metrics** page, on the default chart, note that the only available **Metrics Namespace** is **Virtual Machine Host**.
 
-   ![img](../media/mon8.png) 
+   ![img](../media/AZ-305-M5-t3-03.png) 
 
 >**Note**: This is expected, since no guest-level diagnostic settings have been configured yet. You do have, however, the option of enabling guest memory metrics directly from the **Metrics Namespace** drop down-list. You will enable it later in this exercise.
 
@@ -97,7 +97,7 @@ In this task, you will review default monitoring settings of Azure virtual machi
 
 5. In the **Metric** drop-down list, select **Percentage CPU**, in the **Aggregation** drop-down list, select **Avg**, and review the resulting chart.
 
-   ![img](../media/mon9.png)
+   ![img](../media//AZ-305-M5-t3-5.png)
 
 6. Go to **App services**, select **web-app-XXXXX-XXXXXX** app service, select **Metrics** under **Monitoring**. 
 
@@ -131,7 +131,7 @@ In this task, you will configure Azure virtual machine diagnostic settings.
 
 5. On the **Monitoring configuration** side screen, ensure **Azure Monitor agent (Recommended)** is selected, and then click **Configure**.  
 
-   ![img](../media/mon16.png)
+   ![img](../media//AZ-305-M5-t4-5.png)
 
     >**Note**: Do not wait for the operation to be completed, but instead proceed to the next step. The operation might take about 5 minutes.
 
@@ -139,7 +139,7 @@ In this task, you will configure Azure virtual machine diagnostic settings.
 
 7. On the **labvm-XXXXX | Metrics** page, on the default chart, note that at this point, the **Metrics Namespace** drop-down list, in addition to the **Virtual Machine Host** entry includes also the **Guest (classic)** entry.
 
-   ![img](../media/mon17.png)
+   ![img](../media//AZ-305-M5-t4-07.png)
 
     >**Note**: This is expected, since you enabled guest-level diagnostic settings. You also have the option to **Enable new guest memory metrics**.
 
@@ -150,12 +150,6 @@ In this task, you will configure Azure virtual machine diagnostic settings.
     >**Note**: The list includes additional guest-level metrics not available when relying on the host-level monitoring only.
 
 10. In the **Metric** drop-down list, select **Memory\\Available Bytes**, in the **Aggregation** drop-down list, select **Max**, and review the resulting chart.
-
-#### Clean up resources
-
->**Note**: Remember to remove any newly created Azure resources that you no longer use. Removing unused resources ensures you will not see unexpected charges. Don't worry if the lab resources cannot be immediately removed. Sometimes, resources have dependencies and take a longer time to delete. It is a common Administrator task to monitor resource usage, so just periodically review your resources in the Portal to see how the cleanup is going. 
-
-In the Azure portal, go to Resource groups, select **newres123**, then select **Delete**.
 
 #### Review
 
