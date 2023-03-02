@@ -72,13 +72,13 @@ Immediately it will remove the replication and the database will become standalo
 
     ![img](../media/elast2.png) 
 
-5. On the **Configure** page, under **Pool settings**, for **Service tier** please select **Standard (for workloads with typical performance requirements)** then select **Apply**.
+5. On the **Configure** page, under **Pool settings**, for **Service tier** please select **Standard (Budget friendly)** then select **Apply**.
 
-    ![img](../media/L4E5T2S5.png) 
+    ![img](../media/az-305-lab4-pool.png) 
 
 6. On the **Create SQL Elastic pool** page, select **Review + Create**.
 
-    ![img](../media/elast4.png) 
+    ![img](../media/az-305-lab4-pool1.png) 
 
 7. After completing the validation please select **Create**.
 

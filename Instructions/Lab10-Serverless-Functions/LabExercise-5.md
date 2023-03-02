@@ -91,7 +91,7 @@ In this task, you will create an HTTP triggered function.
     ```
 You have successfully created another C# file named **GetSettingInfo.cs**.
 
-    ![img](../media/azcn4.png)
+   ![img](../media/azcn4.png)
   
 
 #### Task 3: Write HTTP-triggered and blob-inputted function code
@@ -251,7 +251,7 @@ Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 - Task 
     ```
 Please wait for a while to complete the installation.
 
-1. After that, run the following command to build the .NET project and to validate the extensions were installed correctly:
+2. After that, run the following command to build the .NET project and to validate the extensions were installed correctly:
 
     ```powershell
     dotnet build
@@ -321,18 +321,6 @@ Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 - Task 
     ```
 
     ![img](../media/azcn5.png)
-
-### Clean up resources
-
-   >**Note**: Remember to remove any newly created Azure resources that you no longer use. Removing unused resources ensures you will not see unexpected charges, although keep in mind that Azure policies do not incur extra cost.
-   
-   >**Note**:  Don't worry if the lab resources cannot be immediately removed. Sometimes resources have dependencies and take a longer time to delete. It is a common Administrator task to monitor resource usage, so just periodically review your resources in the Portal to see how the cleanup is going.
-
-   
-1. Select the funaction app you have created, then select **Stop** from the top on the overview section. Then click on **Delete**. Enter the name of the function app to confirm the deletion and then click **Delete**.
-2. Select Home and then storage account.
-
-2. Select the Storage account named **contosofuncstor** then select **Delete**.
 
 #### Review
 
