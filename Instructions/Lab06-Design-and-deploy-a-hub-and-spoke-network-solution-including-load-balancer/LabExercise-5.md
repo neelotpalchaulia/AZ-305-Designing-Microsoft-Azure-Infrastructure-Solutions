@@ -4,7 +4,7 @@
 
 A security admin configuration contains a set of rule collections. Each rule collection contains one or more security admin rules. You then associate the rule collection with the network groups that you want to apply the security admin rules to. In this exercise you will create security configuration and deploy security admin coniguration.
 
-In this Exercise, you will have:
+In this Exercise, you will:
 
   + Task 1: Create security configuration.
   + Task 2: Deploy the security admin configuration.
