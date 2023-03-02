@@ -2,7 +2,7 @@
 
 ## Exercise 5: Create an Azure Active Directory Conditional Access Policy
 
-In this exercise you are going to configure Azure Active Directory conditional access policy to provide the user to access Office 365 application.
+In this exercise you are going to configure Azure Active Directory conditional access policy to provide the user with the access to Office 365 application.
 
 In this exercise, you will:
 
@@ -79,7 +79,7 @@ Now, you have created the conditional access policy named **Office application a
 
    ![img](../media/ca7.png)
 
-10. You can test the conditional access policy by taking an in private window of your browser and enter http://portal.office.com then login with the credentials given in the Environment details.
+10. You can test the conditional access policy by opeing it in a private window of your browser and enter http://portal.office.com then login with the credentials given in the Environment details.
 
 11. It will ask for configuring **Microsoft Authenticator**
 
