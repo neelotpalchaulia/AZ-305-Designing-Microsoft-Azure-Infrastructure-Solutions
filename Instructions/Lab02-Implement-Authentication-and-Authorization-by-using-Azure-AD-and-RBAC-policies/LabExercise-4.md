@@ -20,10 +20,6 @@ In this exercise, you will:
 
 In this task you are going to enable the security defaults.
 
-#### Pre-requisites for this task
-
-An Azure account with security administrator, Conditional Access administrator, or global administrator privilege.
-
 #### Steps:
 
 1. Go to Azure Active directory.

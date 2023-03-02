@@ -56,6 +56,6 @@
 
 1. Please click on the resource group.
 
-1. Review the resources available on the source group
+1. Review the resources available on the resource group
 
 

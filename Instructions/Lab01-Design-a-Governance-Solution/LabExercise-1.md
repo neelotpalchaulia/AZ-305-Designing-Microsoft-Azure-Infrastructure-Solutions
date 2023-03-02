@@ -71,10 +71,6 @@ An Azure account. Any Azure AD user in the tenant can create a management group 
 
 In this task, you will create three management groups under the management group you have created in the previous task via Azure Portal.
 
-#### Pre-requisites for this task
-
-Complete Task 1.
-
 1. On the Management Group page, please select **+ Create**
 
    ![image](../media/man10.png)
@@ -117,10 +113,6 @@ Complete Task 1.
 ### Task 3: Assign subscriptions to management groups
 
 In this task, you will assign subscriptions to the newly created management groups via Azure Portal.
-
-#### Pre-requisites for this task
-
-Complete Task 1 & Task 2
 
 #### Steps:
 

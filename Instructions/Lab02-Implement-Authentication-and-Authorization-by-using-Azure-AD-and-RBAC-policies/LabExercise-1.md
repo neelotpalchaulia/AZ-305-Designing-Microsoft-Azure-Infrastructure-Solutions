@@ -15,10 +15,6 @@ In this exercise, you will:
 
 In this task you are going to create and configure Azure Active Directory users.
 
-#### Pre-requisites for this task
-
-An Azure account 
-
 #### Steps:
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
@@ -65,10 +61,6 @@ An Azure account
 ### Task 2: Add Accessibility of Resources
 
 In this task you are going to give resource accessibility to the user az305-01a-aaduser1.
-
-#### Pre-requisites for this task
-
-Complete Task 1 
 
 #### Steps:
 
