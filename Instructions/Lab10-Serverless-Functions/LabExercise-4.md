@@ -109,14 +109,14 @@ Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1 & Task 2 & 
 
     ```csharp
     [FunctionName("Recurring")]
-    public void Run([TimerTrigger("0 */5 * * * *")]TimerInfo myTimer, ILogger log)
+    public static void Run([TimerTrigger("0 */5 * * * *")]TimerInfo myTimer, ILogger log)
     ```
 
 1. Update the **Run** method signature code block to change the schedule to run once every **30 seconds**:
 
     ```csharp
     [FunctionName("Recurring")]
-    public void Run([TimerTrigger("*/30 * * * * *")]TimerInfo myTimer, ILogger log)
+    public static void Run([TimerTrigger("*/30 * * * * *")]TimerInfo myTimer, ILogger log)
     ```
 
 1. Select **Save** to save your changes to the **Recurring.cs** file.
