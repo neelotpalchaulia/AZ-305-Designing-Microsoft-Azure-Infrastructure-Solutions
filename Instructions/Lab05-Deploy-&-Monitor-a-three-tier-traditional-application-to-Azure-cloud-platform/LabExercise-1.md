@@ -25,7 +25,7 @@ In this task, you will learn how to use Azure portal to deploy a template by usi
 
 2. On the **Custom deployment** page, please select template source as **Quickstart templates**, Select **demos/web-app-regional-vnet-private-endpoint-sql-storage** from the Quickstart template dropdown, then select **Select template**.
 
-    ![img](../media/dep-02.png)
+    ![img](../media/dep-2a-2.png)
 
 3. Under **Basics** tab please enter the following details:
 
