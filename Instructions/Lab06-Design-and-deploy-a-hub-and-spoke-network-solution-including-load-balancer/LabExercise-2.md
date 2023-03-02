@@ -2,9 +2,9 @@
 
 ## Exercise 2: Create virtual networks and deploy a virtual network gateway
 
-In this exercise, you are going to create three virtual networks having two same region and one different region. Then you will deploy a virtual network gateway into a virtual network to connect another virtual networks.
+In this exercise, you are going to create three virtual networks with two in the same region and one in a different region. Then you will deploy a virtual network gateway into a virtual network to connect another virtual networks.
 
-In this Exercise, you will have:
+In this Exercise, you will:
 
   + Task 1: Create virtual networks.
   + Task 2: Deploy a virtual network gateway.
@@ -67,7 +67,7 @@ In this task you are going to create three virtual networks. One will be in the 
   
    For the **IP Addresses** tab keep the default settings.
   
-   After completing this task, you deployed three virtual networks.
+   After completing this task, you have deployed three virtual networks.
  
  ### Task 2: Deploy a virtual network gateway
 
