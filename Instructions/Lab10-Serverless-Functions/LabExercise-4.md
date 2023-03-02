@@ -133,7 +133,7 @@ Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1 & Task 2 & 
 
 #### Steps
 
-1. From the command prompt, run the following command to run the function app project:
+1. Open a new terminal, run the following command to run the function app project:
 
     ```powershell
     func start --build
