@@ -41,7 +41,7 @@ Complete Exercise 1.
 
     ![](../media/fire6.png)
 
-6. Expand the **tables**, then click on the elipsis **(...)** of the table named **SalesLT.Product** and select **Select Top 1000 rows**.
+6. Expand the **Tables**, then click on the elipsis **(...)** of the table named **SalesLT.Product** and select **Select Top 1000 rows**.
 
     ![](../media/fire7.png)
 
