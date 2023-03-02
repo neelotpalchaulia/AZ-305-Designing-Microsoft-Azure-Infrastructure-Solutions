@@ -4,7 +4,7 @@
 
 In this exercise, you are going to create a local project which will use for Azure functions development. 
 
-In this Exercise, you will have:
+In this Exercise, you will:
 
   + Task 1: Initialize a function project.
   + Task 2: Configure a connection string.
