@@ -2,9 +2,9 @@
 
 ## Exercise 3: Setup Azure File and access from a Virtual machine
 
-In this exercise, you will learn how to use the Azure portal to set up a file share and accessing it from a virtual machine.
+In this exercise, you will learn how to use the Azure portal to set up a file share and access it from a virtual machine.
 
-In this Exercise, you will have:
+In this Exercise, you will:
 
 + Task 1: Setup Azure File and access from a Virtual machine
 
@@ -17,7 +17,7 @@ In this task, you are going to configure a file share and configure a virtual ma
 
 #### Pre-requisites for this task
 
-An Azure account, a storage account (Complete Exercise 1 & Exercise 2). The following steps outline only one of many possible, viable approaches.
+An Azure account, a storage account (Complete Exercise 1 & Exercise 2). The following steps outline one of the many possible, viable approaches.
 
 #### Steps
 
@@ -47,11 +47,11 @@ An Azure account, a storage account (Complete Exercise 1 & Exercise 2). The foll
 
     ![image](../media/files6.png)
 
-7. On the Upload files side screen, please select **browse** button and then select the text file which you created on the previous step and select upload.
+7. On the Upload files side screen, please select **browse** button and then select the text file which you created in the previous step and select upload.
 
     ![image](../media/files7.png)
 
-8. You can see the uploaded file in the azure file share, if its not visible please click on refresh button on the top menu.
+8. You can see the uploaded file in the azure file share, if its not visible please click on refresh button from the top menu.
 
     ![image](../media/files8.png)
 
@@ -130,9 +130,9 @@ An Azure account, a storage account (Complete Exercise 1 & Exercise 2). The foll
 
     ![image](../media/files21.png)
 
-A new Virtual Machine (contosoVm) will launch inside your Lab. Close the Server Manager and dashboard windows that pop up (click "x" at top right). You should see the blue background of your virtual machine. **Congratulations!** You have deployed and connected to a Virtual Machine running Windows Server. Please dont close the virtual machine window.
+A new Virtual Machine (contosoVm) will launch inside your Lab. Close the Server Manager and dashboard windows that pop up (click "x" at top right). You should see the blue background of your virtual machine. **Congratulations!** You have deployed and connected to a Virtual Machine running Windows Server. Please don't close the virtual machine window.
 
-24. In the Azure portal, navigate to the storage account which you created on the previous task and select fileshares and select **contosofiles**.
+24. In the Azure portal, navigate to the storage account which you created in the previous task and select fileshares and select **contosofiles**.
 
     ![image](../media/files22.png)
 

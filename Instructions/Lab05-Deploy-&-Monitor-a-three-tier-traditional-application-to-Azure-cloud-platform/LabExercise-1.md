@@ -17,17 +17,13 @@ In this exercise, you will:
 
 In this task, you will learn how to use Azure portal to deploy a template by using Deploy a custom template.
 
-#### Pre-requisites for this task
-
-An Azure account
-
 #### Steps:
 
 1. Go to Azure Portal, enter **Custom deployment** on search bar, then select **Deploy a custom template**.
 
     ![img](../media/depl1.png)
 
-2. On the **Custom deployment** page please select template source as **Quickstart templates**, Select **demos/web-app-regional-vnet-private-endpoint-sql-storage** from the Quickstart template dropdown, then select **Select template**.
+2. On the **Custom deployment** page, please select template source as **Quickstart templates**, Select **demos/web-app-regional-vnet-private-endpoint-sql-storage** from the Quickstart template dropdown, then select **Select template**.
 
     ![img](../media/depl2a.png)
 
@@ -73,10 +69,6 @@ The application is running successfully.
 
 In this task, you are going to deploy another app service to a different region.
 
-#### Pre-requisites for this task
-
-Complete Exercise 1 - Task 1
-
 #### Steps:
 
 1. In the Azure portal, search for **Web Apps** on the **search** box of the **Home** page, then select **App Services** from the list below.
@@ -114,10 +106,6 @@ You have successfully deployed another web app.
 ### Task 3: Deploy a Traffic Manager Profile
 
 In this task, you are going to deploy a traffic manager profile.
-
-#### Pre-requisites for this task
-
-Complete Exercise 1 - Task 1 & Task 2
 
 #### Steps:
 

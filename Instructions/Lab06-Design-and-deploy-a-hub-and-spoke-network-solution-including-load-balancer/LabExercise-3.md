@@ -4,17 +4,13 @@
 
 In this exercise you will set up a dynamic network group.
 
-In this Exercise, you will have:
+In this Exercise, you will:
 
   + Task 1: Create a dynamic group.
 
 ### Estimated Timing: 30 minutes
 
 ### Task 1: Create a dynamic group.
-
-#### Pre-requisites for this task
-
-Complete Exercise 1 & Exercise 2.
 
 #### Steps:
 
@@ -50,7 +46,7 @@ Complete Exercise 1 & Exercise 2.
   
     ![img](../media/dyn5.png)
 
-8. Under **Settings**, select **Group Members** to view the membership of the group based on the conditions defined in Azure Policy. If its not visible then click on **Refresh**.
+8. Under **Settings**, select **Group Members** to view the membership of the group based on the conditions defined in Azure Policy. If it's not visible then click on **Refresh**.
 
     ![img](../media/dyn6.png)
 

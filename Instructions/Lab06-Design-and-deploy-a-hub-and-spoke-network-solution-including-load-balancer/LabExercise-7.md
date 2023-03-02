@@ -4,7 +4,7 @@
 
 In this exercise, you will use Azure Virtual Networks created on the previous exercise to deploy a load balancer and test it.
 
-In this Exercise, you will have:
+In this Exercise, you will:
 
   + Task 1: Create load balancer.
   + Task 2: Create NAT gateway.
@@ -24,10 +24,6 @@ During the creation of the load balancer, you'll configure:
 + Backend pool
 + Inbound load-balancing rules
 + Health probe
-
-#### Pre-requisites for this task
-
-Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exercise 6.
 
 #### Steps:
 

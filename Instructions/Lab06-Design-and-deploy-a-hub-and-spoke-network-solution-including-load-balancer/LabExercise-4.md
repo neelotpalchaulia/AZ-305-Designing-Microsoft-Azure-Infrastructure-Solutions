@@ -3,7 +3,7 @@
 ## Exercise 4: Create a hub and spoke connectivity configuration and Deploy the connectivity configuration
 
 In this exercise, you are going to implement a hub-spoke network pattern where the hub virtual network acts as a central point of connectivity to many spoke virtual networks. The spoke virtual networks connect with the hub and can be used to isolate workloads.
-In this exercise, you will have:
+In this exercise, you will:
 
   + Task 1: Create a hub and spoke connectivity configuration
   + Task 2: Deploy the connectivity configuration
@@ -13,10 +13,6 @@ In this exercise, you will have:
 ### Task 1: Create a hub and spoke connectivity configuration
 
 Before deploying the connectivity configuration, ensure that the virtual network gateway has been successfully deployed. The deployment will fail if you deploy a hub and spoke configuration with **Use the hub as a gateway enabled and there is no gateway**.
-
-#### Pre-requisites for this task
-
-Complete Exercise 1 & Exercise 2 & Exercise 3
 
 #### Steps:
 
@@ -63,10 +59,6 @@ You have Created a hub and spoke connectivity configuration, now you are going t
 ### Task 2: Deploy the connectivity configuration
 
 Before deploying the connectivity configuration, ensure that the virtual network gateway has been successfully deployed. The deployment will fail if you deploy a hub and spoke configuration with Use the hub as a gateway enabled and there is no gateway. In this task, you are going to deploy the connectivity configuration.
-
-#### Pre-requisites for this task
-
-Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1
 
 #### Steps:
 
