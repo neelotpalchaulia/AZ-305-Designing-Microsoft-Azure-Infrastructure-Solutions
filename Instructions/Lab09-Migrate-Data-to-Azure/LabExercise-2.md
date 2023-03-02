@@ -49,9 +49,9 @@ In this task, you will learn how to create an Azure SQL database by using Azure 
     | Password |  **Contoso@123** 
     | Confirm password | **Contoso@123** |   
     
-    **Note:** You can find Deployment-id from Environment Details Page. 
+>**Note:** You can find Deployment-id from Environment Details Page. 
  
-    ![img](../media/AZ-305-M9-01.png)
+   ![img](../media/AZ-305-M9-1-0.png)
 
 6. After creating the database server, enter the following details, then select **Review + create**. 
 
@@ -61,7 +61,7 @@ In this task, you will learn how to create an Azure SQL database by using Azure 
     | Compute + storage | **General Purpose (Standard-series (Gen5), 2 vCores, 32 GB storage, zone redundant disabled)** |
     | Backup storage redundancy |  **Locally-redundant backup storage** |
 
-    ![img](../media/AZ-305-M9-03.png)
+    ![img](../media/AZ-305-M9-0-02.png)
 
 7. After the validation is passed, select **Create**.
 
