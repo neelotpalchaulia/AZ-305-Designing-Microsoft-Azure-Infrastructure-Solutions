@@ -16,8 +16,6 @@ In this exercise, you will:
 
 In this task you are going to create two virtual networks. One will be in the West US region and the other will be in the East US region.
 
-#### Steps:
-
 1. In Azure portal, search for **Virtual networks**, then select **Virtual networks** from the list below.
 
 2. Select the **+ Create** on the **Virtual networks** page.
