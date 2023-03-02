@@ -37,17 +37,15 @@ Complete Exercise 1.
 
     ![](../media/fire5a.png)
 
-5. Under **settings**, please select **SQL databases**, then select **adventureworkscontoso**.
-
-6. On the **adventureworkscontoso** page please select **Query Editor**, provide the login as **contosoadmin** and Password **Contoso@123** then click **Ok**.
+5. Navigate back to **adventureworkscontoso** page and select **Query Editor**. Provide the login as **contosoadmin** and Password **Contoso@123** then click **Ok**.
 
     ![](../media/fire6.png)
 
-7. Expand the **tables**, then click on the elipsis **(...)** of the table named **SalesLT.Product** and select **Select Top 1000 rows**.
+6. Expand the **tables**, then click on the elipsis **(...)** of the table named **SalesLT.Product** and select **Select Top 1000 rows**.
 
     ![](../media/fire7.png)
 
-8. You can see the output data under **Results** for the table SalesLT.product.
+7. You can see the output data under **Results** for the table SalesLT.product.
 
     ![](../media/fire8.png)
 
