@@ -71,7 +71,8 @@ Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1
         }
     }
     ```
-        ![img](../media/recur1.png)
+        
+   ![img](../media/recur1.png)
 
 #### Task 3: Observe function runs
 
