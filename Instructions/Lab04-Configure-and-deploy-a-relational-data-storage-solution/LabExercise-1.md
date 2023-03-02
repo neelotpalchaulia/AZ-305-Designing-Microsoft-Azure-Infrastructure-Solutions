@@ -14,10 +14,6 @@ In this exercise, you will:
 
 In this task, you will learn how to use Azure portal to create a single database with Adventure works sample database
 
-#### Pre-requisites for this task
-
-An Azure account, a resource group
-
 #### Steps
 
 1. Login into Azure portal and on the search box type SQL database, then please select the **SQL database** option from the list.
@@ -80,9 +76,9 @@ An Azure account, a resource group
 
     ![image](../media/db10.png)
 
-12. After validation completed successfully, please select **Create**.
+12. After validation is completed successfully, please select **Create**.
 
-13. Once the deployment completed, please select **Go to Resource**.
+13. Once the deployment is complete, please select **Go to Resource**.
 
 
 ### Review

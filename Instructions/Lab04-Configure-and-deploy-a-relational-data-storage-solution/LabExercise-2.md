@@ -15,10 +15,6 @@ In this exercise, you will:
 
 In this task you will configure Server firewall. Azure SQL Server is protected by server-level firewall rules. As a result, it applies to all underlying Azure SQL Databases. Before reaching the Azure server or database, each connection must pass through the firewall.
 
-#### Pre-requisites for this task
-
-Complete Exercise 1.
-
 #### Steps:
 
 1. Login into Azure portal if you have logged out.
@@ -54,10 +50,6 @@ Complete Exercise 1.
 ### Task 2: Setup database firewall rules
 
 Database-level firewall rules only apply to individual databases. The database will retain these rules during a server failover. Database-level firewall rules can only be configured using Transact-SQL (T-SQL) statements, and only after you've configured a server-level firewall rule. In this task you will configure a database firewall rule.
-
-#### Pre-requisites for this task
-
-Complete Exercise 1, Exercise 2 - Task 1.
 
 #### Steps:
 
