@@ -3,7 +3,7 @@
 
 In this exercise, you are going to create a basic function that echoes the content sent through an HTTP POST request. 
 
-In this exercise, you will have:
+In this exercise, you will:
 
   + Task 1: Create an HTTP-triggered function.
   + Task 2: Write HTTP-triggered function code.
@@ -29,7 +29,7 @@ In this task, you will create an HTTP- triggered function.
 
     ![img](../media/echo2.png)
 
-1. After installing, please select **Sign In** for signing into Azure portal. If it ask for username and password, please enter the username and password provided on **Environment details** tab of the Lab guide. After a while you will get a message showing **You are signed in now and can close this page**. Please check the Azure tab of the Visual studio code you can see the default subscription of Azure. Please close the browser page.
+1. After installing, please select **Sign In** for signing into Azure portal. If it shows the login window, please enter the username and password provided on **Environment details** tab of the Lab guide. After a while you will get a message showing **You are signed in now and can close this page**. Please check the Azure tab of the Visual studio code you can see the default subscription of Azure. Please close the browser page.
 
     ![img](../media/echo3.png)
 
@@ -37,7 +37,7 @@ In this task, you will create an HTTP- triggered function.
 
     ![img](../media/echo4.png)
 
-1. Enter the name **global.json** and hit **Enter**, you have created the file named global.json. Enter the following code on it.
+1. Enter the name **global.json** and hit **Enter**, you have created the file named global.json. Enter the following code to it.
 
     ```JSON
     {
