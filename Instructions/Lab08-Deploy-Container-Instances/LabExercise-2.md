@@ -24,23 +24,23 @@ In this task, you are going to deploy an Azure container instance by using YAML 
 
 ![img](../media/yml4a.png)
 
-3. On the **Create a Storage account** page please enter the following details and select **Review**.
+3. On the **Create a Storage account** page please enter the following details and select **Create storage**.
     
     | Setting | Action |
     | -- | -- |
     | **Subscription** drop-down list | Retain the default value |
     | **Resource group** section | PLease click on **Use existing** then Select **ODL-AZ-305M05C - XXXXX** |
-    | **Storage account name** text box | Enter **contosostor** |
+    | **Storage account** [Create new] | Enter **contosostor** |
     | **Region** drop-down list | Select **(US) East US** |
-    | **File share** section | Enter **contosofile1** option |
+    | **File share** [Create new] | Enter **contosofile1** |
     
-    The following screenshot displays the configured settings in the **Create a storage account** blade.
+    *The following screenshot displays the configured settings in the **Create a storage account** blade.*
 
 ![img](../media/yml5.png)
  
 4. Please wait for sometime and let the **Bash** terminal open.
 
-5. Please enter the command **code deploy-aci.yaml** to create an empty YAML file to write the scripts.
+5. Please enter the command ***code deploy-aci.yaml*** to create an empty YAML file to write the scripts.
 
 6. You can see an empty YAML file created in the name of **deploy-aci.yaml**.
 
@@ -75,22 +75,22 @@ type: Microsoft.ContainerInstance/containerGroups
 ```
 Let’s understand the script before executing it in the terminal for container deployment.
 
-  + location: It is the Azure region where we want to deploy the resources
-  + Container properties:
-      +  Define environment variables using key “name” and value “..”
-  + Image: The azure container image for SQL Server
-  + Ports: Enter the SQL Server port number for communication. We will use the default port 1433 in this section.
-  + Specify CPU and MemoryInGB in the script for your container configuration
-  + The OS type: Linux, it should be as per the application image we specified in the script
-  + type: It is the Azure container type. Its value will be – Microsoft.CotainerInstance/containerGroups
+  + **location**: It is the Azure region where we want to deploy the resources
+  + **Container properties**:
+      +  Define environment variables using keys “name” and "value".
+  + **Image**: The azure container image for SQL Server.
+  + **Ports**: Enter the SQL Server port number for communications. We will be using the default port 1433 in this section.
+  + Specify **cpu** and **memoryInGB** in the script for the container configuration.
+  + **OS type**: Linux. *It should be as per the application image we specified in the script.*
+  + **Type**: It is the Azure container type. Its value will be – *Microsoft.CotainerInstance/containerGroups*
 
-Your YAML file will look like this:
+Your YAML file should look like this:
 
 ![img](../media/yml7.png)
 
 8. Right click in the editor and click on **Save** to write the file and then **Quit** to exit from the editor.
 
-8. Now nter the command **az container create --resource-group ODL-AZ-305M05C-XXXXX --file deploy-aci.yaml**
+8. Now enter the command ***az container create --resource-group ODL-AZ-305M05C-<inject key="DeploymentID" enableCopy="false"/> --file deploy-aci.yaml***
 
 9. You get JSON script output that shows the Azure Container instance is deployed successfully.
 
