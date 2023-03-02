@@ -150,7 +150,7 @@ A new Virtual Machine (contosoVm) will launch inside your Lab. Close the Server 
 
 28. Open the **File explorer** in the virtual machine. Navigate to **This PC** and double click on **contosofiles**, you can see the text file created on fileshares named **contosofiles** in azure portal.
 
-![image](../media/az305_03-final.png)
+    ![image](../media/az305_03-final.png)
 
 ### Clean up resources
 
