@@ -31,10 +31,10 @@ In this task, you will create a new container instance for the web application.
 
     | Setting | Value |
     | ---- | ---- |
-    | Subscription | the name of the Azure subscription you are using in this lab |
-    | Resource group | Select the resource group **ODL-AZ-305M05C-XXXXX** |
+    | Subscription | The name of the Azure subscription you are using in this lab |
+    | Resource group | Select the resource group **ODL-AZ-305M05C-<inject key="DeploymentID" enableCopy="false"/>** |
     | Container name | **az305-05-c1** |
-    | Region | the name of a region where you can provision Azure container instances |
+    | Region | The name of a region where you can provision Azure container instances, preferably **East US** |
     | Image Source | **Quickstart images** |
     | Image | **mcr.microsoft.com/azuredocs/aci-helloworld:latest (Linux)** |
 
