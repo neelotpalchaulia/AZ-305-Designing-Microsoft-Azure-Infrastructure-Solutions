@@ -134,7 +134,7 @@ You can add subscriptions to the management groups that you created.
 
 5. Add another two subscriptions to the child management groups of the **IT-Contoso** managament group by referring to step 3 & 4.
 
-6. Expand the all the child managment groups which you created on this exercise and can see the subscriptions assigned to each management group.
+6. Expand all the child managment groups which you created in this exercise and see the subscriptions assigned to each management group.
 
 7. In this exercise you have created three child management groups and added subscriptions to it.
 
@@ -143,6 +143,6 @@ You can add subscriptions to the management groups that you created.
 
 In this exercise, you have:
 
-- Created Management Groups.
-- Created Child Management Groups.
+- Created Management Groups
+- Created Child Management Groups
 - Assigned subscriptions to management groups
