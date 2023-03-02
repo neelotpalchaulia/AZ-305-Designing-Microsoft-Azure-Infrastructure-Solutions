@@ -6,9 +6,9 @@ Complete till Exercise 4
 
 ## Exercise 5: Create a function that integrates with other services and Deploy Local project to an Azure function app
 
-In this exercise, you are going to create a local project that you'll use for Azure Functions development and deploy the local project to an azure function app.
+In this exercise, you are going to create a local project that you'll use for Azure Functions development and deploy the local project to an Azure function app.
 
-In this Exercise, you will have:
+In this Exercise, you will:
 
   + Task 1: Upload sample content to Azure Blob Storage.
   + Task 2: Configure a connection string.
@@ -232,7 +232,7 @@ You have successfully created another C# file named **GetSettingInfo.cs**.
 
 ### Task 4: Register Azure Storage Blob extensions
 
-In this task, you are going to register azure blob storage extension.
+In this task, you are going to register Azure blob storage extension.
 
 #### Steps:
 
