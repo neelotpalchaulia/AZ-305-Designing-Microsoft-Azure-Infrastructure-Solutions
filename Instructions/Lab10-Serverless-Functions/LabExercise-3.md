@@ -32,7 +32,6 @@ Completed Exercise 1 & Exercise 2
 
     ![img](../media/echo2.png)
 
-
 1. After installing, please select **Sign In** for signing into Azure portal. If it ask for username and password, please enter the username and password provided on **Environment details** tab of the Lab guide. After a while you will get a message showing **You are signed in now and can close this page**. Please check the Azure tab of the Visual studio code you can see the default subscription of Azure. Please close the browser page.
 
     ![img](../media/echo3.png)
