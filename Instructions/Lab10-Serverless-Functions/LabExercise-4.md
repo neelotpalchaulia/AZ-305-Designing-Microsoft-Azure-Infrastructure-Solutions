@@ -24,9 +24,9 @@ Completed Exercise 1 & Exercise 2 & Exercise 3
 
 #### Steps:
 
-1.Open **Visual studio code** from the **Start** button, Open a new terminal.
+1. Open **Visual studio code** from the **Start** button, Open a new terminal.
 
-1.Run the following command to change the current directory to the **C:\AllFiles\func* directory:
+1. Run the following command to change the current directory to the **C:\AllFiles\func* directory:
 
     ```powershell
     cd C:\AllFiles\func
@@ -71,7 +71,8 @@ Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1
         }
     }
     ```
-        ![img](../media/recur1.png)
+        
+   ![img](../media/recur1.png)
 
 #### Task 3: Observe function runs
 
@@ -108,14 +109,14 @@ Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1 & Task 2 & 
 
     ```csharp
     [FunctionName("Recurring")]
-    public void Run([TimerTrigger("0 */5 * * * *")]TimerInfo myTimer, ILogger log)
+    public static void Run([TimerTrigger("0 */5 * * * *")]TimerInfo myTimer, ILogger log)
     ```
 
 1. Update the **Run** method signature code block to change the schedule to run once every **30 seconds**:
 
     ```csharp
     [FunctionName("Recurring")]
-    public void Run([TimerTrigger("*/30 * * * * *")]TimerInfo myTimer, ILogger log)
+    public static void Run([TimerTrigger("*/30 * * * * *")]TimerInfo myTimer, ILogger log)
     ```
 
 1. Select **Save** to save your changes to the **Recurring.cs** file.
@@ -132,7 +133,7 @@ Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1 & Task 2 & 
 
 #### Steps
 
-1. From the command prompt, run the following command to run the function app project:
+1. Open a new terminal, run the following command to run the function app project:
 
     ```powershell
     func start --build

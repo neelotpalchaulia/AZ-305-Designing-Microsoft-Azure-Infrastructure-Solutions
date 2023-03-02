@@ -28,10 +28,10 @@ Completed Exercise 1 & Exercise 2
     ```powershell
     cd C:\AllFiles\func
     ```
+
 1. Install Azure functions extension by clicking on **Extension tab** on the left side and search **Azure** on the search box. After that click on **Install** on **Azure functions**.
 
     ![img](../media/echo2.png)
-
 
 1. After installing, please select **Sign In** for signing into Azure portal. If it ask for username and password, please enter the username and password provided on **Environment details** tab of the Lab guide. After a while you will get a message showing **You are signed in now and can close this page**. Please check the Azure tab of the Visual studio code you can see the default subscription of Azure. Please close the browser page.
 
@@ -65,9 +65,9 @@ Completed Exercise 1 & Exercise 2
 
     ![img](../media/echo6.png)
 
->**Note:** If its asking of installing C# extension, please install. Or else please go to the Extension tab and type C# on the search box and install C# for Visual studio code.
+   >**Note:** If its asking of installing C# extension, please install. Or else please go to the Extension tab and type C# on the search box and install C# for Visual studio code.
 
->**Note:** No need to close the Terminal.
+   >**Note:** No need to close the Terminal.
 
 #### Task 2: Write HTTP-triggered function code
 
@@ -223,8 +223,7 @@ Completed Exercise 1 & Exercise 2 - Task 1
     }
     ```
 
-    ![img](../media/echo1.png)
-
+   ![img](../media/echo1.png)
 
 1. Select **Save** to save your changes to the **Echo.cs** file.
 
