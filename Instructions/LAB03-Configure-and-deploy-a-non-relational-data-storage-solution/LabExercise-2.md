@@ -2,7 +2,7 @@
 
 ## Exercise 2: Secure blob storage and enable backup and soft delete
 
-Securing access to your Blob storage is a critical step for any Azure administrator or engineer.In this exercise, you will learn how to use the Azure portal to secure your blob storage and enable backup and soft delete.
+Securing access to your Blob storage is a critical step for any Azure administrator or engineer. In this exercise, you will learn how to use the Azure portal to secure your blob storage and enable backup and soft delete.
 
 In this Exercise, you will have:
 
@@ -27,7 +27,7 @@ Use a customer-provided key. These keys are used for Blob storage operations. A 
 
 #### Pre-requisites for this task
 
-An Azure account, a storage account, an azure blob container (Complete Exercise 1).  The following steps outline available security features to help you configure your Blob storage to be secured.
+The following steps outline available security features to help you configure your Blob storage to be secured.
 
 #### Steps
 
@@ -62,9 +62,9 @@ To configure a storage account to use a customer-managed key stored in a Key Vau
 
         ![image](../media/life9.png)
     
-    6. After the validation completed, please select **Create**.
+    6. After the validation is complete, please select **Create**.
 
-    7. Once the deployment complete, please select **Go to resource** .
+    7. Once the deployment is complete, please select **Go to resource** .
    
    Take note of the two properties listed below:
 
@@ -103,10 +103,6 @@ To configure a storage account to use a customer-managed key stored in a Key Vau
 
 Shared access signatures work through a signed URI that includes a token and a set of query parameters. The token determines which resources the client can access. To create a shared access signature:
 
-#### Pre-requisites for this task
-
-Complete **Exercise 1 and Exercise 2 - Task 1**
-
 #### Steps to configure shared access signatures as follows:
 
 1. Navigate to the storage account in the Azure portal.
@@ -139,11 +135,7 @@ By providing the SAS, you can control what resources they have access to, what p
 
 ### Task 3: Enable Soft delete
 
-By enabling Soft delete you can protect your data from accidental deletion, from the following steps you can easily configure soft delete for your blob storage.
-
-#### Pre-requisites for this task
-
-Complete **Exercise 1 and Exercise 2 - Task 1 & Task 2**
+By enabling Soft delete you can protect your data from accidental deletion. With the following steps you can easily configure soft delete for your blob storage.
 
 #### Steps
 
@@ -165,10 +157,6 @@ Azure Blob backup is configured at the storage account level. As a result, opera
 Using the Backup Center, you can configure backup for multiple storage accounts. You can also configure backup for a storage account using the Data Protection properties of the storage account. This section covers both methods for configuring backup.
 
 Before Configuring backup, the storage account should have a Backup vault and Storage account backup contributor role.
-
-#### Pre-requisites for this task
-
-Complete **Exercise 1 and Exercise 2 - Task 1 & Task 2 & Task 3**
 
 #### Steps:
 
@@ -210,10 +198,6 @@ After creating the backup vault, you need to configure the storage account backu
 
 ### Task 5: Configure the Storage account backup contributor role 
 
-#### Pre-requisites for this task
-
-Complete **Exercise 1 and Exercise 2 - Task 1 & Task 2 & Task 3 & Task 4**
-
 #### Steps:
 
 1. In the **Storage account** that needs to be protected, navigate to the **Access Control (IAM)** tab on the left navigation pane.
@@ -232,7 +216,7 @@ Complete **Exercise 1 and Exercise 2 - Task 1 & Task 2 & Task 3 & Task 4**
 
     ![image](../media/role3.png)
 
-6. On the Members option, please select **+ Select members**. Under Select members side screen, Please type name of the backup vault which you created on the previous task on the search box and select the back up vault by clicking on it.
+6. On the Members option, please select **+ Select members**. Under Select members side screen, Please type name of the backup vault which you created in the previous task on the search box and select the back up vault by clicking on it.
 
     ![image](../media/role4.png)
 
@@ -249,10 +233,6 @@ Complete **Exercise 1 and Exercise 2 - Task 1 & Task 2 & Task 3 & Task 4**
     ![image](../media/role7.png)
 
 ### Task 6: Configure Backup
-
-#### Pre-requisites for this task
-
-Complete **Exercise 1 and Exercise 2 - Task 1 & Task 2 & Task 3 & Task4 & Task 5**
 
 #### Steps
 
@@ -298,7 +278,7 @@ To start configuring backup:
 
     ![image](../media/back12.png)
 
-11. Under Select resources to backup side screen, please select the storage account which you created on Task 1 and then select Select(1 item) button.
+11. Under Select resources to backup side screen, please select the storage account which you created in Task 1 and then select Select(1 item) button.
 
     ![image](../media/back13.png)
 
@@ -311,7 +291,7 @@ Here, you can see the success status under Backup readiness tab, please select N
 
     ![image](../media/back15.png)
 
-14. Please wait for completing the configuration process, then select Vaults option under Manage pane on the Backup center page, you can see the backup vault successfully configured.
+14. Please wait for completing the configuration process, then select Vaults option under Manage pane on the Backup center page. You can see the backup vault successfully configured.
 
     ![image](../media/back16.png)
     

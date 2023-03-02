@@ -15,7 +15,7 @@ To meet these challenges in your design for Contoso Traders, you're investigatin
 
 ## Objectives
 
-In this lab, you will have:
+In this lab, you will:
 
 + Exercise 1: Deploy a Quickstart template on Azure
 + Exercise 2: Review High Availability Capabilities (Test Failover)

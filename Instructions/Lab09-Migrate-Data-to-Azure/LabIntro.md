@@ -13,12 +13,12 @@ In order to choose the best options to support the planned migrations of workloa
 
 - Migrate SQL Server database to Azure. Cloud migration and modernization is a continuous process that involves significant organizational change management spanning people, process, and technology. You can use Azure Database Migration Service to migrate the databases from a SQL Server instance to Azure SQL Database.
 
-- Migrate a blob data to Azure storage account. You will create azure storage account and upload a blob file by using powershell script.
+- Migrate a blob data to Azure storage account. You will create Azure storage account and upload a blob file by using powershell script.
 
 
 ## Objectives
 
-In this lab, you will have:
+In this lab, you will:
 
 + Exercise 1: Install and Configure SQL Server
 + Exercise 2: Migrate SQL Server database to Azure

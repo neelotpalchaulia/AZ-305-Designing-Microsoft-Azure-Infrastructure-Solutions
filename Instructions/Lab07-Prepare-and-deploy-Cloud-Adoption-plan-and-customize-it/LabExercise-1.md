@@ -2,7 +2,7 @@
 
 ## Exercise 1: Prepare and deploy Cloud Adoption plan and customize it.
 
-In this Exercise, you will have:
+In this Exercise, you will:
 
 + Task 1: Document the business strategy
 + Task 2: Assess the digital estate
