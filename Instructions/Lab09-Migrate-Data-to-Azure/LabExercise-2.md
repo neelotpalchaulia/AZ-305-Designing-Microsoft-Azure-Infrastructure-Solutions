@@ -63,7 +63,7 @@ In this task, you will learn how to create an Azure SQL database by using Azure 
 
 7. After the validation is passed, select **Create**.
 
->**Note:** The deployment will take few minutes to complete. Please wait till it gets succeeded. 
+>**Note:** The deployment will take few minutes to complete. Please wait till it succeeded. 
 
 ### Task 2: Set up server-level firewall rules using Azure Portal
 
@@ -93,7 +93,7 @@ In this task, you will learn how to install and configure Data Migration Assista
     
     >**Note:** Please follow the steps in this task even if DMA is already installed, to ensure that you are using the latest version of the tool.
 
-2. Confirm that your environment supports the software by checking the requirements list. If its ask for installing .Net Framework 4.8 please click [here](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48) to download. After downloading it, please go to the **Downloads** folder in **File explorer** and double click on the .Net installer file named **ndp48-web** to install it.
+2. Confirm that your environment supports the software by checking the requirements list. If it asks for installing .Net Framework 4.8 please click [here](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48) to download. After downloading it, please go to the **Downloads** folder in **File explorer** and double click on the .Net installer file named **ndp48-web** to install it.
 
 3. To download **DataMigrationAssistant.msi**, double click on the installer file in **Downloads** folder, and then select **Run**.
 
@@ -149,7 +149,7 @@ In this task, you will learn how to install and configure Data Migration Assista
 
 7. On the **Select sources** page, select **Start Assessment**.
 
-8. Review the SQL Server feature parity and compatibility issues found. Note how many feature parity issue there are.
+8. Review the SQL Server feature parity and compatibility issues found. Note how many feature parity issue have been found.
 
     ![img](../media/datam5.png) 
 
