@@ -15,10 +15,6 @@ In this Exercise, you will have:
 Azure Files provides fully managed cloud file shares that can be accessed via the industry standard Server Message Block (SMB) or Network File System (NFS) protocols.
 In this task, you are going to configure a file share and configure a virtual machine to access the file share.
 
-#### Pre-requisites for this task
-
-An Azure account, a storage account (Complete Exercise 1 & Exercise 2). The following steps outline only one of many possible, viable approaches.
-
 #### Steps
 
 1. To select the storage account go to **All services** and select **Storage accounts**.

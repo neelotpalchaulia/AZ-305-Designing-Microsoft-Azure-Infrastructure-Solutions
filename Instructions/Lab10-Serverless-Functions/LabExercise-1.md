@@ -15,10 +15,6 @@ In this exercise, you will have:
 
 In this task, you will create an Azure storage account.
 
-#### Pre-requisites for this task
-
-An Azure account
-
 #### Steps:
 
 1. In the Azure portal, use the search bar to search for **Storage Accounts**, and then, in the list of results, select **Storage Accounts**.
@@ -66,10 +62,6 @@ An Azure account
 ### Task 2: Create a function app
 
 In this task, you will create a function app.
-
-#### Pre-requisites for this task
-
-Completed Exercise 1 - Task 1
 
 #### Steps:
 

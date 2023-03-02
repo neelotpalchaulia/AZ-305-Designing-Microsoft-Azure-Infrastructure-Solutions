@@ -96,10 +96,6 @@ You have successfully created another C# file named **GetSettingInfo.cs**.
 
 #### Task 3: Write HTTP-triggered and blob-inputted function code
 
-#### Pre-requisites for this task
-
-Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 - Task 1 & Task 2 & Task 3
-
 #### Steps:
 
 1. On the **Explorer** pane of the **Visual Studio Code** window, open the **GetSettingInfo.cs** file.
@@ -238,18 +234,14 @@ Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 - Task 
 
 In this task, you are going to register azure blob storage extension.
 
-#### Pre-requisites for this task
-
-Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 - Task 1 & Task 2 & Task 3
-
 #### Steps:
 
-1. On the terminal, run the following command to register the [Microsoft.Azure.WebJobs.Extensions.Storage](https://www.nuget.org/packages/Microsoft.Azure.WebJobs.Extensions.Storage/) extension:
+1. In **Visual Studio Code**, on the **Terminal**, run the following command to register the [Microsoft.Azure.WebJobs.Extensions.Storage](https://www.nuget.org/packages/Microsoft.Azure.WebJobs.Extensions.Storage/) extension:
 
     ```powershell
     func extensions install --package Microsoft.Azure.WebJobs.Extensions.Storage --version 5.0.1
     ```
-Please wait for a while to complete the installation.
+>**Note:** Please wait for few minutes to complete the installation.
 
 2. After that, run the following command to build the .NET project and to validate the extensions were installed correctly:
 
@@ -260,19 +252,15 @@ You will get a Build succeeded message.
 
 ### Task 5: Deploy using the Azure Functions Core Tools
 
-#### Pre-requisites for this task
-
-Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 - Task 1 & Task 2 & Task 3 & Task 4
-
 #### Steps:
 
-1. From terminal, run the following command to login to the Azure Command-Line Interface (CLI):
+1. In **Visual Studio Code**, on the **Terminal**, run the following command to login to the Azure Command-Line Interface (CLI):
 
     ```powershell
     az login
     ```
 
-1. In the browser window, enter the name and password of the Microsoft or Azure Active Directory account you are using in this lab, and then select **Sign in**.
+1. In the browser window, enter the user name and password mentioned in the **Environment Details** tab of the lab guide, and then select **Sign in**.
 1. Return to the currently open **Windows Terminal** window. Wait for the sign-in process to finish.
 1. From the terminal, run the following command to publish the function app project (replace the `<function-app-name>` placeholder with the name of the function app you created earlier in this lab):
 
@@ -280,7 +268,7 @@ Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 - Task 
     func azure functionapp publish <function-app-name>
     ```
 
-    > **Note**: For example, if your **Function App name** is **funclogicstudent**, your command would be ``func azure functionapp publish contosofunclogic``.
+    > **Note**: For example, if your **Function App name** is **contosofunclogic**, your command should look like ``func azure functionapp publish contosofunclogic``.
 
 1. Wait for the deployment to finalize before you move forward with the lab.
 
@@ -288,19 +276,13 @@ Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 - Task 
 
 In this task, you are going to validate the deployment.
 
-#### Pre-requisites for this task
-
-Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 - Task 1 & Task 2 & Task 3 & Task 4 & Task 5
-
 #### Steps:
 
-1. On the taskbar, select the **Microsoft Edge** icon, and select the tab that displays the Azure portal (<https://portal.azure.com>).
-1. On the Azure portal's **navigation** pane, select the **Resource groups** link.
-1. On the **Resource groups** blade, select the **Serverless** resource group that you created previously in this lab.
-1. On the **Serverless** blade, select the **contosofunclogic** function app that you created previously in this lab.
-1. On the **Function App** blade, select the **Functions** option in the **Functions** section.
-1. On the **Functions** pane, select the existing **GetSettingInfo** function.
-1. In the **Function** blade, select the **Code + Test** option in the **Developer** section.
+1. In Azure portal, go to the **Resouce groups**.
+1. On the **Resource groups** blade, select the **Serverless** resource group and click on **contosofunclogic** function app.
+1. On the **Function App** blade, under the **Functions** section, select the **Functions** option .
+1. On the **Functions** pane, select the existing function named **GetSettingInfo**.
+1. In the **GetSettingInfo** function blade, under **Developer** section, select the **Code + Test** option.
 1. In the function editor, select **Test/Run**.
 1. In the automatically displayed pane, in the **HTTP method** drop-down list, select **GET**.
 1. Select **Run** to test the function.

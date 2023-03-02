@@ -16,10 +16,6 @@ In this Exercise you will have:
 
 In this task you are going to grant permission to SQL server created on previous exercise through Azure Active Directory.
 
-#### Pre-requisites for this task
-
-Complete Exercise 1 & Exercise 2.
-
 #### Steps:
 
 1. Login to Azure portal if you have logged out.

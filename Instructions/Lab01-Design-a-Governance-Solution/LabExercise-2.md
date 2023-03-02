@@ -16,10 +16,6 @@ In this Exercise, you will have:
 
 In this task, you will assign the built-in *Require a tag and its value on resources* policy to the resource group. 
 
-#### Pre-requisites for this task
-
-Complete Exercise 1
-
 #### Steps:
 
 1. Go to search box and type policy, then select **Policy** from the list.
@@ -76,10 +72,6 @@ Complete Exercise 1
 
 In this task you are going to create a storage account by using the resource group which you have applied the Policy assignment.Then you will check the Policy assigment validation.
 
-#### Pre-requisites for this task
-
-Complete Exercise 1, Exercise 2 -  Task 1
-
 #### Steps:
 
 1. On the Azure portal, please select **All Services** and select **Storage accounts**.
@@ -128,12 +120,6 @@ Cost analysis works with various Azure account types. You must have at least rea
 You cannot use Cost Management features right away if you have a new subscription. It may take up to 48 hours for you to be able to use all Cost Management features.
 
 In this task, you are going to Get started in cost analysis, Select a cost view and View costs via Azure portal.
-
-#### Pre-requisites for this task
-
-You must have at least read access to your Azure account to view cost data.
-
-Complete Exercise 1, Exercise 2 -  Task 1 & Task 2
 
 #### Steps:
 

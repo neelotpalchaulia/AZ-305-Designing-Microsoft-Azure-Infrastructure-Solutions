@@ -27,7 +27,7 @@ Use a customer-provided key. These keys are used for Blob storage operations. A 
 
 #### Pre-requisites for this task
 
-An Azure account, a storage account, an azure blob container (Complete Exercise 1).  The following steps outline available security features to help you configure your Blob storage to be secured.
+The following steps outline available security features to help you configure your Blob storage to be secured.
 
 #### Steps
 
@@ -103,10 +103,6 @@ To configure a storage account to use a customer-managed key stored in a Key Vau
 
 Shared access signatures work through a signed URI that includes a token and a set of query parameters. The token determines which resources the client can access. To create a shared access signature:
 
-#### Pre-requisites for this task
-
-Complete **Exercise 1 and Exercise 2 - Task 1**
-
 #### Steps to configure shared access signatures as follows:
 
 1. Navigate to the storage account in the Azure portal.
@@ -141,10 +137,6 @@ By providing the SAS, you can control what resources they have access to, what p
 
 By enabling Soft delete you can protect your data from accidental deletion, from the following steps you can easily configure soft delete for your blob storage.
 
-#### Pre-requisites for this task
-
-Complete **Exercise 1 and Exercise 2 - Task 1 & Task 2**
-
 #### Steps
 
 1. In the Azure portal, navigate to your storage account which you have created on previous task.
@@ -165,10 +157,6 @@ Azure Blob backup is configured at the storage account level. As a result, opera
 Using the Backup Center, you can configure backup for multiple storage accounts. You can also configure backup for a storage account using the Data Protection properties of the storage account. This section covers both methods for configuring backup.
 
 Before Configuring backup, the storage account should have a Backup vault and Storage account backup contributor role.
-
-#### Pre-requisites for this task
-
-Complete **Exercise 1 and Exercise 2 - Task 1 & Task 2 & Task 3**
 
 #### Steps:
 
@@ -210,10 +198,6 @@ After creating the backup vault, you need to configure the storage account backu
 
 ### Task 5: Configure the Storage account backup contributor role 
 
-#### Pre-requisites for this task
-
-Complete **Exercise 1 and Exercise 2 - Task 1 & Task 2 & Task 3 & Task 4**
-
 #### Steps:
 
 1. In the **Storage account** that needs to be protected, navigate to the **Access Control (IAM)** tab on the left navigation pane.
@@ -249,10 +233,6 @@ Complete **Exercise 1 and Exercise 2 - Task 1 & Task 2 & Task 3 & Task 4**
     ![image](../media/role7.png)
 
 ### Task 6: Configure Backup
-
-#### Pre-requisites for this task
-
-Complete **Exercise 1 and Exercise 2 - Task 1 & Task 2 & Task 3 & Task4 & Task 5**
 
 #### Steps
 

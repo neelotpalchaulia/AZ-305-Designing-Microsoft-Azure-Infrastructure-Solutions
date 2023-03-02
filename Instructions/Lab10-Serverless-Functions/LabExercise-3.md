@@ -15,10 +15,6 @@ In this exercise, you will have:
 
 In this task, you will create an HTTP- triggered function.
 
-#### Pre-requisites for this task
-
-Completed Exercise 1 & Exercise 2
-
 #### Steps:
 
 1. Open **Visual studio code**, open the terminal.
@@ -72,10 +68,6 @@ Completed Exercise 1 & Exercise 2
 #### Task 2: Write HTTP-triggered function code
 
 In this task, you are going to write an HTTP-triggered function code.
-
-#### Pre-requisites for this task
-
-Completed Exercise 1 & Exercise 2 - Task 1
 
 #### Steps:
 
@@ -228,10 +220,6 @@ Completed Exercise 1 & Exercise 2 - Task 1
 1. Select **Save** to save your changes to the **Echo.cs** file.
 
 #### Task 3: Test the HTTP-triggered function by using httprepl
-
-#### Pre-requisites for this task
-
-Completed Exercise 1 & Exercise 2 - Task 1 & Task 2
 
 #### Steps:
 

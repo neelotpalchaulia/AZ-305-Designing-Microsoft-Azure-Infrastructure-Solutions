@@ -88,15 +88,11 @@ After completing the deployment, you can see the **contosotrafficmanager-1**.
 
 In this task, you are going to add the website in the **East US** as primary endpoint to route all the user traffic. Add the website in **West US** as a failover endpoint. When the primary endpoint is unavailable, traffic automatically routes to the failover endpoint.
 
-#### Pre-requisites for this task
-
-Completed Exercise 1 & Exercise 2 - Task 1 & Task 2
-
 #### Steps:
 
-1. In **Load balancing | Traffic Manager** page, please select **contosotrafficmanager-1**, in the **Settings** section, select **Endpoints**, and then select **+ Add**. 
+1. In **Load balancing | Traffic Manager** page, select **contosotrafficmanager-1** under **Settings**. The, select **Endpoints**, and click on **+ Add**. 
 
-2. On the **Add Endpoint** side screen, please enter the following informations and then select **Add**.
+2. On the **Add Endpoint** side screen, enter the following details and then select **Add**.
 
     | Section | Values |
     | ------- | ------ |
@@ -108,7 +104,7 @@ Completed Exercise 1 & Exercise 2 - Task 1 & Task 2
 
     ![img](../media/traf4.png)
 
-3. To create a failover endpoint for your second Azure region, repeat steps 1 and 2 with these settings:
+3. To create a failover endpoint for your second Azure region, repeat steps 1 and 2 by entering below details:
 
     | Section | Values |
     | ------- | ------ |
@@ -124,10 +120,6 @@ You have successfully added both the endpoints.
 
 In this task, you are going to test the traffic manager profile.
 
-#### Pre-requisites for this task
-
-Completed Exercise 1 & Exercise 2 - Task 1 & Task 2 & Task 3
-
 #### Steps: 
 
 1. Go to the **Overview** section of the **Traffic Manager profile** that you created in the preceding Task.
@@ -137,6 +129,8 @@ Completed Exercise 1 & Exercise 2 - Task 1 & Task 2 & Task 3
     ![img](../media/traf5.png)
 
 3. Open a new tab of your browser and enter the DNS name of your Traffic Manager profile to view your Web App's default website.
+
+>**Note:** You might get an error stating **Your connection isn't private**. To see the website click on **Advanced** and then go to **Continue to contosotrafficmanager-1.trafficmanager.net (unsafe)**
 
     ![img](../media/traf6.png)
 
@@ -150,7 +144,7 @@ To view Traffic Manager failover in action, disable your primary site:
 
     ![img](../media/traf7.png)
 
-6. Close **contosoPrimaryEndpoint**. Notice that the status is Disabled now.
+6. Close **contosoPrimaryEndpoint** blade. Notice that the **status** is changed to **Disabled** now.
 
     ![img](../media/traf8.png)
 
@@ -161,10 +155,6 @@ To view Traffic Manager failover in action, disable your primary site:
 Verify that the web app is still available.
 
 The primary endpoint isn't available, so you were routed to the failover endpoint.
-
-### Clean up resources
-
->**Note : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
 
 #### Review
 

@@ -25,10 +25,6 @@ During the creation of the load balancer, you'll configure:
 + Inbound load-balancing rules
 + Health probe
 
-#### Pre-requisites for this task
-
-Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exercise 6.
-
 #### Steps:
 
 1. In the search box at the top of the portal, enter **Load balancer**. Select **Load balancers** in the search results.
