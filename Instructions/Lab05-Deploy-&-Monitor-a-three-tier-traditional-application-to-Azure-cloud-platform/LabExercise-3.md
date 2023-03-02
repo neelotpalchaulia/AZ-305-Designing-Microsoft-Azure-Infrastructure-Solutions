@@ -167,12 +167,6 @@ In this task, you will configure Azure virtual machine diagnostic settings.
 
 10. In the **Metric** drop-down list, select **Memory\\Available Bytes**, in the **Aggregation** drop-down list, select **Max**, and review the resulting chart.
 
-#### Clean up resources
-
->**Note**: Remember to remove any newly created Azure resources that you no longer use. Removing unused resources ensures you will not see unexpected charges. Don't worry if the lab resources cannot be immediately removed. Sometimes resources have dependencies and take a longer time to delete. It is a common Administrator task to monitor resource usage, so just periodically review your resources in the Portal to see how the cleanup is going. 
-
-In the Azure portal, go to Resource groups, select **newres123**, then select **Delete**.
-
 #### Review
 
 In this lab, you have:
