@@ -53,7 +53,7 @@ Completed Exercise 1
 
 7. After completing the validation, please select **Create**. When the Web App successfully deploys, it creates a default web site.
 
-8. Follow steps 2-7 to create a second Web App named **contoso-webapp-2**. The Resource Group name is **contosovnet**, with Region of **West US**, and App Service Plan name of **contosoappplanWestUS**. All the other settings are the same as **contoso-webapp-1**.
+8. Follow steps 2-7 to create a second Web App named **contoso-webapp-2**. The Resource Group name is **contosovnet**, with Region of **West US**, and Windows Plan name of **contosoappplanWestUS**. All the other settings are the same as **contoso-webapp-1**.
 
 You have successfully deployed two web apps named **contoso-webapp-1** and **contoso-webapp-2**.
 
@@ -75,14 +75,14 @@ Completed Exercise 1 & Exercise 2 - Task 1
 
     | Section | Values |
     | ------- | ------ |
-    | Name | **contosotrafficmanager-1**  |
+    | Name | **contosotrafficmanager-1** or change the number as per availability. |
     | Routing method | Select **Priority** |
     | Subscription | **Default** Select the default subscription |
     | Resource group | **contosovnet** |
  
     ![img](../media/traf3.png)
  
-After completing the deployment, you can see the **contosotrafficmanager-1**.
+After completing the deployment, you can see the **contosotrafficmanager-1** or the name that you have set.
 
 ### Task 3: Add Traffic Manager endpoints
 
@@ -94,7 +94,7 @@ Completed Exercise 1 & Exercise 2 - Task 1 & Task 2
 
 #### Steps:
 
-1. In **Load balancing | Traffic Manager** page, please select **contosotrafficmanager-1**, in the **Settings** section, select **Endpoints**, and then select **+ Add**. 
+1. In **Load balancing | Traffic Manager** page, please select **contosotrafficmanager-x**, in the **Settings** section, select **Endpoints**, and then select **+ Add**. 
 
 2. On the **Add Endpoint** side screen, please enter the following informations and then select **Add**.
 
@@ -132,7 +132,7 @@ Completed Exercise 1 & Exercise 2 - Task 1 & Task 2 & Task 3
 
 1. Go to the **Overview** section of the **Traffic Manager profile** that you created in the preceding Task.
 
-2. Copy the **DNS** name of the **contosotrafficmanager-1**.
+2. Copy the **DNS** name of the **contosotrafficmanager-x**.
 
     ![img](../media/traf5.png)
 
@@ -162,9 +162,7 @@ Verify that the web app is still available.
 
 The primary endpoint isn't available, so you were routed to the failover endpoint.
 
-### Clean up resources
-
->**Note : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
+>**Note** : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.
 
 #### Review
 
