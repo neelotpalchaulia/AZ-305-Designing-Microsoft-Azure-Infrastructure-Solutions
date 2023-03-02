@@ -29,7 +29,7 @@ An Azure account
 
 2. On the **Custom deployment** page please select template source as **Quickstart templates**, Select **demos/web-app-regional-vnet-private-endpoint-sql-storage** from the Quickstart template dropdown, then select **Select template**.
 
-    ![img](../media/depl2a.png)
+    ![img](../media/dep-02.png)
 
 3. Under **Basics** tab please enter the following details:
 
@@ -39,7 +39,7 @@ An Azure account
     | Region |  **West US** |
     | Sql Administrator Login Name | **contososqladmin** |
     | Sql Administrator Login Password | **Pa$$w0rd123!** |
-    | V Nets | Enter **[{"name":"hub-vnet","addressPrefixes":["10.1.0.0/16"],"subnets":[{"name":"PrivateLinkSubnet","addressPrefix":"10.1.1.0/24","udrName":null,"nsgName":null,"delegations":null,"privateEndpointNetworkPolicies":"Disabled","privateLinkServiceNetworkPolicies":"Enabled"}]},{"name":"spoke-vnet","addressPrefixes":["10.2.0.0/16"],"subnets":[{"name":"AppSvcSubnet","addressPrefix":"10.2.1.0/24","udrName":null,"nsgName":null,"privateEndpointNetworkPolicies":"Enabled","privateLinkServiceNetworkPolicies":"Enabled","delegations":[{"name":"appservice","properties":{"serviceName":"Microsoft.Web/serverFarms"}}]}]}]** |
+    | V Nets | **[{"name":"hub-vnet","addressPrefixes":["10.1.0.0/16"],"subnets":[{"name":"PrivateLinkSubnet","addressPrefix":"10.1.1.0/24","udrName":null,"nsgName":null,"delegations":null,"privateEndpointNetworkPolicies":"Disabled","privateLinkServiceNetworkPolicies":"Enabled"}]},{"name":"spoke-vnet","addressPrefixes":["10.2.0.0/16"],"subnets":[{"name":"AppSvcSubnet","addressPrefix":"10.2.1.0/24","udrName":null,"nsgName":null,"privateEndpointNetworkPolicies":"Enabled","privateLinkServiceNetworkPolicies":"Enabled","delegations":[{"name":"appservice","properties":{"serviceName":"Microsoft.Web/serverFarms"}}]}]}]** |
     
     >**Note:** If you are unable to see the entire value for V Nets option then please zoom out the broswer tab of your machine. 
     
@@ -57,13 +57,13 @@ An Azure account
 
     ![img](../media/depl5a.png)
 
-9. On the **Overview** section of the  resource group, please copy the **URL** of the App service.
+9. On the **Overview** section of the  resource group, please copy the **Default domain** of the App service.
 
-    ![img](../media/depl6a.png)
+    ![img](../media/dep-9-a.png)
 
 10. Open another tab of browser and paste the URL of app service. You will get the default page of the App.
 
-    ![img](../media/depl7.png)
+    ![img](../media/depl07.png)
     
     >**Note**: It might take few minutes to load the page.
 
