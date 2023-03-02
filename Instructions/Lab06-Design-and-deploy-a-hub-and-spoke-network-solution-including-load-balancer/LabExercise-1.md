@@ -14,10 +14,6 @@ In this Exercise, you will have:
 
 In this task you are going to create a virtual Network manager.
 
-#### Pre-requisites for this task
-
-An Azure account
-
 #### Steps:
 
 1. Go to the **Home** page.

@@ -15,10 +15,6 @@ In this Exercise, you will have:
 
 In this task you are going to configure a replica of your primary database.
 
-#### Pre-requisites for this task
-
-Complete Exercise 1, Exercise 2 & Exercise 3.
-
 #### Steps:
 
 1. In the Azure portal, browse to the database that you have created on the previous exercise to set up for geo-replication.
@@ -69,10 +65,6 @@ Complete Exercise 1, Exercise 2 & Exercise 3.
 ### Task 2: Initiate a failover
 
 In this task you are going to initiate a failover thereby your secondary database becomes your primary database.
-
-#### Pre-requisites for this task
-
-Complete Exercise 1, Exercise 2, Exercise 3 & Exercise 4- Task 1.
 
 #### Steps:
 

@@ -15,10 +15,6 @@ In this exercise, you will have:
 
 In this task, you are going to add the website in the **East US** as primary endpoint to route all the user traffic. Add the website in **West US** as a failover endpoint. When the primary endpoint is unavailable, traffic automatically routes to the failover endpoint.
 
-#### Pre-requisites for this task
-
-Completed Exercise 1
-
 #### Steps:
 
 1. In **Traffic Manager** page, please select **contosotrafficmanager-1**, in the **Settings** section, select **Endpoints**, and then select **+ Add**. 
@@ -53,10 +49,6 @@ You have successfully added both the endpoints.
 ### Task 2: Test Traffic Manager profile
 
 In this task, you will do a test failover to test the traffic manager profile.
-
-#### Pre-requisites for this task
-
-Completed Exercise 1 & Exercise 2 - Task 1
 
 #### Steps: 
 

@@ -16,10 +16,6 @@ In this Exercise, you will have:
 
 In this task, you will initialize a function project.
 
-#### Pre-requisites for this task
-
-Completed Exercise 1
-
 #### Steps:
 
 1. Open **Windows Explorer**, then go to **C:\AllFiles**. Create a **folder** named **func**.
@@ -44,10 +40,6 @@ Completed Exercise 1
 #### Task 2: Configure a connection string
 
 In this task, you will configure a connection string.
-
-#### Pre-requisites for this task
-
-Completed Exercise 1 & Exercise 2 - Task 1
 
 #### Steps:
 
@@ -74,10 +66,6 @@ Completed Exercise 1 & Exercise 2 - Task 1
 1. Save the **local.settings.json** file.
 
 #### Task 3: Build and validate a project
-
-#### Pre-requisites for this task
-
-Completed Exercise 1 & Exercise 2 - Task 1 & Task 2
 
 #### Steps:
 

@@ -14,10 +14,6 @@ In this exercise, you will have:
 
 Before deploying the connectivity configuration, ensure that the virtual network gateway has been successfully deployed. The deployment will fail if you deploy a hub and spoke configuration with **Use the hub as a gateway enabled and there is no gateway**.
 
-#### Pre-requisites for this task
-
-Complete Exercise 1 & Exercise 2 & Exercise 3
-
 #### Steps:
 
 1. Go to Network manager named **contosonetmanager**, select **Configuration** under Settings. Select **+ Create** and clcik on **Connectivity configuration** from the drop-down menu.
@@ -63,10 +59,6 @@ You have Created a hub and spoke connectivity configuration, now you are going t
 ### Task 2: Deploy the connectivity configuration
 
 Before deploying the connectivity configuration, ensure that the virtual network gateway has been successfully deployed. The deployment will fail if you deploy a hub and spoke configuration with Use the hub as a gateway enabled and there is no gateway. In this task, you are going to deploy the connectivity configuration.
-
-#### Pre-requisites for this task
-
-Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1
 
 #### Steps:
 

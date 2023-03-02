@@ -15,10 +15,6 @@ In this exercise, you will:
 
 In this task you are going to add Azure Active directory roles to the new users created on exercise 1.
 
-#### Pre-requisites for this task
-
-Complete Exercise 1.
-
 #### Steps:
 
 1. Go to **Active directory**, select **Users**, then select **az305-01a-aaduser1** user
@@ -68,10 +64,6 @@ Complete Exercise 1.
 ### Task 3: Add Custom RBAC roles
 
 Create a custom role in Azure Role-Based Access Control (RBAC) if none of the built-in roles meet your specific access needs. Custom roles can be created using Azure PowerShell, Azure Command-Line Interface (CLI), and the REST API. Just like built-in roles, custom roles can be assigned to users, groups, and applications at subscription, resource group, and resource scopes.
-
-#### Pre-requisites for this task
-
-Complete Exercise 1 & Exercise 2 - Task 1.
 
 #### Steps:
 

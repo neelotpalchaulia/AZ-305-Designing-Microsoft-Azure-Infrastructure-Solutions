@@ -15,10 +15,6 @@ In this Exercise, you will have:
 
 In this task you are going to create three virtual networks. One will be in the West US region and the other two will be in the East US region.
 
-#### Pre-requisites for this task
-
-Complete Exercise 1.
-
 #### Steps:
 
 1. Search for **Virtual networks** on the **search** box of the **Home** page, then select **Virtual networks** from the list below.
@@ -78,10 +74,6 @@ Complete Exercise 1.
 Deploy a virtual network gateway into the hub virtual network. This virtual network gateway is required for the spokes to be able to use the hub as a gateway setting.
 
 In this task you are going to deploy a virtual network gateway.
-
-#### Pre-requisites for this task
-
-Complete Exercise 1 & Exercise 2 - Task 1.
 
 #### Steps:
 
