@@ -46,14 +46,16 @@ Completed Exercise 1
 
     | Settings | Values |
     |  -- | -- |      
-    | Server name | **contososerv** |
+    | Server name | **contososerv(Deplyoment-id)** |
     | Location | **East US** |
     | Authentication method | **Use SQL authentication** |
     | Server admin login | **contosoadmin** 
     | Password |  **Contoso@123** 
-    | Confirm password | **Contoso@123** |    
-
-    ![img](../media/datas3.png)
+    | Confirm password | **Contoso@123** |   
+    
+    **Note:** You can find Deployment-id from Environment Details Page. 
+ 
+    ![img](../media/AZ-305-M9-01.png)
 
 6. After creating the database server, enter the following details, then select **Review + create**. 
 
@@ -63,7 +65,7 @@ Completed Exercise 1
     | Compute + storage | **General Purpose (Standard-series (Gen5), 2 vCores, 32 GB storage, zone redundant disabled)** |
     | Backup storage redundancy |  **Locally-redundant backup storage** |
 
-    ![img](../media/datas4.png)
+    ![img](../media/AZ-305-M9-03.png)
 
 7. After the validation is passed, select **Create**.
 
@@ -81,7 +83,7 @@ Completed Exercise 1 & Exercise 2 - Task 1
 
 1. In the Azure portal, go to the database you have created in the previous task. Select **Set Server Firewall** on the **Overview** section.
 
-   ![img](../media/datas5.png)
+   ![img](../media/AZ-305-M9-02.png)
 
 2. On the Networking page, select **Selected Networks**. To add your current IP address to a new server-level firewall rule, select **+ Add your client IPv4 address**. This rule has the ability to open Port 1433 for a single IP address or a range of IP addresses, then select **Save**.
 
@@ -209,7 +211,7 @@ Completed Exercise 1 & Exercise 2 - Task 1 & Task 2 & Task 3 & Task 4
 
 3. Select **Adventureworks2019**, then select **Next**.
 
-4. Go to **contosodb1** database on azure portal, on the **Overview** section, copy the server name **contososerv.database.windows.net**.
+4. Go to **contosodb1** database on azure portal, on the **Overview** section, copy the server name **contososervxxxxxx.database.windows.net**.
 
 5. Go to **Microsoft Data Migration Assistant** tool and on the **Connect to target server** tab on the server name section, paste the contosdb1 server name copied.
 
@@ -257,11 +259,11 @@ Completed Exercise 1 & Exercise 2 - Task 1 & Task 2 & Task 3 & Task 4
     GO
     ```
 
-    ![img](../media/datab1.png)
+    ![img](../media/AZ-305-M9-3.png)
 
 15. You have successfully created the table named **HumanResources.EmployeeDepartmentHistory**. Expand the Tables and you can see the newly created table.
 
-    ![img](../media/datab2.png)
+    ![img](../media/AZ-305-M9-4.png)
 
 
 You are going to migrate from on-premises database Adventureworks2019 table named **HumanResources.EmployeeDepartmentHistory** data to Azure SQL database named **contosodb1** and the  table named **HumanResources.EmployeeDepartmentHistory**.
@@ -282,7 +284,7 @@ You are going to migrate from on-premises database Adventureworks2019 table name
 
 20. Right click on **HumanResources.EmployeeDepartmentHistory** table and select **Select top 1000 rows**. You can see the data retrieved on the result pane.
 
-    ![img](../media/datab6.png)
+    ![img](../media/AZ-305-M9-05.png)
 
 You have successfully migrated the data.
 
