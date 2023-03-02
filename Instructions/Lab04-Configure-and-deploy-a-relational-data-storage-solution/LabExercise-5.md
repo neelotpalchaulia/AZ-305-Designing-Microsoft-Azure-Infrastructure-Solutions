@@ -6,7 +6,7 @@ You can see the estimated costs in the portal as you begin using Azure SQL Datab
 
 In this Exercise, you will review the cost estimation of the database and conver the database into elastic pool.
 
-In this Exercise you will have:
+In this Exercise you will:
 
   + Task 1: Review the Cost estimate
   + Task 2: Convert the database into Elastic Pool.
@@ -45,7 +45,7 @@ In this task you are going to create a SQL elastic pool and convert the database
     
   ![img](../media/rerpl1.png)
 
-Immediately it will remove the replication and the database will become standalone database.
+Immediately, it will remove the replication and the database will become standalone database.
 
 #### Steps:
 
@@ -92,7 +92,7 @@ It will take 2-3 minutes to complete the deployment.
 
     ![img](../media/elast7.png)
 
-12. Now it shows the database **adventureworkscontoso** added to the elastic pool, it lists the database into the option – Ready to be added to this pool. Now click on **Save**.
+12. Now it shows the database **adventureworkscontoso** has been added to the elastic pool, it lists the database into the option – Ready to be added to this pool. Now click on **Save**.
 
     ![img](../media/elast8.png)
 
