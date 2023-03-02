@@ -16,68 +16,64 @@ In this exercise, you will:
 
 In this task, you are verifying virtual machine setings.
 
-#### Pre-requisites for this task
-
-Complete Exercise 1 & Exercise 2 
-
 #### Steps:
 
-1. Go to the **Recovery service vault** named **contosovault1**, please select the replicated virtual machine named **contoso-vm-1** on the **Replicated items** section.
+1. Go to the **Recovery service vault** named **contosovault1**, under **Protected items** select the **Replicated items** and click on replicated Virtual machine named **contoso-vm-1**.
 
-2. On the **Overview** section, please select **Failover**.
+2. On the **Overview** section, select **Failover**.
 
     ![img](../media/fa1.png)
 
-3. In Failover, choose a recovery point. The Azure VM in the target region is created using data from this recovery point. Please select **Choose a recovery point** the select **Use Latest processed recovery point**, then select **Save**.
+3. In Failover, select **I understand the risk. Continue Failover**.     
+
+4. The Azure VM in the target region is created using data from this recovery point. Select **Choose a recovery point**. Then, select **Use Latest processed recovery point**, and click on **Save**.
+
+    ![img](../media/L11E3T1S3.png)
 
     - Latest processed recovery point: Uses the latest recovery point processed by Site Recovery. The time stamp is shown. No time is spent processing data, so it  provides a low recovery time objective (RTO).
     - Latest: Processes all the data sent to Site Recovery, to create a recovery point for each VM before failing over to it. Provides the lowest recovery point objective (RPO), because all data is replicated to Site Recovery when the failover is triggered.
     - Latest app-consistent: This option fails over VMs to the latest app-consistent recovery point. The time stamp is shown.
     - Custom: Fail over to particular recovery point. Custom is only available when you fail over a single VM, and don't use a recovery plan.
 
-4. Please make sure **Shut down machine before beginning failover** is checked. Shutdown helps to ensure no data loss. Failover continues even if shutdown fails.
+5. Please make sure **Shut down machine before beginning failover** is checked. Shutdown helps to ensure no data loss. Failover continues even if shutdown fails.
 
-5. To start the failover, select **Ok**.
+6. To start the failover, select **Ok**.
 
     ![img](../media/fa2.png)
 
-6. Monitor the failover in notifications.
+7. Monitor the failover in notifications.
 
-7. After the failover, the Azure VM created in the target region appears in Virtual Machines. Make sure that the VM is running, and sized appropriately. 
+8. After the failover, the Azure Virtual machine created in the target region appears in Virtual Machines. Make sure that the Virtual machine is running, and sized appropriately. 
 
   >**Note**: If you want to use a different recovery point for the VM, select Change recovery point, on the Essentials page.
   
-8. Go to the **Replicated items** section of the **contosovault1** Recovery service vault, please review the virtual machine **contoso-vm-1** status became **Failover completed**.
+9. Go to the **contosovault1** Recovery service vault, select **Replicated items** under **Protected items**, review the Status of **contoso-vm-1**, it changes to **Failover completed**.
 
     ![img](../media/fa3.png)
 
-9. On the **Overview** section please select **Commit** to finish the failover.
+10. On the **Overview** section, select **Commit** to finish the failover.
 
     ![img](../media/fa4.png)
 
-10. On the **Commit** page, please select **Ok**. Commit deletes all the available recovery points for the VM in Site Recovery, and you won't be able to change the recovery point.
+11. On the **Commit** page, select **Ok**. Commit deletes all the available recovery points for the Virtual machine in Site Recovery, and you won't be able to change the recovery point.
 
     ![img](../media/fa5.png)
 
-11. Monitor the commit progress in notifications.
+12. Monitor the commit progress in notifications.
 
-12. Once successfully completed the commit fail over, please go to Virtual machines tab and you can see a virtual machine depoyed in West US region.
+13. Once the commit failover is successfully completed, go to Virtual machines tab and you can see a Virtual machine is deployed in **West US** region.
 
     ![img](../media/fa6.png)
 
-### Task 2: Fail over Azure Virtual Machine to a secondary region
+### Task 2: Failover Azure Virtual Machine to a secondary region
 
 In this task, you are going to do a failover on Azure virtual machines and review it.
 
-#### Pre-requisites for this task
-
-Complete Exercise 1 & Exercise 2 & Exercise 3 - Task 1
-
 #### Steps:
 
-1. Go to the **Recovery service vault** named **contosovault1** that you have created in Exercise-1.
+1. Go to the **Recovery service vault** named **contosovault1**.
 
-2. Please select the replicated virtual machine named **contoso-vm-1** on the **Replicated items** section.
+2. Select **Replicated items** under **Protected Items**, click on replicated virtual machine named **contoso-vm-1**.
 
     ![img](../media/ver1.png)
 
@@ -121,10 +117,6 @@ In this task, you ran a disaster recovery drill to check that failover works as 
 
 After failover, you reprotect the VM in the secondary region, so that it replicates back to the primary region.
 
-#### Pre-requisites for this task
-
-Complete Exercise 1 & Exercise 2 & Exercise 3 - Task 1 & Task 2
-
 #### Steps:
 
 1. Make sure that VM Status is **Failover committed** before you start. Please select the virtaul machine **contoso-vm-1**.
@@ -146,24 +138,6 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 - Task 1 & Task 2
     ![img](../media/fa10.png)
 
 In this task, you failed over from the primary region to the secondary, and started replicating VMs back to the primary region. Now you can fail back from the secondary region to the primary.
-
-### Clean up resources
-
-   >**Note**: Remember to remove any newly created Azure resources that you no longer use. Removing unused resources ensures you will not see unexpected charges, although keep in mind that Azure policies do not incur extra cost.
-   
-   >**Note**:  Don't worry if the lab resources cannot be immediately removed. Sometimes resources have dependencies and take a longer time to delete. It is a common Administrator task to monitor resource usage, so just periodically review your resources in the Portal to see how the cleanup is going.
-
-   >**When you're done, delete the resource group. Deleting the resource group deletes the storage account, the Azure file share, virtual machine and any other resources that you deployed inside the resource group.**
-
-1. Select Home and then Resource groups.
-
-2. Select the resource group you want to delete.
-
-3. If the lock is restricted to delete the resource group, please go to the Locks under settings tab of the resource group and select delete.
-
-3. Select Delete resource group. A window opens and displays a warning about the resources that will be deleted with the resource group.
-
-4. Enter the name of the resource group, and then select Delete.   
 
 #### Review
 

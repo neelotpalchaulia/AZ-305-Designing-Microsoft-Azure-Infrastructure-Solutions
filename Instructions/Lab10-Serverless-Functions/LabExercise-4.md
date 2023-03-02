@@ -4,7 +4,7 @@
 
 In this exercise, you are going to create a function that runs automatically based on a fixed schedule.
 
-In this exercise, you have
+In this exercise, you will:
 
    + Task 1: Create a schedule-triggered function
    + Task 2: Observe function code
@@ -18,15 +18,11 @@ In this exercise, you have
 
 In this task, you are going to create a scheduled-triggered function
 
-#### Pre-requisites
-
-Completed Exercise 1 & Exercise 2 & Exercise 3
-
 #### Steps:
 
-1.Open **Visual studio code** from the **Start** button, Open a new terminal.
+1. Open **Visual studio code** from the **Start** button, Open a new terminal.
 
-1.Run the following command to change the current directory to the **C:\AllFiles\func* directory:
+1. Run the following command to change the current directory to the **C:\AllFiles\func* directory:
 
     ```powershell
     cd C:\AllFiles\func
@@ -43,10 +39,6 @@ You will get a message showing **The function "Recurring" was created successful
 #### Task 2: Observe function code
 
 In this task, you will review the function code.
-
-#### Pre-requisites
-
-Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1
 
 #### Steps
 
@@ -71,15 +63,13 @@ Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1
         }
     }
     ```
-        ![img](../media/recur1.png)
+        
+   ![img](../media/recur1.png)
+
 
 #### Task 3: Observe function runs
 
-In this task, you are observing the function run that occurs about every five minutes.
-
-#### Pre-requisites
-
-Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1 & Task 2
+In this task, you are observing the function run that occurs in about every five minutes.
 
 #### Steps:
 
@@ -89,16 +79,12 @@ Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1 & Task 2
     func start --build
     ```
     
-1. Observe the function run that occurs about every five minutes. Each function run should render a simple message to the log.
+1. Observe the function run that occurs in about every five minutes. Each function run should render a simple message to the log.
 
 
 #### Task 4: Update the function integration configuration
 
 In this task, you are going to update the function by changing the schedule to run once every 30 seconds.
-
-#### Pre-requisites
-
-Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1 & Task 2 & Task 3
 
 #### Steps:
 
@@ -108,14 +94,14 @@ Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1 & Task 2 & 
 
     ```csharp
     [FunctionName("Recurring")]
-    public void Run([TimerTrigger("0 */5 * * * *")]TimerInfo myTimer, ILogger log)
+    public static void Run([TimerTrigger("0 */5 * * * *")]TimerInfo myTimer, ILogger log)
     ```
 
 1. Update the **Run** method signature code block to change the schedule to run once every **30 seconds**:
 
     ```csharp
     [FunctionName("Recurring")]
-    public void Run([TimerTrigger("*/30 * * * * *")]TimerInfo myTimer, ILogger log)
+    public static void Run([TimerTrigger("*/30 * * * * *")]TimerInfo myTimer, ILogger log)
     ```
 
 1. Select **Save** to save your changes to the **Recurring.cs** file.
@@ -126,13 +112,9 @@ Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1 & Task 2 & 
 
 In this task, you will observe the function runs every 30 seconds.
 
-#### Pre-requisites
-
-Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1 & Task 2 & Task 3 & Task 4
-
 #### Steps
 
-1. From the command prompt, run the following command to run the function app project:
+1. Open a new terminal, run the following command to run the function app project:
 
     ```powershell
     func start --build
@@ -144,17 +126,11 @@ Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1 & Task 2 & 
 
 1. Close the Visual Studio Code window.
 
-### Clean up resources
-
->**Note : Please do not delete resources you deployed in this lab. You will reference them in the next Exercises of this module.**
-
 #### Review
 
 In this lab, you have:
 
-- Create a schedule-triggered function.
+- Created a schedule-triggered function.
 - Observed it runs every 5 seconds.
 - Updated the function.
 - Observed it runs every 30 seconds.
-
-

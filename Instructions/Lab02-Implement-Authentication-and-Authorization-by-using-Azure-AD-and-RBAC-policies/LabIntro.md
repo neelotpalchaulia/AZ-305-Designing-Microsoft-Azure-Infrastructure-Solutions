@@ -8,7 +8,7 @@ In order to improve management of Azure users, permissions and roles in Contoso 
 
 - Add a user and provide the accessibility of the resources. You will create a user and assigning permission to the user to access virtual machines, for that you are going to apply Azure RBAC policies. Cloud resource access management is a critical function for any organization that uses the cloud. Azure Role-Based Access Control (Azure RBAC) allows you to manage who has access to Azure resources, what those resources can do, and what areas they can access.
 
-- Assign Active Directory Role & Custom RBAC. You will assign User Administrator role to the newly created user and will test it. This role can manage all aspects of users and groups, including resetting passwords for limited admins. Also you will create a custom RBAC role for Virtual machine operator. This role helps the user to access the virtual machine and check the availabilityof it.
+- Assign Active Directory Role & Custom RBAC. You will assign User Administrator role to the newly created user and will test it. This role can manage all aspects of users and groups, including resetting passwords for limited admins. Also, you will create a custom RBAC role for Virtual machine operator. This role helps the user to access the virtual machine and check the availabilityof it.
 
 - Add App Registration. You are going to register a client application in order to access Power apps to connect to their Dataverse environment.
 
@@ -18,7 +18,7 @@ In order to improve management of Azure users, permissions and roles in Contoso 
 
 ## Objectives
 
-In this lab, you will have:
+In this lab, you will:
 
 + Exercise 1: Add a user and provide the accessibility of the resources.
 + Exercise 2: Assign Active Directory Role & Custom RBAC.

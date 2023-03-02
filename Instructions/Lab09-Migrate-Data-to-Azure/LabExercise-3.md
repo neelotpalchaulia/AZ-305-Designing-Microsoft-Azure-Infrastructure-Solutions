@@ -8,16 +8,11 @@ In this exercise, you will:
 
 + Task 1: Create an Azure Storage account and upload a blob file to azure storage by using Powershell script
 
-
 ### Estimated Timing: 30 minutes
 
 ### Task 1: Create an Azure Storage account and upload a blob file to azure storage by using Powershell script
 
 In this task, you will learn how to create an Azure Storage account via azure portal.
-
-#### Pre-requisites for this task
-
-An Azure account
 
 #### Steps
 
@@ -50,7 +45,7 @@ An Azure account
    ```
 10. Open a notepade and type **Hello World**, then save it as **file.txt**.
 
-11. On the Powershell terminal, click on **Upload**, select the file **file.txt** from the saved location, then click on **Open** to upload the file. You will get a message shows Successfully Uploaded.
+11. On the Powershell terminal, click on **Upload**, select the file **file.txt** from the saved location, then click on **Open** to upload the file. You will get a message showing it is Successfully Uploaded.
 
 12. On the Powershell terminal, run the following script.
 

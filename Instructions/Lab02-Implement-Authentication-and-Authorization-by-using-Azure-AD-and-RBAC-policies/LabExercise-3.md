@@ -16,10 +16,6 @@ App registration is a way to reserve an application in AAD (Azure Active Directo
 
 In this task you are going to create an application registration.
 
-#### Pre-requisites for this task
-
-An Azure account.
-
 #### Steps:
 
 1. In the Azure portal, go to **Active Directory**, then select **App registrations**, then select **+ New registration**.
