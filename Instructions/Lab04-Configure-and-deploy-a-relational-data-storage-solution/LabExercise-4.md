@@ -4,7 +4,7 @@
 
 In this Exercise you are going to configure active geo-replication for Azure SQL Database using the Azure portal and to initiate failover.
 
-In this Exercise, you will have:
+In this Exercise, you will:
 
   + Task 1: Configure Replica of Primary database
   + Task 2: Initiate a failover
@@ -86,7 +86,7 @@ In this task you are going to initiate a failover thereby your secondary databas
 
   ![img](../media/rep10.png)
 
-7. Please keep refreshing the page and you can see the primary database status becomes **Online**.
+7. Please keep refreshing the page and you will see that the primary database status will become **Online**.
 
 ![img](../media/rep11.png)
 
