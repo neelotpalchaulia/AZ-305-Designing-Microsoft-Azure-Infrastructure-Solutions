@@ -65,7 +65,7 @@ An azure account.
     | Name | **Contoso-Vnet-WestUS** |
     | Region | **West US** |
   
-    ![img](../media/az305_11-vaultcreation.png)
+    ![img](../media/az305_11-vnetwest.png)
   
 4. Go to **Next: IP Addresses**, then on the **IP Addresses** tab, please review the default IP addresses and subnet given, then select **Review + Create**.
   
