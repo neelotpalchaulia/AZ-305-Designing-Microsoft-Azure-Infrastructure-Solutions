@@ -26,6 +26,8 @@ Complete Exercise 1 & Exercise 2
 
 2. On the **Overview** section, please select **Failover**.
 
+    >**Note**: The **Failover** and **Test Failover** options take a few minutes to get enabled. If already enabled, please continue with the tasks.
+
     ![img](../media/fa1.png)
 
 3. In Failover, choose a recovery point. The Azure VM in the target region is created using data from this recovery point. Please select **Choose a recovery point** the select **Use Latest processed recovery point**, then select **Save**.
