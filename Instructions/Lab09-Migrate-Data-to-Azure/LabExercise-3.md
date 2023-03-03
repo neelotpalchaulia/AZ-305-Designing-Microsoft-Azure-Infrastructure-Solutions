@@ -58,18 +58,6 @@ In this task, you will learn how to create an Azure Storage account via azure po
 13. Once the script execution is completed, go to **Storage accounts**. Select **storcon13**, then select the **Container** under **Data Storage** named **storcontainer123**. You can see the uploaded file **file.txt** there.
   
     ![img](../media/strg6.png)
-  
-### Clean up resources
-
-   >**Note**: Remember to remove any newly created Azure resources that you no longer use. Removing unused resources ensures you will not see unexpected charges, although keep in mind that Azure policies do not incur extra cost.
-   
-   >**Note**:  Don't worry if the lab resources cannot be immediately removed. Sometimes resources have dependencies and take a longer time to delete. It is a common Administrator task to monitor resource usage, so just periodically review your resources in the Portal to see how the cleanup is going.
-
-   >**When you're done, delete the resource group. Deleting the resource group deletes the storage account, the Azure file share, virtual machine and any other resources that you deployed inside the resource group.**
-
-1. Select Home and then Resource group named **ODL-AZ-305M05D-XXXXXX-AZ305M05D**.
-
-2. Select the storage account named **contosostr2** and azure sql database named **contosodb1** then delete it.
    
 #### Review
 
