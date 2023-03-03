@@ -26,7 +26,7 @@ Complete Exercise 1 & Exercise 2
 
 2. On the **Overview** section, please select **Failover**.
 
-    >**Note**: The **Failover** and **Test Failover** options take a few minutes to get enabled. If already enabled, please continue with the tasks.
+    >**Note**: The **Failover** and **Test Failover** options take a few minutes to get enabled. Please wait. If already enabled, please continue with the tasks.
 
     ![img](../media/fa1.png)
 
