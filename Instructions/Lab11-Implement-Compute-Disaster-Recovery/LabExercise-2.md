@@ -80,7 +80,7 @@ Completed Exercise 1 & Exercise 2 - Task 1
     | Subscription | **Default** Select the default subscription |
     | Resource group | **contosovnetwest** |
  
-    ![img](../media/traf3.png)
+    ![img](../media/az_305-trafficmanager.png)
  
 After completing the deployment, you can see the **contosotrafficmanager-1** or the name that you have set.
 
