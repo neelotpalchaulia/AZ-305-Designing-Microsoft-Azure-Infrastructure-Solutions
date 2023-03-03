@@ -26,7 +26,7 @@ Complete Exercise 1 & Exercise 2
 
 2. On the **Overview** section, please select **Failover**.
 
-    >**Note**: The **Failover** and **Test Failover** options take a few minutes to get enabled. Please wait. If already enabled, please continue with the tasks.
+    >**Note**: The **Failover** and **Test Failover** options take a few minutes to get enabled. Please wait. If already enabled, continue with the tasks.
 
     ![img](../media/fa1.png)
 
@@ -79,7 +79,7 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 - Task 1
 
 1. Go to the **Recovery service vault** named **contosovault1** that you hvae created on Exercise-1.
 
-2. Please select the replicated virtual machine named **contoso-vm-1** on the **Replicated items** section.
+2. Please select the replicated virtual machine named **contoso-vm-2** on the **Replicated items** section.
 
     ![img](../media/ver1.png)
 
