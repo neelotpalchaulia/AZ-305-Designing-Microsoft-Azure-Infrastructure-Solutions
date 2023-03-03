@@ -84,7 +84,8 @@ In this task, you will learn how to use the Azure portal to create a blob contai
 
     ![image](../media/str9.png)
 
-4. Type a name for your new container. The container name must be lowercase, must start with a letter or number, and can include only letters, numbers, and the dash (-) character. For more information about container and blob names, see Naming and referencing containers, blobs, and metadata.
+4. Enter `azblobcs` as the name for your new container. The container name must be lowercase, must start with a letter or number, and can include only letters, numbers, and the dash (-) character. For more information about container and blob names, see Naming and referencing containers, blobs, and metadata.
+    - Container Name: `azblobcs`
 
 5. Set the level of public access to the container. The default level is Private (no anonymous access).
 
