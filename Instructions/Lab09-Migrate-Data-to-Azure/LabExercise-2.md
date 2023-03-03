@@ -49,9 +49,9 @@ In this task, you will learn how to create an Azure SQL database by using Azure 
     | Password |  **Contoso@123** 
     | Confirm password | **Contoso@123** |   
     
-    **Note:** You can find Deployment-id from Environment Details Page. 
+>**Note:** You can find Deployment-id from Environment Details Page. 
  
-    ![img](../media/AZ-305-M9-01.png)
+   ![img](../media/AZ-305-M9-1-0.png)
 
 6. After creating the database server, enter the following details, then select **Review + create**. 
 
@@ -61,7 +61,7 @@ In this task, you will learn how to create an Azure SQL database by using Azure 
     | Compute + storage | **General Purpose (Standard-series (Gen5), 2 vCores, 32 GB storage, zone redundant disabled)** |
     | Backup storage redundancy |  **Locally-redundant backup storage** |
 
-    ![img](../media/AZ-305-M9-03.png)
+    ![img](../media/AZ-305-M9-0-02.png)
 
 7. After the validation is passed, select **Create**.
 
@@ -197,28 +197,30 @@ In this task, you will learn how to install and configure Data Migration Assista
 
 6. For the **Authentication type** please select **SQL Server Authentication**, then enter username as **contosoadmin**, and password as **Contoso@123**.
 
-7. Select **Connect**.
+7. For the **Connection properties** please deselect **Encrypt connection** and select **Trust server certificate**.
+
+8. Select **Connect**.
 
      ![img](../media/datam10.png)
 
-8. Select **contosodb1** and then click on **Next**
+9. Select **contosodb1** and then click on **Next**
 
-9. On the **Select Objects** tab, select the **Schema** (By default all the objects are selected, please deselect all other objects except schema).
+10. On the **Select Objects** tab, select the **Schema** (By default all the objects are selected, please deselect all other objects except schema).
 
-10. To create the SQL scripts, select **Generate SQL scripts option**.
+11. To create the SQL scripts, select **Generate SQL scripts option**.
 
     ![img](../media/datam11.png)
 
-11. On the **Script & Deploy schema** tab, select **Deploy schema**.
+12. On the **Script & Deploy schema** tab, select **Deploy schema**.
 
     ![img](../media/datam12.png)
 
-12. You have successfully migrated the schema, you can see the execution of all the schema queries are successfully completed.
+13. You have successfully migrated the schema, you can see the execution of all the schema queries are successfully completed.
 
     ![img](../media/datam13.png)
 
 
-13. Go to Azure portal and select the database named **contosodb1**.  Go to the **Query Editor** and paste the below T-SQL script, then click on **Run** to create a table named **HumanResources.EmployeeDepartmentHistory**.
+14. Go to Azure portal and select the database named **contosodb1**.  Go to the **Query Editor** and paste the below T-SQL script, then click on **Run** to create a table named **HumanResources.EmployeeDepartmentHistory**.
 
     ```T-SQL
     CREATE TABLE [HumanResources].[EmployeeDepartmentHistory](
