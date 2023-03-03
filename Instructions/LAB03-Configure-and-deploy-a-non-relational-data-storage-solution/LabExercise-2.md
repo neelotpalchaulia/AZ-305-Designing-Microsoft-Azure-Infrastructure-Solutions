@@ -51,7 +51,7 @@ To configure a storage account to use a customer-managed key stored in a Key Vau
         
         | Settings | Values |
         |  -- | -- |
-        | Name | **A unique name is required. For this quickstart, we used here contoso-vault3. You can use any other name with alphanumerics** |
+        | Name | **contoso-vault-<inject key="Deployment-id" enableCopy="false" />** |
         | Subscription | **Choose a subscription** |
         | Resource group | **Select the previously created resource group** |       
         | Region | **choose a location (East US where your storage account located)**|           
