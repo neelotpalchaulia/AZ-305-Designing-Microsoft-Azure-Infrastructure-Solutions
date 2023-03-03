@@ -196,8 +196,6 @@ Completed Exercise 1 - Task 1 & Task 2
 
 13. It will take 5-7 minutes to complete the replication, please select **Replicated items** on **contosovault1** page. You can see the Virtual machine enabled for replication. Please keep refreshing as the status of replicated Virtual machine should be **Waiting for first recovery point**.
 
-    ![img](../media/reco11.png)
-
 You have successfully enabled the replication for **contoso-vm-1**.
 
 >**Note** : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.
