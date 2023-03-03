@@ -97,27 +97,11 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 - Task 1
 
 6. Monitor the test failover in notifications.
 
-7.After the failover finishes, the Azure Virtual Machine created in the target region appears in the Azure portal Virtual Machines. Make sure that the Virtual Machine is running, sized appropriately, and connected to the network you selected.
+7. After the failover finishes, the Azure Virtual Machine created in the target region appears in the Azure portal Virtual Machines. Make sure that the Virtual Machine is running, sized appropriately, and connected to the network you selected.
 
-8. Go to **Virtual machines** page, you can see **contoso-vm-1-test** virtual machine created on **West US** region. 
+8. Go to **Virtual machines** page, you can see **contoso-vm-2-test** virtual machine created on **West US** region. 
 
-    ![img](../media/ver5.png)
-
-9. Go to **Recovery service vault** named **contosovault1**, select **Replicated items**, then select **contoso-vm-1**.
-
-10. On the **Overview** section, please select **Cleanup test failover**.
-
-    ![img](../media/ver6.png)
-
-11. On the **Test failover** page, please enter **Test failover succeeded, no issues.** on the **Notes**, then please do **Check** for **Testing is complete. Delete test failover virtual machine(s)**, then select **Ok**.
-
-    ![img](../media/ver8.png)
-
-12. Monitor cleanup progress in notifications. After succeeding with the cleanup, please check on the **Virtual machines** page, you can see **contoso-vm-1-test** virtual machine delected. 
-
-    ![img](../media/ver7.png)
-
-In this task, you ran a disaster recovery drill to check that failover works as expected. 
+*In this task, you ran a disaster recovery drill to check that failover works as expected.* 
 
 ### Task 3: Reprotect the VM
 
@@ -129,7 +113,7 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 - Task 1 & Task 2
 
 #### Steps:
 
-1. Make sure that VM Status is **Failover committed** before you start. Please select the virtaul machine **contoso-vm-1**.
+1. Make sure that VM Status is **Failover committed** before you start. Please select the virtual machine **contoso-vm-1**.
 
     ![img](../media/fa7.png)
 
@@ -149,24 +133,6 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 - Task 1 & Task 2
 
 In this task, you failed over from the primary region to the secondary, and started replicating VMs back to the primary region. Now you can fail back from the secondary region to the primary.
 
-### Clean up resources
-
-   >**Note**: Remember to remove any newly created Azure resources that you no longer use. Removing unused resources ensures you will not see unexpected charges, although keep in mind that Azure policies do not incur extra cost.
-   
-   >**Note**:  Don't worry if the lab resources cannot be immediately removed. Sometimes resources have dependencies and take a longer time to delete. It is a common Administrator task to monitor resource usage, so just periodically review your resources in the Portal to see how the cleanup is going.
-
-   >**When you're done, delete the resource group. Deleting the resource group deletes the storage account, the Azure file share, virtual machine and any other resources that you deployed inside the resource group.**
-
-1. Select Home and then Resource groups.
-
-2. Select the resource group you want to delete.
-
-3. If the lock is restricted to delete the resource group, please go to the Locks under settings tab of the resource group and select delete.
-
-3. Select Delete resource group. A window opens and displays a warning about the resources that will be deleted with the resource group.
-
-4. Enter the name of the resource group, and then select Delete.   
-
 #### Review
 
 In this exercise, you have:
@@ -174,6 +140,3 @@ In this exercise, you have:
 - Verified Virtual Machine settings.
 - Done a Fail over Azure Virtual Machine to a secondary region.
 - Reprotected the VM
-
-
-
