@@ -194,7 +194,7 @@ Completed Exercise 1 - Task 1 & Task 2
 
     ![img](../media/reco9.png)
 
-13. It will take 5-7 minutes to complete the replication, please select **Replicated items** on **contosovault1** page. You can see the Virtual machine enabled for replication. Please keep refreshing as the status of replicated Virtual machine should be **0% Synchronized**.
+13. It will take 5-7 minutes to complete the replication, please select **Replicated items** on **contosovault1** page. You can see the Virtual machine enabled for replication. Please keep refreshing as the status of replicated Virtual machine should be **Waiting for first recovery point**.
 
     ![img](../media/reco11.png)
 
