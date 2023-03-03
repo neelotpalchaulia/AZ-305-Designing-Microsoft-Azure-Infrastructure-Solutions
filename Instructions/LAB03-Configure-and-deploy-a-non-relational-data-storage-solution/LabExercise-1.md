@@ -36,7 +36,8 @@ In this task, you will learn how to use Azure portal to create an Azure storage 
 
 6. Basic tab shows a standard configuration of the basic properties for a new storage account. On the **Basics tab**, select the subscription, if the default subscription is being used, then select the **resource group**.
 
-7. For Storage account name option, please provide **azstrg<inject key="Deployment-id" />** name in small case and numbers.
+7. For Storage account name option, please provide **azstrg<inject key="Deployment-id" enableCopy="false" />** name in small case and numbers.
+    - Storage Account Name: **azstrg<inject key="Deployment-id" enableCopy="false" />**
 
 8. Select the **Region** option as **East US**
 
