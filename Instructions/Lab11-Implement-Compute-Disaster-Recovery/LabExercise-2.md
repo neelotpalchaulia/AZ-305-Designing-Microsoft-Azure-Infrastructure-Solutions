@@ -82,7 +82,7 @@ Completed Exercise 1 & Exercise 2 - Task 1
  
     ![img](../media/az_305-trafficmanager.png)
  
-After completing the deployment, you can see the **contosotrafficmanager-1** or the name that you have set.
+After completing the deployment, you can see the **contosotrafficmanager-x** or the name that you have set.
 
 ### Task 3: Add Traffic Manager endpoints
 
