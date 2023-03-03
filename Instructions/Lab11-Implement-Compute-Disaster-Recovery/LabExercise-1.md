@@ -198,10 +198,6 @@ Completed Exercise 1 - Task 1 & Task 2
 
 *You have successfully enabled the replication for **contoso-vm-1***
 
-14. Replication of **contoso-vm-2** is also need to be enabled. For this, repeat steps 6-12. However under the **Virtual machines** tab of the **Enable Replication** page ensure to check **contoso-vm-2**.
-
-*You have successfully enabled the replication for **contoso-vm-2***.
-
 >**Note** : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.
 
 #### Review
