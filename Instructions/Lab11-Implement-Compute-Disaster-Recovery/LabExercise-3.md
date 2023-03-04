@@ -77,15 +77,15 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 - Task 1
 
 #### Steps:
 
-1. Go to the **Recovery service vault** named **contosovault1** that you hvae created on Exercise-1.
+1. Go to the **Recovery service vault** named **contosovault1** that you have created on Exercise-1.
 
 2. Please select the replicated virtual machine named **contoso-vm-2** on the **Replicated items** section.
 
-    ![img](../media/ver1.png)
+    ![img](../media/az_305-Ex3-2-01.png)
 
 3. On the Overview section, check that the Virtual Machine is protected and healthy.
 
-    ![img](../media/ver2.png)
+    ![img](../media/az_305-Ex3-2-02.png)
 
 4. On the Overview section, please select **Test Failover**.
 
@@ -93,7 +93,7 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 - Task 1
 
 5. On the **Test Failover** page, please select **Contoso-Vnet-WestUS** for **Azure virtual network**, keep the default settings for **From** as **East US** and for **To** as **West US**, then select **Ok**.
 
-    ![img](../media/ver4.png)
+    ![img](../media/az_305-Ex3-2-03.png)
 
 6. Monitor the test failover in notifications.
 
