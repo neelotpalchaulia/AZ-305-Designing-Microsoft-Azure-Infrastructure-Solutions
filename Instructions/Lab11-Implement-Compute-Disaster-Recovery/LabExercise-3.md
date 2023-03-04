@@ -89,11 +89,11 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 - Task 1
 
 4. On the Overview section, please select **Test Failover**.
 
-    ![img](../media/ver3.png)
+    ![img](../media/az_305-Ex3-2-03.png)
 
 5. On the **Test Failover** page, please select **Contoso-Vnet-WestUS** for **Azure virtual network**, keep the default settings for **From** as **East US** and for **To** as **West US**, then select **Ok**.
 
-    ![img](../media/az_305-Ex3-2-03.png)
+    ![img](../media/ver4.png)
 
 6. Monitor the test failover in notifications.
 
