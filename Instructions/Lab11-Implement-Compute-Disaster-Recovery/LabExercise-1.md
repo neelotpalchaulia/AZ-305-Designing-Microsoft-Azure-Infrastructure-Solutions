@@ -157,7 +157,7 @@ In this task you are going to a Recovery service vault.
 
     ![img](../media/reco11.png)
 
-You have successfully enabled the replication for **contoso-vm-1**.
+You have successfully enabled the replication for **contoso-vm-1**. Replication will take 10-15 minutes to complete, so in next exercise you will be setting up the traffic manager for the webapp and in exercise three you will continue to failover the VMs in secondary region.
 
 #### Review
 
@@ -166,14 +166,3 @@ In this exercise, you have:
 - Created a Virtual network
 - Created two Virtual Machines.
 - Created a Recovery Services Vault and enable Replication.
-
-
-
-
-
-
-
-
-
-
-
