@@ -38,7 +38,7 @@ In this task, you are going to do a failover on Azure virtual machines and revie
 
 6. Monitor the test failover in notifications.
 
-7.After the failover finishes, the Azure Virtual Machine created in the target region appears in the Azure portal Virtual Machines. Make sure that the Virtual Machine is running, sized appropriately, and connected to the network you selected.
+7. After the failover finishes, the Azure Virtual Machine created in the target region appears in the Azure portal Virtual Machines. Make sure that the Virtual Machine is running, sized appropriately, and connected to the network you selected.
 
 8. Go to **Virtual machines** page, you can see **contoso-vm-1-test** virtual machine created on **West US** region. 
 
