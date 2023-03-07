@@ -6,13 +6,13 @@ In this exercise, you are going to validate disaster failover for virtual machin
 
 In this exercise, you will:
 
-+ Task 1: Verify Virtual Machine settings.
-+ Task 2: Fail over Azure Virtual Machine to a secondary region.
++ Task 1: Test Fail over Azure Virtual Machine to a secondary region.
++ Task 2: Failover Virtual Machine.
 + Task 3: Reprotect the VM
 
 ### Estimated Timing: 40 minutes
 
-### Task 1: Verify Virtual Machine settings.
+### Task 1: Test Fail over Azure Virtual Machine to a secondary region.
 
 In this task, you are verifying virtual machine setings.
 
@@ -65,7 +65,7 @@ In this task, you are verifying virtual machine setings.
 
     ![img](../media/fa6.png)
 
-### Task 2: Failover Azure Virtual Machine to a secondary region
+### Task 2: Failover Virtual Machine
 
 In this task, you are going to do a failover on Azure virtual machines and review it.
 
@@ -95,21 +95,21 @@ In this task, you are going to do a failover on Azure virtual machines and revie
 
 8. Go to **Virtual machines** page, you can see **contoso-vm-1-test** virtual machine created on **West US** region. 
 
-    ![img](../media/ver5.png)
+    ![img](../media/ver5lab11.png)
 
 9. Go to **Recovery service vault** named **contosovault1**, select **Replicated items**, then select **contoso-vm-1**.
 
 10. On the **Overview** section, please select **Cleanup test failover**.
 
-    ![img](../media/ver6.png)
+    ![img](../media/ver6lab11.png)
 
 11. On the **Test failover** page, please enter **Test failover succeeded, no issues.** on the **Notes**, then please do **Check** for **Testing is complete. Delete test failover virtual machine(s)**, then select **Ok**.
 
-    ![img](../media/ver8.png)
+    ![img](../media/ver8lab11.png)
 
 12. Monitor cleanup progress in notifications. After succeeding with the cleanup, please check on the **Virtual machines** page, you can see **contoso-vm-1-test** virtual machine delected. 
 
-    ![img](../media/ver7.png)
+    ![img](../media/ver7lab11.png)
 
 In this task, you ran a disaster recovery drill to check that failover works as expected. 
 
