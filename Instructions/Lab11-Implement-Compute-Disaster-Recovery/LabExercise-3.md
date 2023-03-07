@@ -14,6 +14,53 @@ In this exercise, you will:
 
 ### Task 1: Test Fail over Azure Virtual Machine to a secondary region.
 
+In this task, you are going to do a failover on Azure virtual machines and review it.
+
+#### Steps:
+
+1. Go to the **Recovery service vault** named **contosovault1**.
+
+2. Select **Replicated items** under **Protected Items**, click on replicated virtual machine named **contoso-vm-1**.
+
+    ![img](../media/ver1.png)
+
+3. On the Overview section, check that the Virtual Machine is protected and healthy.
+
+    ![img](../media/ver2.png)
+
+4. On the Overview section, please select **Test Failover**.
+
+    ![img](../media/ver3.png)
+
+5. On the **Test Failover** page, please select **Contoso-Vnet-WestUS** for **Azure virtual network**, keep the default settings for **From** as **East US** and for **To** as **West US**, then select **Ok**.
+
+    ![img](../media/ver4.png)
+
+6. Monitor the test failover in notifications.
+
+7.After the failover finishes, the Azure Virtual Machine created in the target region appears in the Azure portal Virtual Machines. Make sure that the Virtual Machine is running, sized appropriately, and connected to the network you selected.
+
+8. Go to **Virtual machines** page, you can see **contoso-vm-1-test** virtual machine created on **West US** region. 
+
+    ![img](../media/ver5lab11.png)
+
+9. Go to **Recovery service vault** named **contosovault1**, select **Replicated items**, then select **contoso-vm-1**.
+
+10. On the **Overview** section, please select **Cleanup test failover**.
+
+    ![img](../media/ver6lab11.png)
+
+11. On the **Test failover** page, please enter **Test failover succeeded, no issues.** on the **Notes**, then please do **Check** for **Testing is complete. Delete test failover virtual machine(s)**, then select **Ok**.
+
+    ![img](../media/ver8lab11.png)
+
+12. Monitor cleanup progress in notifications. After succeeding with the cleanup, please check on the **Virtual machines** page, you can see **contoso-vm-1-test** virtual machine delected. 
+
+    ![img](../media/ver7lab11.png)
+
+In this task, you ran a disaster recovery drill to check that failover works as expected. 
+
+### Task 2: Failover Virtual Machine
 In this task, you are verifying virtual machine setings.
 
 #### Steps:
@@ -65,53 +112,7 @@ In this task, you are verifying virtual machine setings.
 
     ![img](../media/fa6.png)
 
-### Task 2: Failover Virtual Machine
 
-In this task, you are going to do a failover on Azure virtual machines and review it.
-
-#### Steps:
-
-1. Go to the **Recovery service vault** named **contosovault1**.
-
-2. Select **Replicated items** under **Protected Items**, click on replicated virtual machine named **contoso-vm-1**.
-
-    ![img](../media/ver1.png)
-
-3. On the Overview section, check that the Virtual Machine is protected and healthy.
-
-    ![img](../media/ver2.png)
-
-4. On the Overview section, please select **Test Failover**.
-
-    ![img](../media/ver3.png)
-
-5. On the **Test Failover** page, please select **Contoso-Vnet-WestUS** for **Azure virtual network**, keep the default settings for **From** as **East US** and for **To** as **West US**, then select **Ok**.
-
-    ![img](../media/ver4.png)
-
-6. Monitor the test failover in notifications.
-
-7.After the failover finishes, the Azure Virtual Machine created in the target region appears in the Azure portal Virtual Machines. Make sure that the Virtual Machine is running, sized appropriately, and connected to the network you selected.
-
-8. Go to **Virtual machines** page, you can see **contoso-vm-1-test** virtual machine created on **West US** region. 
-
-    ![img](../media/ver5lab11.png)
-
-9. Go to **Recovery service vault** named **contosovault1**, select **Replicated items**, then select **contoso-vm-1**.
-
-10. On the **Overview** section, please select **Cleanup test failover**.
-
-    ![img](../media/ver6lab11.png)
-
-11. On the **Test failover** page, please enter **Test failover succeeded, no issues.** on the **Notes**, then please do **Check** for **Testing is complete. Delete test failover virtual machine(s)**, then select **Ok**.
-
-    ![img](../media/ver8lab11.png)
-
-12. Monitor cleanup progress in notifications. After succeeding with the cleanup, please check on the **Virtual machines** page, you can see **contoso-vm-1-test** virtual machine delected. 
-
-    ![img](../media/ver7lab11.png)
-
-In this task, you ran a disaster recovery drill to check that failover works as expected. 
 
 ### Task 3: Reprotect the VM
 
