@@ -90,7 +90,7 @@ In this task you are going to create a storage account by using the resource gro
     | --- | --- |
     | Storage account name | any globally unique combination of between 3 and 24 lower case letters and digits, starting with a letter |
 
-      ![image](../media/pol13.png)
+      ![image](../media/az305-mod2-ex2-task2-step4.png)
 
 5. You can see the validation failed, and there is a validation error. Please click on the **validation error**, a side screen of error details will open. It shows the error happens due to the policy.
 
@@ -125,11 +125,11 @@ In this task, you are going to Get started in cost analysis, Select a cost view 
 
 1. Go to Subscription, and select the default subscription, then select **Cost Analysis** under **Cost Management** section, you can see the accumulated costs for the subscription. 
 
-![image](../media/costm1.png)
+      ![image](../media/costm1.png)
 
 2. In the **Cost analysis**, please change the view to **Cost By Resource**, you can see the cost per resources in subscription scope.
 
-![image](../media/costm2.png)
+      ![image](../media/costm2.png)
 
 You can check the different views by clicking on the **Views** in cost analysis.
 
