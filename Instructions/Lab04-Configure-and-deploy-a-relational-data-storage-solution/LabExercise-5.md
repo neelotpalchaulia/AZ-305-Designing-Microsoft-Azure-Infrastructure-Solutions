@@ -58,7 +58,7 @@ Immediately, it will remove the replication and the database will become standal
     | Settings | Values |
     |  -- | -- |
     | Subscription | **Use default supplied** |
-    | Resource group | **Select the resource group name ODL-AZ-305M04B-XXXXX from the dropdown list** |
+    | Resource group | **Select the resource group name ODL-AZ-305M04B-<inject key="Deployment-id"></inject> from the dropdown list** |
     | Elastic pool name | **contososqlpool** |
     | Server name | Select **contososerv** |
 
