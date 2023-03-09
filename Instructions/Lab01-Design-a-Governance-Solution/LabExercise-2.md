@@ -82,7 +82,7 @@ In this task you are going to create a storage account by using the resource gro
 
       ![image](../media/pol12.png)
 
-3. On the Storage account page, keep the default subscription selected, then please select a resource group included in the policy assignment from the resource group list.
+3. On the Storage account page, keep the default subscription selected, then please select a resource group **ODL-AZ-305M02-<inject key="Deployment-id"></inject>**.
 
 4. Please enter a name of the storage account on the **storage account name** and then click **Review**.
 
