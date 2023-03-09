@@ -81,11 +81,11 @@ In this task, you will review default monitoring settings of Azure virtual machi
 
 #### Steps:
 
-1. In the Azure portal, search for **Virtual Machines** and select Virtual machines from the list. On the **Virtual machines** page, select **labvm-XXXXX**.
+1. In the Azure portal, search for **Virtual Machines** and select Virtual machines from the list. On the **Virtual machines** page, select **labvm-<inject key="Deployment-id"></inject>**.
 
-2. On the **labvm-XXXXX** page, in the **Monitoring** section, click **Metrics**.
+2. On the **labvm-<inject key="Deployment-id"></inject>** page, in the **Monitoring** section, click **Metrics**.
 
-3. On the **labvm-XXXXX| Metrics** page, on the default chart, note that the only available **Metrics Namespace** is **Virtual Machine Host**.
+3. On the **labvm-<inject key="Deployment-id"></inject>| Metrics** page, on the default chart, note that the only available **Metrics Namespace** is **Virtual Machine Host**.
 
    ![img](../media/AZ-305-M5-t3-03.png) 
 
@@ -111,21 +111,21 @@ In this task, you will review default monitoring settings of Azure virtual machi
 
 In this task, you will configure Azure virtual machine diagnostic settings.
 
-1. On the **labvm-XXXXX** page, in the **Monitoring** section, select **Diagnostic settings**.
+1. On the **labvm-<inject key="Deployment-id"></inject>** page, in the **Monitoring** section, select **Diagnostic settings**.
 
-2. On the **Overview** tab of the **labvm-XXXXX | Diagnostic settings** page, select a **Diagnostic storage account**, and then click **Enable guest-level monitoring**.
+2. On the **Overview** tab of the **labvm-<inject key="Deployment-id"></inject> | Diagnostic settings** page, select a **Diagnostic storage account**, and then click **Enable guest-level monitoring**.
 
    ![img](../media/mon13.png)
 
     >**Note**: Wait for the diagnostic settings extension to be installed. This might take about 3 minutes.
 
-3. Switch to the **Performance counters** tab of the **labvm-XXXXX | Diagnostic settings** page and review the available counters.
+3. Switch to the **Performance counters** tab of the **labvm-<inject key="Deployment-id"></inject> | Diagnostic settings** page and review the available counters.
 
    ![img](../media/mon14.png)
 
     >**Note**: By default, CPU, memory, disk, and network counters are enabled. You can switch to the **Custom** view for more detailed listing.
 
-4. On the **labvm-XXXXX** page, in the **Monitoring** section, click **Logs** and then click **Enable**.
+4. On the **labvm-<inject key="Deployment-id"></inject>** page, in the **Monitoring** section, click **Logs** and then click **Enable**.
 
    ![img](../media/mon15.png)
 
@@ -135,9 +135,9 @@ In this task, you will configure Azure virtual machine diagnostic settings.
 
     >**Note**: Do not wait for the operation to be completed, but instead proceed to the next step. The operation might take about 5 minutes.
 
-6. On the **labvm-XXXXX | Logs** page, in the **Monitoring** section, click **Metrics**.
+6. On the **labvm-<inject key="Deployment-id"></inject> | Logs** page, in the **Monitoring** section, click **Metrics**.
 
-7. On the **labvm-XXXXX | Metrics** page, on the default chart, note that at this point, the **Metrics Namespace** drop-down list, in addition to the **Virtual Machine Host** entry includes also the **Guest (classic)** entry.
+7. On the **labvm-<inject key="Deployment-id"></inject> | Metrics** page, on the default chart, note that at this point, the **Metrics Namespace** drop-down list, in addition to the **Virtual Machine Host** entry includes also the **Guest (classic)** entry.
 
    ![img](../media//AZ-305-M5-t4-07.png)
 
