@@ -29,7 +29,7 @@ In this task, you will learn how to use Azure portal to create a single database
     | Settings | Values |
     |  -- | -- |
     | Subscription | **Use default supplied** |
-    | Resource group | **Select the resource group name ODL-AZ-305M04B-XXXXX from the dropdown list** |
+    | Resource group | **Select the resource group name ODL-AZ-305M04B-<inject key="Deployment-id"></inject> from the dropdown list** |
     | Database name | **adventureworkscontoso** |
    
     ![image](../media/db3.png) 
