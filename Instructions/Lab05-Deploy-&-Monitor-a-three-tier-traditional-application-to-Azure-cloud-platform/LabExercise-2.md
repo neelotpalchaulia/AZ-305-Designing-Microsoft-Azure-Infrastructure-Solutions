@@ -17,7 +17,7 @@ In this task, you are going to add the website in the **East US** as primary end
 
 #### Steps:
 
-1. In **Traffic Manager** page, please select **contosotrafficmanager-1**, in the **Settings** section, select **Endpoints**, and then select **+ Add**. 
+1. In **Traffic Manager** page, please select **contosotrafficmanager-1-<inject key="Deployment-id"></inject>**, in the **Settings** section, select **Endpoints**, and then select **+ Add**. 
 
     ![img](../media/trafp6.png)
 
@@ -41,7 +41,7 @@ In this task, you are going to add the website in the **East US** as primary end
     | Type | Select **Azure endpoint**  |
     | Name | Enter **contosoFailoverEndpoint** |
     | Target resource type | Select **App Service** |
-    | Target resource | Select **web-app-EastUS (East US)** |
+    | Target resource | Select **web-app-EastUS-<inject key="Deployment-id"></inject> (East US)** |
     | Priority | Select **2** |
 
 You have successfully added both the endpoints.
@@ -54,7 +54,7 @@ In this task, you will do a test failover to test the traffic manager profile.
 
 1. Go to the **Overview** section of the **Traffic Manager profile** that you created in the preceding Exercise.
 
-2. Copy the **DNS** name of the **contosotrafficmanager-1**.
+2. Copy the **DNS** name of the **contosotrafficmanager-1-<inject key="Deployment-id"></inject>**.
 
     ![img](../media/trafp7.png)
 
