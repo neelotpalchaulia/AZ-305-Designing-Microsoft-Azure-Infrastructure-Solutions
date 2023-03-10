@@ -143,11 +143,11 @@ By enabling Soft delete you can protect your data from accidental deletion. With
 
 2. Locate the **Data Protection** option under **Data management**.
 
-3. In the **Recovery** section, select **Turn on soft delete for blobs**.
+3. In the **Recovery** section, check **Enable soft delete for blobs** option.
 
     ![image](../media/life20.png)
 
-4. Specify a retention period between 1 and 365 days. Microsoft recommends a minimum retention period of seven days. In this example provide 7 days.
+4. Specify a retention period between 1 and 365 days. Microsoft recommends a minimum retention period of seven days. In this example provide 8 days.
 **Save** your changes.
 
 ### Task 4: Configure Backup Vault
@@ -202,19 +202,19 @@ After creating the backup vault, you need to configure the storage account backu
 
 1. In the **Storage account** that needs to be protected, navigate to the **Access Control (IAM)** tab on the left navigation pane.
 
-2. Select **Add role assignments** to assign the required role.
+2. Select **Add** and then, **Add role assignments** to assign the required role.
 
     ![image](../media/role1.png)
 
 3. In the Add role assignment pane:
 
-4. Under Role, choose **Storage Account Backup Contributor**.
+4. Under Role, search for **Storage Account Backup Contributor** and select the same.
 
     ![image](../media/role2.png)
 
-5. Under **Members** tab, on the **Assign access to** option, choose User, group or service principal and select **Next** button.
+5. Under **Members** tab, on the **Assign access to** option, choose **User, group or service principal** and select **+ Select members** in the **Members** option.
 
-    ![image](../media/role3.png)
+    ![image](../media/az305_03-selectmemebrs.png)
 
 6. On the Members option, please select **+ Select members**. Under Select members side screen, Please type name of the backup vault which you created in the previous task on the search box and select the back up vault by clicking on it.
 
@@ -258,7 +258,7 @@ To start configuring backup:
 
     ![image](../media/back5.png)
 
-6. On the Configure Backup page, please select **Create new for Backup policy** option under Backup policy tab.
+6. On the Configure Backup page, please select **Create new** for Backup policy option under Backup policy tab.
 
     ![image](../media/back8a.png)
 
@@ -291,7 +291,7 @@ Here, you can see the success status under Backup readiness tab, please select N
 
     ![image](../media/back15.png)
 
-14. Please wait for completing the configuration process, then select Vaults option under Manage pane on the Backup center page. You can see the backup vault successfully configured.
+14. Please wait for completing the configuration process, then select **Vaults** option under **Manage** pane on the Backup center page, you can see the backup vault successfully configured.
 
     ![image](../media/back16.png)
     

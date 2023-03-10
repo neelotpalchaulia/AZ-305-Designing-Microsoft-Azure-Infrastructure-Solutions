@@ -53,7 +53,7 @@ Completed Exercise 1
 
 7. After completing the validation, please select **Create**. When the Web App successfully deploys, it creates a default web site.
 
-8. Follow steps 2-7 to create a second Web App named **contoso-webapp-2**. The Resource Group name is **contosovnet**, with Region of **West US**, and App Service Plan name of **contosoappplanWestUS**. All the other settings are the same as **contoso-webapp-1**.
+8. Follow steps 2-7 to create a second Web App named **contoso-webapp-2**. The Resource Group name is **contosovnetwest**, with Region of **West US**, and Windows Plan name of **contosoappplanWestUS**. All the other settings are the same as **contoso-webapp-1**.
 
 You have successfully deployed two web apps named **contoso-webapp-1** and **contoso-webapp-2**.
 
@@ -75,14 +75,14 @@ Completed Exercise 1 & Exercise 2 - Task 1
 
     | Section | Values |
     | ------- | ------ |
-    | Name | **contosotrafficmanager-1**  |
+    | Name | **contosotrafficmanager-1** or change the number as per availability. |
     | Routing method | Select **Priority** |
     | Subscription | **Default** Select the default subscription |
-    | Resource group | **contosovnet** |
+    | Resource group | **contosovnetwest** |
  
-    ![img](../media/traf3.png)
+    ![img](../media/az_305-trafficmanager.png)
  
-After completing the deployment, you can see the **contosotrafficmanager-1**.
+After completing the deployment, you can see the **contosotrafficmanager-x** or the name that you have set.
 
 ### Task 3: Add Traffic Manager endpoints
 
@@ -91,6 +91,7 @@ In this task, you are going to add the website in the **East US** as primary end
 #### Steps:
 
 1. In **Load balancing | Traffic Manager** page, select **contosotrafficmanager-1** under **Settings**. The, select **Endpoints**, and click on **+ Add**. 
+
 
 2. On the **Add Endpoint** side screen, enter the following details and then select **Add**.
 
@@ -124,7 +125,7 @@ In this task, you are going to test the traffic manager profile.
 
 1. Go to the **Overview** section of the **Traffic Manager profile** that you created in the preceding Task.
 
-2. Copy the **DNS** name of the **contosotrafficmanager-1**.
+2. Copy the **DNS** name of the **contosotrafficmanager-x**.
 
     ![img](../media/traf5.png)
 

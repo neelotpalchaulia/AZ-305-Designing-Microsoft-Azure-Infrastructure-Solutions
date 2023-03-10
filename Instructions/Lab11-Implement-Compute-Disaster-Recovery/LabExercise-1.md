@@ -2,11 +2,39 @@
 
 ## Exercise 1: Setup Azure Site Recovery 
 
-In this exercise, you are going to deploy a Azure site recovery. Azure Site Recovery offers disaster recovery and resilience for apps and workloads running on on-premises machines or Azure IaaS VMs. When there is an outage, Site Recovery orchestrates replication and handles failover to Azure. It also handles Azure recovery to your primary site. 
+In this exercise, you are going to deploy a Azure site recovery. Azure Site Recovery offers disaster recovery and resilience for apps and workloads running on on-premises machines or Azure IaaS VMs. When there is an outage, Site Recovery orchestrates replication and handles failover to Azure. It also handles Azure recovery to your primary site.
 
-In this exercise, you will:
+### Prerequisites
+-Presence of: 
++ One resource group in **East US** region.
++ One resource group in **West US** region.
 
-+ Task 1: Create a Virtual network
+#### Steps:
+
+1. Search for **Resource groups** on the **search** box of the **Home** page, then select **Resource groups** from the list below.
+2. On the **Resource groups** page, select **+ Create** to create a new resource group.
+3. In the **Create a resource group** page under the **Basics** tab, enter the following details and click on **Review+Create**.
+
+    | Section | Values |
+    | ------- | ------ |
+    | Subscription | **Default** Select the default subscription |
+    | Resource group | **contosovnet** |
+    | Region | **(US)EastUS** |
+    
+    ![img](../media/az305_11-rg.png)
+
+4. Select the **Create** button and wait for the resource group to be created.
+5. Repeat steps 1-4 to create the second resource group with the follwing details:
+
+    | Section | Values |
+    | ------- | ------ |
+    | Subscription | **Default** Select the default subscription |
+    | Resource group | **contosovnetwest** |
+    | Region | **West US** |
+
+### In this exercise, you will:
+
++ Task 1: Create a two Virtual Networks.
 + Task 2: Create two Virtual Machines.
 + Task 3: Create a Recovery Services Vault and enable Replication.
 
@@ -27,11 +55,11 @@ In this task you are going to create two virtual networks. One will be in the We
     | Section | Values |
     | ------- | ------ |
     | Subscription | **Default** Select the default subscription |
-    | Resource group | Select or create a new resource group to store the virtual network, here we will use a resource group named **contosovnet** |
+    | Resource group | **contosovnetwest** |
     | Name | **Contoso-Vnet-WestUS** |
     | Region | **West US** |
   
-    ![img](../media/vnt2.png)
+    ![img](../media/az305_11-vnetwest.png)
   
 4. Go to **Next: IP Addresses**, on the **IP Addresses** tab, review the default IP addresses and subnet given, then select **Review + Create**.
   
@@ -114,12 +142,11 @@ In this task you are going to a Recovery service vault.
     | Section | Values |
     | ------- | ------ |
     | Subscriptioon | Select the default subscription |
-    | Resource group | **contosovnet** |
-    | Virtual machine name  | **contosovault1** |
+    | Resource group | **contosovnetwest** |
+    | Vault Name | **contosovault1** |
     | Region | **West US** |
     
-    
-    ![img](../media/reco2.png)  
+    ![img](../media/az305_11-vaultcreation.png)  
     
 4. Select **Review + create**, and then click on **Create**. 
     
@@ -155,9 +182,10 @@ In this task you are going to a Recovery service vault.
 
 13. It will take 5-7 minutes to complete the replication. Select **Replicated items** on **contosovault1** page. You can see the Virtual machine enabled for replication. Please keep refreshing as the status of replicated Virtual machine should be **0% Synchronized**.
 
-    ![img](../media/reco11.png)
+14. Replication of **contoso-vm-2** is also need to be enabled. For this, repeat steps 6-12. However under the **Virtual machines** tab of the **Enable Replication** page ensure to check **contoso-vm-2**.
 
 You have successfully enabled the replication for **contoso-vm-1**. Replication will take 10-15 minutes to complete, so in next exercise you will be setting up the traffic manager for the webapp and in exercise three you will continue to failover the VMs in secondary region.
+
 
 #### Review
 

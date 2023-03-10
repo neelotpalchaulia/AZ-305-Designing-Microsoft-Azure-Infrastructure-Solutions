@@ -147,6 +147,3 @@ In this exercise, you have:
 - Verified Virtual Machine settings.
 - Done a Fail over Azure Virtual Machine to a secondary region.
 - Reprotected the VM
-
-
-

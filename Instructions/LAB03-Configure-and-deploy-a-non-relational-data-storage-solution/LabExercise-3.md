@@ -59,7 +59,7 @@ An Azure account, a storage account (Complete Exercise 1 & Exercise 2). The foll
 
     ![image](../media/files9.png)
 
-10. On the Virtual machines page, please select **Create**.
+10. On the Virtual machines page, please select **Create** and then **Azure virtual machine**.
 
     ![image](../media/files10.png)
 
@@ -122,7 +122,7 @@ An Azure account, a storage account (Complete Exercise 1 & Exercise 2). The foll
 
     ![image](../media/files19.png)
 
-22. On the **Windows Security** window, sign in using the Admin Credentials you used when creating your Virtual machine **azureuser** and the password **Pa$$w0rd123!**. 
+22. On the **Windows Security** window, sign in using the Admin Credentials you used when creating your Virtual machine **azureuser** and the password **Pa$$w0rd123!**
 
     ![image](../media/files20.png)
 
@@ -148,25 +148,9 @@ A new Virtual Machine (contosoVm) will launch inside your Lab. Close the Server 
 
     ![image](../media/files25.png)
 
-28. Open the **File explorer** in the virtual machine and double click on **contosofiles**, you can see the text file created on fileshares named **contosofiles** in azure portal.
+28. Open the **File explorer** in the virtual machine. Navigate to **This PC** and double click on **contosofiles**, you can see the text file created on fileshares named **contosofiles** in azure portal.
 
-### Clean up resources
-
-   >**Note**: Remember to remove any newly created Azure resources that you no longer use. Removing unused resources ensures you will not see unexpected charges, although keep in mind that Azure policies do not incur extra cost.
-   
-   >**Note**:  Don't worry if the lab resources cannot be immediately removed. Sometimes resources have dependencies and take a longer time to delete. It is a common Administrator task to monitor resource usage, so just periodically review your resources in the Portal to see how the cleanup is going.
-
-   >**When you're done, delete the resource group. Deleting the resource group deletes the storage account, the Azure file share, virtual machine and any other resources that you deployed inside the resource group.**
-
-1. Select Home and then Resource groups.
-
-2. Select the resource group you want to delete.
-
-3. If the lock is restricted to delete the resource group, please go to the Locks under settings tab of the resource group and select delete.
-
-3. Select Delete resource group. A window opens and displays a warning about the resources that will be deleted with the resource group.
-
-4. Enter the name of the resource group, and then select Delete.
+    ![image](../media/az305_03-final.png)
     
 #### Review
 
