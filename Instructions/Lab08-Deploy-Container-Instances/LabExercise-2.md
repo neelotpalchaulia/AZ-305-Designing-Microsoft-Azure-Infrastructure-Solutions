@@ -2,9 +2,9 @@
 
 ## Exercise 2: Deploy Azure Container instance using a YAML file
 
-In this exercise, you are going to deploy an Azure Container instance by using YAML file and review the functionalities of it.
+In this exercise, you are going to deploy an Azure Container instance by using YAML file and review its functionalities.
 
-In this Exercise, you will have:
+In this Exercise, you will:
 
   + Task 1: Deploy an Azure container instance by using YAML file.
 

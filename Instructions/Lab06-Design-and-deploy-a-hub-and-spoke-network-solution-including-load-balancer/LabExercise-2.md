@@ -2,9 +2,9 @@
 
 ## Exercise 2: Create virtual networks and deploy a virtual network gateway
 
-In this exercise, you are going to create three virtual networks having two same region and one different region. Then you will deploy a virtual network gateway into a virtual network to connect another virtual networks.
+In this exercise, you are going to create three virtual networks with two in the same region and one in a different region. Then you will deploy a virtual network gateway into a virtual network to connect another virtual networks.
 
-In this Exercise, you will have:
+In this Exercise, you will:
 
   + Task 1: Create virtual networks.
   + Task 2: Deploy a virtual network gateway.
@@ -14,10 +14,6 @@ In this Exercise, you will have:
 ### Task 1: Create virtual networks
 
 In this task you are going to create three virtual networks. One will be in the West US region and the other two will be in the East US region.
-
-#### Pre-requisites for this task
-
-Complete Exercise 1.
 
 #### Steps:
 
@@ -59,7 +55,8 @@ Complete Exercise 1.
     | Region | **East US** |
   
   
-   For the **IP Addresses** tab keep the default settings.
+    For the **IP Addresses** tab keep the default settings.
+  
   
    **Third Virtual Network:**
   
@@ -71,17 +68,13 @@ Complete Exercise 1.
   
    For the **IP Addresses** tab keep the default settings.
   
-   After completing this task, you deployed three virtual networks.
+   After completing this task, you have deployed three virtual networks.
  
  ### Task 2: Deploy a virtual network gateway
 
 Deploy a virtual network gateway into the hub virtual network. This virtual network gateway is required for the spokes to be able to use the hub as a gateway setting.
 
 In this task you are going to deploy a virtual network gateway.
-
-#### Pre-requisites for this task
-
-Complete Exercise 1 & Exercise 2 - Task 1.
 
 #### Steps:
 

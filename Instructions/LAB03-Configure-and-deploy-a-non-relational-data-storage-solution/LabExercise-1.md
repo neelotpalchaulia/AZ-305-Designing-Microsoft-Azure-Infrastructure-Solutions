@@ -16,11 +16,7 @@ In this Exercise, you will have:
 
 ### Task 1: Create an Azure Storage account
 
-In this task, you will learn how to use Azure portal to create an azure storage account.
-
-#### Pre-requisites for this task
-
-An Azure account
+In this task, you will learn how to use Azure portal to create an Azure storage account.
 
 #### Steps
 
@@ -28,19 +24,20 @@ An Azure account
 
 2. Enter the **login credentials**. For credentials, please see the environment details tab on the lab guide.
 
-3. Once the portal opened completely, click on **All services** on the left portal menu and select storage accounts
+3. Once the portal opens completely, click on **All services** on the left portal menu and select storage accounts
 
     ![image](../media/str1.png)
 
-4. On the storage accounts page please select **Create**. 
+4. On the storage accounts page, please select **Create**. 
 
     ![image](../media/str2.png)
 
 5. Create a Storage account page will open. You can see the options for your new storage account are organized into tabs in the Create a storage account page.
 
-6. Basic tab shows a standard configuration of the basic properties for a new storage account. On the **Basics tab**, select the subscription, if the default subscription is not using, then select the **resource group**.
+6. Basic tab shows a standard configuration of the basic properties for a new storage account. On the **Basics tab**, select the subscription, if the default subscription is being used, then select the **resource group**.
 
-7. For Storage account name option please provide any name with small letter alphabets and numbers.
+7. For Storage account name option, please provide **azstrg<inject key="Deployment-id" enableCopy="false" />** name in small case and numbers.
+    - Storage Account Name: **azstrg<inject key="Deployment-id" enableCopy="false" />**
 
 8. Select the **Region** option as **East US**
 
@@ -50,11 +47,11 @@ An Azure account
 
     ![image](../media/str4a.png)
 
-11. Go to Advanced tab, review the options and the default values of it. Please dont change any values.
+11. Go to Advanced tab, review the options and the default values of it. Please don't change any values.
 
-12. Go to Networking tab, and review the options and the default values of it.
+12. Go to Networking tab, and review the options and the default values.
 
-13. Go to Data Protection tab, and review the options and the default values of it.
+13. Go to Data Protection tab, and review the options and the default values.
 
 14. Go to Encryption tab, and review the options and the values.
 
@@ -78,10 +75,6 @@ An Azure account
 
 In this task, you will learn how to use the Azure portal to create a blob container in a storage account.
 
-#### Pre-requisites for this task
-
-An Azure account, a storage account (Complete Task 1)
-
 #### Steps
 
 1. Navigate to your new storage account in the Azure portal.
@@ -92,7 +85,8 @@ An Azure account, a storage account (Complete Task 1)
 
     ![image](../media/str9.png)
 
-4. Type a name for your new container. The container name must be lowercase, must start with a letter or number, and can include only letters, numbers, and the dash (-) character. For more information about container and blob names, see Naming and referencing containers, blobs, and metadata.
+4. Enter `azblobcs` as the name for your new container. The container name must be lowercase, must start with a letter or number, and can include only letters, numbers, and the dash (-) character. For more information about container and blob names, see Naming and referencing containers, blobs, and metadata.
+    - Container Name: `azblobcs`
 
 5. Set the level of public access to the container. The default level is Private (no anonymous access).
 
@@ -100,17 +94,13 @@ An Azure account, a storage account (Complete Task 1)
 
     ![image](../media/str10.png)
 
-7. After completing the deployment, you can see the newly created blob container on the container's section, If its not listed please refresh the page.
+7. After completing the deployment, you can see the newly created blob container on the container's section. If its not listed please refresh the page.
 
     ![image](../media/str11.png)
 
 ### Task 3: Upload a block blob
 
-In this task, you will learn how to use the Azure portal to upload a block blob in your newly created blob container in a storage account.
-
-#### Pre-requisites for this task
-
-An Azure account, a storage account (Complete Task 1), an azure blob container (Complete Task 1 & Task 2). To upload a block blob to your new container in the Azure portal, follow these steps:
+In this task, you will learn how to use the Azure portal to upload a block blob in your newly created blob container in a storage account. To upload a block blob to your new container in the Azure portal, follow these steps:
 
 #### Steps
 
@@ -120,7 +110,7 @@ An Azure account, a storage account (Complete Task 1), an azure blob container (
 
     ![image](../media/str11.png)
 
-3. Select the **Upload** button to open the upload blade and browse your local file system to find a file to upload as a block blob ( you can upload multiple files). You can optionally expand the Advanced section to configure other settings for the upload operation. Please upload some image files, if its not available in the pictures folder, you can download from internet and use that files to upload to the block blob.
+3. Select the **Upload** button to open the upload blade and browse your local file system to find a file to upload as a block blob ( you can upload multiple files). You can optionally expand the Advanced section to configure other settings for the upload operation. Please upload some image files, if it's not available in the pictures folder, you can download from internet and use that files to upload to the block blob.
 
     ![image](../media/str12a.png)
 
@@ -134,11 +124,7 @@ An Azure account, a storage account (Complete Task 1), an azure blob container (
 
 ### Task 4: Configure a static website to access the blob container
 
-In this task, you will learn how to use the Azure portal to configure a static website to access the blob container.
-
-#### Pre-requisites for this task
-
-An Azure account, a storage account (Complete Task 1), an azure blob container (Complete Task 1 & Task 2). To configure a static website to access the blob container, follow these steps:
+In this task, you will learn how to use the Azure portal to configure a static website to access the blob container. To configure a static website to access the blob container, follow these steps:
 
 #### Steps
 
@@ -229,11 +215,11 @@ Next, create a Hello World web page with Visual Studio Code and deploy it to the
 
 ### Task 5: Apply the lifecycle Management Policy
 
-In this task, you will learn how to use the Azure portal to Apply the lifecycle management policy of a storage account. Azure Storage lifecycle management offers a rule-based policy that you can use to transition blob data to the appropriate access tiers or to expire data at the end of the data lifecycle. A lifecycle policy acts on a base blob, and optionally on the blob's versions or snapshots. For example, if you have defined an action to move a blob from the hot tier to the cool tier if it has not been modified for 30 days, then the lifecycle management policy will move the blob 30 days after the last write operation to that blob.
+In this task, you will learn how to use the Azure portal to Apply the lifecycle management policy of a storage account. Azure Storage lifecycle management offers a rule-based policy that you can use to transition blob data to the appropriate access tiers or to expired data at the end of the data lifecycle. A lifecycle policy acts on a base blob, and optionally on the blob's versions or snapshots. For example, if you have defined an action to move a blob from the hot tier to the cool tier if it has not been modified for 30 days, then the lifecycle management policy will move the blob 30 days after the last write operation to that blob.
 
 #### Pre-requisites for this task
 
-An Azure account, a storage account (Complete Task 1), an azure blob container (Complete Task 1 & Task 2). Before doing the steps to configure Lifecycle management policy, please go to the storage account created on the previous task and select **Configuration** under **Settings** to view the configuration of your storage account, which you are going to apply Lifecycle management policy.
+Before doing the steps to configure Lifecycle management policy, please go to the storage account created on the previous task and select **Configuration** under **Settings** to view the configuration of your storage account, which you are going to apply Lifecycle management policy.
 
    ![image](../media/life1.png)
 

@@ -4,7 +4,7 @@
 
 In this exercise, you will create two Web App instances that are deployed in two different Azure regions. Both web application instances will run in Active/Active mode, so either one can service incoming traffic. This configuration differs from an Active/Stand-By configuration, where one acts as a failover.
 
-In this Exercise, you will have:
+In this Exercise, you will:
 
   + Task 1: Create two instances of a web app.
   + Task 2: Create a Front Door Profile.

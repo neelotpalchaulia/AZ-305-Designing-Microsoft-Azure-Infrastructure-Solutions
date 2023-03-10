@@ -6,7 +6,7 @@ You can see the estimated costs in the portal as you begin using Azure SQL Datab
 
 In this Exercise, you will review the cost estimation of the database and conver the database into elastic pool.
 
-In this Exercise you will have:
+In this Exercise you will:
 
   + Task 1: Review the Cost estimate
   + Task 2: Convert the database into Elastic Pool.
@@ -16,10 +16,6 @@ In this Exercise you will have:
 ### Task 1: Review the Cost Estimate.
 
 In this task you are going review the cost estimation of your database.
-
-#### Pre-requisites for this task
-
-Complete Exercise 1, Exercise 2, Exercise 3 & Exercise 4.
 
 #### Steps:
 
@@ -41,9 +37,7 @@ In this task you are going to create a SQL elastic pool and convert the database
 
 #### Pre-requisites for this task
 
-1. Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4.
-
-2. Remove the Secondary database from the replica.
+1. Remove the Secondary database from the replica.
 
     1. In the Azure portal, browse to the primary database **adventureworkscontoso**.
 
@@ -51,7 +45,7 @@ In this task you are going to create a SQL elastic pool and convert the database
     
   ![img](../media/rerpl1.png)
 
-Immediately it will remove the replication and the database will become standalone database.
+Immediately, it will remove the replication and the database will become standalone database.
 
 #### Steps:
 
@@ -72,13 +66,13 @@ Immediately it will remove the replication and the database will become standalo
 
     ![img](../media/elast2.png) 
 
-5. On the **Configure** page, under **Pool settings**, for **Service tier** please select **Standard (for workloads with typical performance requirements)** then select **Apply**.
+5. On the **Configure** page, under **Pool settings**, for **Service tier** please select **Standard (Budget friendly)** then select **Apply**.
 
-    ![img](../media/L4E5T2S5.png) 
+    ![img](../media/az-305-lab4-pool.png) 
 
 6. On the **Create SQL Elastic pool** page, select **Review + Create**.
 
-    ![img](../media/elast4.png) 
+    ![img](../media/az-305-lab4-pool1.png) 
 
 7. After completing the validation please select **Create**.
 
@@ -98,7 +92,7 @@ It will take 2-3 minutes to complete the deployment.
 
     ![img](../media/elast7.png)
 
-12. Now it shows the database **adventureworkscontoso** added to the elastic pool, it lists the database into the option – Ready to be added to this pool. Now click on **Save**.
+12. Now it shows the database **adventureworkscontoso** has been added to the elastic pool, it lists the database into the option – Ready to be added to this pool. Now click on **Save**.
 
     ![img](../media/elast8.png)
 

@@ -18,10 +18,6 @@ In this exercise, you will:
 
 In this task, you will learn how to create an Azure SQL database by using Azure portal.
 
-#### Pre-requisites for this task
-
-Completed Exercise 1
-
 #### Steps:
 
 1. In the home page of Azure portal, please enter **SQL database** on the search bar and select **SQL databases** from the list.
@@ -46,14 +42,16 @@ Completed Exercise 1
 
     | Settings | Values |
     |  -- | -- |      
-    | Server name | **contososerv** |
+    | Server name | **contososerv(Deplyoment-id)** |
     | Location | **East US** |
     | Authentication method | **Use SQL authentication** |
     | Server admin login | **contosoadmin** 
     | Password |  **Contoso@123** 
-    | Confirm password | **Contoso@123** |    
-
-    ![img](../media/datas3.png)
+    | Confirm password | **Contoso@123** |   
+    
+>**Note:** You can find Deployment-id from Environment Details Page. 
+ 
+   ![img](../media/AZ-305-M9-1-0.png)
 
 6. After creating the database server, enter the following details, then select **Review + create**. 
 
@@ -63,25 +61,21 @@ Completed Exercise 1
     | Compute + storage | **General Purpose (Standard-series (Gen5), 2 vCores, 32 GB storage, zone redundant disabled)** |
     | Backup storage redundancy |  **Locally-redundant backup storage** |
 
-    ![img](../media/datas4.png)
+    ![img](../media/AZ-305-M9-0-02.png)
 
 7. After the validation is passed, select **Create**.
 
->**Note:** The deployment will take few minutes to complete. Please wait till it gets succeeded. 
+>**Note:** The deployment will take few minutes to complete. Please wait till it succeeded. 
 
 ### Task 2: Set up server-level firewall rules using Azure Portal
 
 In this task you will configure Server firewall. Azure SQL Server is protected by server-level firewall rules. As a result, it applies to all underlying Azure SQL Databases. Before reaching the Azure server or database, each connection must pass through the firewall.
 
-#### Pre-requisites for this task
-
-Completed Exercise 1 & Exercise 2 - Task 1
-
 #### Steps:
 
 1. In the Azure portal, go to the database you have created in the previous task. Select **Set Server Firewall** on the **Overview** section.
 
-   ![img](../media/datas5.png)
+   ![img](../media/AZ-305-M9-02.png)
 
 2. On the Networking page, select **Selected Networks**. To add your current IP address to a new server-level firewall rule, select **+ Add your client IPv4 address**. This rule has the ability to open Port 1433 for a single IP address or a range of IP addresses, then select **Save**.
 
@@ -95,17 +89,13 @@ You have successfully logged into the contosodb1 database.
 
 In this task, you will learn how to install and configure Data Migration Assistant (DMA) on Windows.
 
-#### Pre-requisites for this task
-
-Completed Exercise 1 & Exercise 2 - Task 1 & Task 2
-
 #### Steps:
  
 1. Open up your web browser, and go to the download page for Microsoft Data Migration Assistant, please click [here](https://www.microsoft.com/en-us/download/details.aspx?id=53595).
     
     >**Note:** Please follow the steps in this task even if DMA is already installed, to ensure that you are using the latest version of the tool.
 
-2. Confirm that your environment supports the software by checking the requirements list. If its ask for installing .Net Framework 4.8 please click [here](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48) to download. After downloading it, please go to the **Downloads** folder in **File explorer** and double click on the .Net installer file named **ndp48-web** to install it.
+2. Confirm that your environment supports the software by checking the requirements list. If it asks for installing .Net Framework 4.8 please click [here](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48) to download. After downloading it, please go to the **Downloads** folder in **File explorer** and double click on the .Net installer file named **ndp48-web** to install it.
 
 3. To download **DataMigrationAssistant.msi**, double click on the installer file in **Downloads** folder, and then select **Run**.
 
@@ -120,10 +110,6 @@ Completed Exercise 1 & Exercise 2 - Task 1 & Task 2
 8. To complete install, select **Finish**.
 
 ### Task 4: Use the Data Migration Assistant to prepare for migration from SQL Server to Azure SQL Database
-
-#### Pre-requisites for this task
-
-Completed Exercise 1 & Exercise 2 - Task 1 & Task 2 & Task 3
 
 #### Steps:
 
@@ -165,7 +151,7 @@ Completed Exercise 1 & Exercise 2 - Task 1 & Task 2 & Task 3
 
 7. On the **Select sources** page, select **Start Assessment**.
 
-8. Review the SQL Server feature parity and compatibility issues found. Note how many feature parity issue there are.
+8. Review the SQL Server feature parity and compatibility issues found. Note how many feature parity issue have been found.
 
     ![img](../media/datam5.png) 
 
@@ -184,10 +170,6 @@ Completed Exercise 1 & Exercise 2 - Task 1 & Task 2 & Task 3
 13. Expand the **Tables**, you can see there are no tables listed.
 
 ### Task 5: Use Data Migration Assistant to migrate Schema and Data
-
-#### Pre-requisites for this task
-
-Completed Exercise 1 & Exercise 2 - Task 1 & Task 2 & Task 3 & Task 4
 
 #### Steps:
 
@@ -209,34 +191,36 @@ Completed Exercise 1 & Exercise 2 - Task 1 & Task 2 & Task 3 & Task 4
 
 3. Select **Adventureworks2019**, then select **Next**.
 
-4. Go to **contosodb1** database on azure portal, on the **Overview** section, copy the server name **contososerv.database.windows.net**.
+4. Go to **contosodb1** database on azure portal, on the **Overview** section, copy the server name **contososervxxxxxx.database.windows.net**.
 
 5. Go to **Microsoft Data Migration Assistant** tool and on the **Connect to target server** tab on the server name section, paste the contosdb1 server name copied.
 
 6. For the **Authentication type** please select **SQL Server Authentication**, then enter username as **contosoadmin**, and password as **Contoso@123**.
 
-7. Select **Connect**.
+7. For the **Connection properties** please deselect **Encrypt connection** and select **Trust server certificate**.
+
+8. Select **Connect**.
 
      ![img](../media/datam10.png)
 
-8. Select **contosodb1** and then click on **Next**
+9. Select **contosodb1** and then click on **Next**
 
-9. On the **Select Objects** tab, select the **Schema** (By default all the objects are selected, please deselect all other objects except schema).
+10. On the **Select Objects** tab, select the **Schema** (By default all the objects are selected, please deselect all other objects except schema).
 
-10. To create the SQL scripts, select **Generate SQL scripts option**.
+11. To create the SQL scripts, select **Generate SQL scripts option**.
 
     ![img](../media/datam11.png)
 
-11. On the **Script & Deploy schema** tab, select **Deploy schema**.
+12. On the **Script & Deploy schema** tab, select **Deploy schema**.
 
     ![img](../media/datam12.png)
 
-12. You have successfully migrated the schema, you can see the execution of all the schema queries are successfully completed.
+13. You have successfully migrated the schema, you can see the execution of all the schema queries are successfully completed.
 
     ![img](../media/datam13.png)
 
 
-13. Go to Azure portal and select the database named **contosodb1**.  Go to the **Query Editor** and paste the below T-SQL script, then click on **Run** to create a table named **HumanResources.EmployeeDepartmentHistory**.
+14. Go to Azure portal and select the database named **contosodb1**.  Go to the **Query Editor** and paste the below T-SQL script, then click on **Run** to create a table named **HumanResources.EmployeeDepartmentHistory**.
 
     ```T-SQL
     CREATE TABLE [HumanResources].[EmployeeDepartmentHistory](
@@ -257,11 +241,11 @@ Completed Exercise 1 & Exercise 2 - Task 1 & Task 2 & Task 3 & Task 4
     GO
     ```
 
-    ![img](../media/datab1.png)
+    ![img](../media/AZ-305-M9-3.png)
 
 15. You have successfully created the table named **HumanResources.EmployeeDepartmentHistory**. Expand the Tables and you can see the newly created table.
 
-    ![img](../media/datab2.png)
+    ![img](../media/AZ-305-M9-4.png)
 
 
 You are going to migrate from on-premises database Adventureworks2019 table named **HumanResources.EmployeeDepartmentHistory** data to Azure SQL database named **contosodb1** and the  table named **HumanResources.EmployeeDepartmentHistory**.
@@ -282,7 +266,7 @@ You are going to migrate from on-premises database Adventureworks2019 table name
 
 20. Right click on **HumanResources.EmployeeDepartmentHistory** table and select **Select top 1000 rows**. You can see the data retrieved on the result pane.
 
-    ![img](../media/datab6.png)
+    ![img](../media/AZ-305-M9-05.png)
 
 You have successfully migrated the data.
 

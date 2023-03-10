@@ -4,7 +4,7 @@
 
 In this exercise, you will use Azure Virtual Networks created on the previous exercise to deploy a load balancer and test it.
 
-In this Exercise, you will have:
+In this Exercise, you will:
 
   + Task 1: Create load balancer.
   + Task 2: Create NAT gateway.
@@ -24,10 +24,6 @@ During the creation of the load balancer, you'll configure:
 + Backend pool
 + Inbound load-balancing rules
 + Health probe
-
-#### Pre-requisites for this task
-
-Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exercise 6.
 
 #### Steps:
 
@@ -74,7 +70,7 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exerci
 
 15. Select **contoso-Vnet-EastUS** in Virtual network.
 
-16. Select **IP Address** for Backend Pool Configuration.
+16. Select **NIC** for Backend Pool Configuration.
 
 17. Select **Save**.
 
@@ -87,7 +83,7 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exerci
     | Section | Values |
     | ------- | ------ |
     | Name | **contosoHTTPRule** |
-    | Frontend IP address | Select **contosoIP** |
+    | Frontend IP address | Select **contosopublicIP** |
     | Backend pool | Select **contosoBackendPool** |
     | Protocol | Select TCP |
     | Port | Enter 80 |
@@ -289,21 +285,6 @@ In this task, you are going to test the load balnacer deployed on the previous t
 
 You have successfully tested the Load balancer.
 
-### Clean up resources
-
-   >**Note**: Remember to remove any newly created Azure resources that you no longer use. Removing unused resources ensures you will not see unexpected charges, although keep in mind that Azure policies do not incur extra cost. Don't worry if the lab resources cannot be immediately removed. Sometimes resources have dependencies and take a longer time to delete. It is a common Administrator task to monitor resource usage, so just periodically review your resources in the Portal to see how the cleanup is going.
-
-   >**When you're done, delete the resource group. Deleting the resource group deletes the storage account, the Azure file share, virtual machine and any other resources that you deployed inside the resource group.**
-
-1. Select Home and then Resource groups.
-
-2. Select the resource group you want to delete.
-
-3. If the lock is restricted to delete the resource group, please go to the Locks under settings tab of the resource group and select delete.
-
-3. Select Delete resource group. A window opens and displays a warning about the resources that will be deleted with the resource group.
-
-4. Enter the name of the resource group, and then select Delete.
     
 #### Review
 

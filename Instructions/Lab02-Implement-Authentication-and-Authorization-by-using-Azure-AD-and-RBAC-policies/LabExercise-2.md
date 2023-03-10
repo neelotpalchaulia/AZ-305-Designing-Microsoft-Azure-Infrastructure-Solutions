@@ -2,7 +2,7 @@
 
 ## Exercise 2: Assign Active Directory Role & Custom RBAC.
 
-In order to allow Contoso users to authenticate by using Azure AD, you have been tasked to provide Azure Active Directory roles and custom RBAC roles to the new users.
+In order to allow Contoso users to authenticate using Azure AD, you have been tasked to provide Azure Active Directory roles and custom RBAC roles to the new users.
 
 In this exercise, you will:
 
@@ -14,10 +14,6 @@ In this exercise, you will:
 ### Task 1: Add Azure Active Directory roles to the new users
 
 In this task you are going to add Azure Active directory roles to the new users created on exercise 1.
-
-#### Pre-requisites for this task
-
-Complete Exercise 1.
 
 #### Steps:
 
@@ -35,7 +31,7 @@ Complete Exercise 1.
 
     ![img](../media/nuse7.png)
 
-5. Open an **InPrivate** browser window and sign in to the [Azure portal](https://portal.azure.com) using the newly created user account. When prompted to update the password, change the password to a secure password of your choosing. 
+5. Open an **InPrivate** browser window and sign in to the [Azure portal](https://portal.azure.com) using the newly created user account. When prompted to update the password, change the password to a secure password of your choice. 
 
     >**Note**: Rather than typing the username (including the domain name), you can paste the content of Clipboard.
 
@@ -68,10 +64,6 @@ Complete Exercise 1.
 ### Task 3: Add Custom RBAC roles
 
 Create a custom role in Azure Role-Based Access Control (RBAC) if none of the built-in roles meet your specific access needs. Custom roles can be created using Azure PowerShell, Azure Command-Line Interface (CLI), and the REST API. Just like built-in roles, custom roles can be assigned to users, groups, and applications at subscription, resource group, and resource scopes.
-
-#### Pre-requisites for this task
-
-Complete Exercise 1 & Exercise 2 - Task 1.
 
 #### Steps:
 
