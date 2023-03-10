@@ -50,7 +50,7 @@ During the creation of the load balancer, you'll configure:
 
 5.  In **Frontend IP configuration**, select **+ Add a frontend IP configuration**.
 
-6. On the **Add Frontend IP Configuration** side screen, Enter **contosoIP** in Name box, Select **IPv4** for the IP version, then Select **IP address** for the IP type.
+6. On the **Add Frontend IP Configuration** side screen, Enter **contosopublicIP** in Name box, Select **IPv4** for the IP version, then Select **IP address** for the IP type.
 
 7. Select **Create new** in Public IP address.
 
