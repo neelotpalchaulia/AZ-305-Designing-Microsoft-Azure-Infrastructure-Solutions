@@ -42,7 +42,7 @@ In this task, you will create an HTTP- triggered function.
     ```JSON
     {
         "sdk": {
-        "version": "3.1.414",
+        "version": "6.0.100",
         "rollForward": "latestFeature"
         }
       
