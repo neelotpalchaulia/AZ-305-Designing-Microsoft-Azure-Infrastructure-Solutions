@@ -239,7 +239,7 @@ In this task, you are going to write an HTTP-triggered function code.
     httprepl http://localhost:7071
     
     ```
-
+    > **Note**: An error message is displayed by the **httprepl** tool. If it ask for installing the missing framework, please click on the link on the error message and install the related framework. Example - https://aka.ms/dotnet-core-applaunch?framework=Microsoft.NETCore.App&framework_version=5.0.0-preview.6.20305.6&arch=x64&rid=win10-x64
     > **Note**: An error message is displayed by the **httprepl** tool. This message occurs because the tool is searching for a Swagger definition file to use to traverse the API. Because your function project doesn't produce a Swagger definition file, you'll need to traverse the API manually.
 1. From the tool's prompt, run the following command to browse to the relative **api** directory:
 
