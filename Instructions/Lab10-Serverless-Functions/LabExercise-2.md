@@ -86,6 +86,7 @@ You will get a build succeeded message on Powershell.
 
    ![img](../media/servl11.png)
 
+**Note>**: If it shows an error on .Net versions, please install the recommended version of .Net.
 #### Review
 
 In this lab, you have:
