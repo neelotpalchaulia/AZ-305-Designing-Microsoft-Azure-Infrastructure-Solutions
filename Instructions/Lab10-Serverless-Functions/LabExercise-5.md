@@ -64,7 +64,7 @@ In this task, you will upload a JSON file.
 7. On the **Container** blade, click on **Upload**.
 
 8. In the **Upload blob** window, provide the following details:
-    + Click on **Browse for files** link.
+    + Click on **Browse for files** link. Then Select the json file named **settings.json** you have created.
     + Select the **Overwrite if files already exist** check box and then click on **Upload**
 
     ![img](../media/azcn3.png)
