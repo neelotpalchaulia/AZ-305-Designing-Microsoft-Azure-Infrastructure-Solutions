@@ -81,7 +81,7 @@ In this task, you are going to deploy another app service to a different region.
     | ------- | ------ |
     | Subscription | **Default** Select the default subscription |
     | Resource group | Select **newres123** |
-    | Name | **web-app-EastUS** |
+    | Name | **web-app-EastUS-<inject key="Deployment-id"></inject>** |
     | Publish | **Code** |
     | Runtime stack | Select **.Net 6 (LTS)** |
     | Operating System | Select **Windows** |
@@ -119,14 +119,14 @@ In this task, you are going to deploy a traffic manager profile.
 
     | Section | Values |
     | ------- | ------ |
-    | Name | **contosotrafficmanager-1**  |
+    | Name | **contosotrafficmanager-1-<inject key="Deployment-id"></inject>**  |
     | Routing method | Select **Priority** |
     | Subscription | **Default** Select the default subscription |
     | Resource group | **newres123** |
 
     ![img](../media/trafp2.png)
     
-4.  Once the deployment is succeeded, click on **Refresh** to see the **contosotrafficmanager-1**.
+4.  Once the deployment is succeeded, click on **Refresh** to see the **contosotrafficmanager-1-<inject key="Deployment-id"></inject>**.
 
     ![img](../media/trafp3.png)
 

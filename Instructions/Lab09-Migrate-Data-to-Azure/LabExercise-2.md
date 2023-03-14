@@ -31,7 +31,7 @@ In this task, you will learn how to create an Azure SQL database by using Azure 
     | Settings | Values |
     |  -- | -- |
     | Subscription | **Use default supplied** |
-    | Resource group | **ODL-AZ-305M05D-XXXXX-AZ-305M05D** |
+    | Resource group | **ODL-AZ-305M05D-<inject key="Deployment-id"></inject>-AZ-305M05D** |
     | Database name | **contosodb1** |
 
     ![img](../media/datas2.png)
@@ -42,7 +42,7 @@ In this task, you will learn how to create an Azure SQL database by using Azure 
 
     | Settings | Values |
     |  -- | -- |      
-    | Server name | **contososerv(Deplyoment-id)** |
+    | Server name | **contososerv<inject key="Deployment-id"></inject>** |
     | Location | **East US** |
     | Authentication method | **Use SQL authentication** |
     | Server admin login | **contosoadmin** 
@@ -138,7 +138,7 @@ In this task, you will learn how to install and configure Data Migration Assista
 
     | Property | Value |
     | --- | --- |
-    | Server name | **labvm-XXXXXX\SQLEXPRESS** (Please go to SSMS and take the server name from there). |
+    | Server name | **labvm-<inject key="Deployment-id"></inject>\SQLEXPRESS** (Please go to SSMS and take the server name from there). |
     | Authentication type | **Windows Authentication** |
     | Encrypt connection | Deselected |
     | Trust server certificate | Selected |
@@ -191,7 +191,7 @@ In this task, you will learn how to install and configure Data Migration Assista
 
 3. Select **Adventureworks2019**, then select **Next**.
 
-4. Go to **contosodb1** database on azure portal, on the **Overview** section, copy the server name **contososervxxxxxx.database.windows.net**.
+4. Go to **contosodb1** database on azure portal, on the **Overview** section, copy the server name **contososerv<inject key="Deployment-id"></inject>.database.windows.net**.
 
 5. Go to **Microsoft Data Migration Assistant** tool and on the **Connect to target server** tab on the server name section, paste the contosdb1 server name copied.
 
