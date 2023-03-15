@@ -125,7 +125,7 @@ In this task, you are going to test the traffic manager profile.
 
 1. Go to the **Overview** section of the **Traffic Manager profile** that you created in the preceding Task.
 
-2. Copy the **DNS** name of the **contosotrafficmanager-x**.
+2. Copy the **DNS** name of the **contosotrafficmanager-1**.
 
     ![img](../media/traf5.png)
 
