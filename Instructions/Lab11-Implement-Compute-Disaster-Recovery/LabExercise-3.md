@@ -69,11 +69,9 @@ In this task, you are verifying virtual machine setings.
 
 2. On the **Overview** section, select **Failover**.
 
-    ![img](../media/fa1.png)
+    ![img](../media/fa1.png)     
 
-3. In Failover, select **I understand the risk. Continue Failover**.     
-
-4. The Azure VM in the target region is created using data from this recovery point. Select **Choose a recovery point**. Then, select **Use Latest processed recovery point**, and click on **Save**.
+3. The Azure VM in the target region is created using data from this recovery point. Select **Choose a recovery point**. Then, select **Use Latest processed recovery point**, and click on **Save**.
 
     ![img](../media/L11E3T1S3.png)
 
@@ -82,33 +80,33 @@ In this task, you are verifying virtual machine setings.
     - Latest app-consistent: This option fails over VMs to the latest app-consistent recovery point. The time stamp is shown.
     - Custom: Fail over to particular recovery point. Custom is only available when you fail over a single VM, and don't use a recovery plan.
 
-5. Please make sure **Shut down machine before beginning failover** is checked. Shutdown helps to ensure no data loss. Failover continues even if shutdown fails.
+4. Please make sure **Shut down machine before beginning failover** is checked. Shutdown helps to ensure no data loss. Failover continues even if shutdown fails.
 
-6. To start the failover, select **Ok**.
+5. To start the failover, select **Ok**.
 
     ![img](../media/fa2.png)
 
-7. Monitor the failover in notifications.
+6. Monitor the failover in notifications.
 
-8. After the failover, the Azure Virtual machine created in the target region appears in Virtual Machines. Make sure that the Virtual machine is running, and sized appropriately. 
+7. After the failover, the Azure Virtual machine created in the target region appears in Virtual Machines. Make sure that the Virtual machine is running, and sized appropriately. 
 
   >**Note**: If you want to use a different recovery point for the VM, select Change recovery point, on the Essentials page.
   
-9. Go to the **contosovault1** Recovery service vault, select **Replicated items** under **Protected items**, review the Status of **contoso-vm-1**, it changes to **Failover completed**.
+8. Go to the **contosovault1** Recovery service vault, select **Replicated items** under **Protected items**, review the Status of **contoso-vm-1**, it changes to **Failover completed**.
 
     ![img](../media/fa3.png)
 
-10. On the **Overview** section, select **Commit** to finish the failover.
+9. On the **Overview** section, select **Commit** to finish the failover.
 
     ![img](../media/fa4.png)
 
-11. On the **Commit** page, select **Ok**. Commit deletes all the available recovery points for the Virtual machine in Site Recovery, and you won't be able to change the recovery point.
+10. On the **Commit** page, select **Ok**. Commit deletes all the available recovery points for the Virtual machine in Site Recovery, and you won't be able to change the recovery point.
 
     ![img](../media/fa5.png)
 
-12. Monitor the commit progress in notifications.
+11. Monitor the commit progress in notifications.
 
-13. Once the commit failover is successfully completed, go to Virtual machines tab and you can see a Virtual machine is deployed in **West US** region.
+12. Once the commit failover is successfully completed, go to Virtual machines tab and you can see a Virtual machine is deployed in **West US** region.
 
     ![img](../media/fa6.png)
 
