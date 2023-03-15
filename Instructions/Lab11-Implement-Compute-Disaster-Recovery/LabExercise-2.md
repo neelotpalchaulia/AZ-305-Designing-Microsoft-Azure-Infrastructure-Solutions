@@ -23,7 +23,7 @@ Completed Exercise 1
 
 #### Steps:
 
-1. Search for **Web Apps** on the **search** box of the **Home** page, then select **App services** from the list below.
+1. Search for **App Services** on the **search** box of the **Home** page, then select **App services** from the list below.
 
 2. On the **App services** page, please select **+ Create**.
 
@@ -82,7 +82,7 @@ Completed Exercise 1 & Exercise 2 - Task 1
  
     ![img](../media/az_305-trafficmanager.png)
  
-After completing the deployment, you can see the **contosotrafficmanager-x** or the name that you have set.
+After completing the deployment, you can see the **contosotrafficmanager-1** or the name that you have set.
 
 ### Task 3: Add Traffic Manager endpoints
 
@@ -125,7 +125,7 @@ In this task, you are going to test the traffic manager profile.
 
 1. Go to the **Overview** section of the **Traffic Manager profile** that you created in the preceding Task.
 
-2. Copy the **DNS** name of the **contosotrafficmanager-x**.
+2. Copy the **DNS** name of the **contosotrafficmanager-1**.
 
     ![img](../media/traf5.png)
 
