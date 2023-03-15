@@ -69,7 +69,7 @@ In this task you are going to create two virtual networks. One will be in the We
  
 6. After completion of deployment, select **Go to resource**.
 
-7. Repeat steps 2-5 to create another virtual network into the same resource group with the following information:
+7. Repeat steps 2-5 to create another virtual network with the following information:
 
    **Second Virtual Network:**
   
@@ -81,7 +81,7 @@ In this task you are going to create two virtual networks. One will be in the We
     
    For the **IP Addresses** tab keep the default settings.
    
-   After completing this task, two virtual networks will be present in the Resource group.
+   After completing this task, two virtual networks will be created.
 
 ### Task 2: Create two Virtual Machines
 
