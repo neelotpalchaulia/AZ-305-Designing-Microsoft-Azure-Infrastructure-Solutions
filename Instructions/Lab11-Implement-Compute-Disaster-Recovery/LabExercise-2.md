@@ -131,7 +131,7 @@ In this task, you are going to test the traffic manager profile.
 
 3. Open a new tab of your browser and enter the DNS name of your Traffic Manager profile to view your Web App's default website.
 
->**Note:** You might get an error stating **Your connection isn't private**. To see the website click on **Advanced** and then go to **Continue to contosotrafficmanager-1.trafficmanager.net (unsafe)**
+    >**Note:** You might get an error stating **Your connection isn't private**. To see the website click on **Advanced** and then go to **Continue to contosotrafficmanager-1.trafficmanager.net (unsafe)**
 
     ![img](../media/traf6.png)
 
