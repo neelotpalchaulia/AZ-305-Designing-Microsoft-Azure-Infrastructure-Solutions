@@ -1,12 +1,15 @@
 # Instructions
 
-## Exercise 1: Deploy an Azure SQL database
+## Exercise 4: Setup Azure SQL Database disaster recovery
 
-Azure SQL Database is a fully managed platform as a service (PaaS) database engine that handles most database management functions like upgrading, patching, backups, and monitoring without the need for user intervention. Azure SQL Database is always running on the most recent stable version of the SQL Server database engine and a patched operating system, with 99.99% uptime. In this exercise, you are going to deploy an Azure SQL database. 
+In this exercise, you are going to set up active geo-replication for Azure SQL Database using the Azure portal, as well as how to initiate failover.
 
 In this exercise, you will:
 
 + Task 1: Create an Azure SQL database with Adventure Works pre-loaded.
++ Task 2: Add a Secondary database.
++ Task 3: Initiate a failover.
++ Task 4: Remove Secondary database.
 
 ### Estimated Timing: 60 minutes
 
@@ -29,14 +32,14 @@ In this task, you will learn how to use Azure portal to create a single database
     | Settings | Values |
     |  -- | -- |
     | Subscription | **Use default supplied** |
-    | Resource group | **Select the resource group name ODL-AZ-305M04B-<inject key="Deployment-id"></inject> from the dropdown list** |
-    | Database name | **adventureworkscontoso** |
+    | Resource group | **Select the resource group name ODL-AZ-305M03B-<inject key="Deployment-id"></inject> from the dropdown list** |
+    | Database name | **AdventureWorksContoso** |
    
-    ![image](../media/db3.png) 
+    ![image](../media/lab11-sql-1.png) 
 
 4. For server, click **Create new**.
 
-    ![image](../media/db4.png) 
+    ![image](../media/lab11-sql-2.png) 
 
 5. On **Create SQL Database Server** page, please enter the following details and click on **Ok**
 
@@ -79,6 +82,21 @@ In this task, you will learn how to use Azure portal to create a single database
 12. After validation is completed successfully, please select **Create**.
 
 13. Once the deployment is complete, please select **Go to Resource**.
+
+14. You have succesfully created the **AdventureWorksContoso** database.
+
+### Task 2: Add a Secondary database
+
+In this task, you will learn how to use Azure portal to add a secondary database. You must be the subscription owner or co-owner to add a secondary database. 
+The secondary database has the same name as the primary database and the same service tier and compute size by default. The secondary database can be either a single or a pooled database. Data begins replicating from the primary database to the new secondary database once the secondary is created and seeded.
+
+#### Steps
+
+1. Select the **AdventureWorksContoso** database, then select **Replicas**.
+
+![image](../media/lab11-sql-3.png)
+
+2. 
 
 
 ### Review
