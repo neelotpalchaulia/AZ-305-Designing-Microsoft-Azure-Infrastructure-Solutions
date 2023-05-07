@@ -113,7 +113,53 @@ The secondary database has the same name as the primary database and the same se
     
     ![image](../media/lab11-sql-5.png)
 
-4. 
+4. On the **Create SQL Database - Geo Replica** page keep the following settings as it is and then select **Review + create**.
+
+    | Settings | Values |
+    |  -- | -- |      
+    | Server name | **contososervwest** |
+    | Want to use SQL elastic pool? | **No** |    |
+    | Compute + storage | **General Purpose (Standard-series (Gen5), 2 vCores, 32 GB storage, zone redundant disabled)** |
+    | Backup storage redundancy |  **Geo-redundant backup storage** |
+    
+    ![image](../media/lab11-sql-6.png)
+    
+5. Select **Create**. The secondary database is created and the deployment process begins.
+
+    ![image](../media/lab11-sql-7.png)
+    
+6. When the deployment is complete, the secondary database displays its status.
+
+    ![image](../media/lab11-sql-8.png)
+    
+7. Return to the primary database page, and then select Replicas. Your secondary database is listed under Geo replicas.
+
+    ![image](../media/lab11-sql-9.png)
+
+### Task 3: Initiate a failover
+
+In this task, you will learn how to switch secondary database to become the primary.
+
+#### Steps
+
+1. In the Azure portal, browse to the primary database in the geo-replication partnership.
+
+2. Scroll to Data management, and then select Replicas.
+
+3. In the Geo replicas list, select the secondary database under **Geo replicas** to become the new primary, select the **ellipsis (...)**, and then select **Forced failover**.
+
+    ![image](../media/lab11-sql-10.png)
+    
+4. Select **Yes** to begin the failover.    
+
+    ![image](../media/lab11-sql-11.png)
+
+5. The command immediately switches the secondary database into the primary role. This process normally should complete within 30 seconds or less.
+
+    ![image](../media/lab11-sql-12.png)
+    
+Both databases are unavailable for a short period of time, on the order of 0 to 25 seconds, while the roles are switched. If the primary database has multiple secondary databases, the command reconfigures the other secondary databases to connect to the new primary. Under normal conditions, the entire operation should take less than a minute to complete.
+    
 ### Review
 
-In this lab, you have deployed an Azure SQL database.
+In this lab, you have: deployed an Azure SQL database.
