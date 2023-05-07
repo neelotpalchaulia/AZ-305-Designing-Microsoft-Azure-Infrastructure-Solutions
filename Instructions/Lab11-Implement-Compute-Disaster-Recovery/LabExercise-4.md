@@ -9,7 +9,6 @@ In this exercise, you will:
 + Task 1: Create an Azure SQL database with Adventure Works pre-loaded.
 + Task 2: Add a Secondary database.
 + Task 3: Initiate a failover.
-+ Task 4: Remove Secondary database.
 
 ### Estimated Timing: 60 minutes
 
@@ -162,4 +161,7 @@ Both databases are unavailable for a short period of time, on the order of 0 to 
     
 ### Review
 
-In this lab, you have: deployed an Azure SQL database.
+In this lab, you have: 
+- Deployed an Azure SQL database.
+- Added a Secondary database.
+- Initiated a failover.
