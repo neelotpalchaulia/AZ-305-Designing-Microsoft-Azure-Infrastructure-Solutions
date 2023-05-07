@@ -92,13 +92,28 @@ The secondary database has the same name as the primary database and the same se
 
 #### Steps
 
-1. Select the **AdventureWorksContoso** database, then select **Replicas**.
+1. Select the **AdventureWorksContoso** database, under **Data Management** select **Replicas**, then select **+ Create replica**.
 
-![image](../media/lab11-sql-3.png)
+    ![image](../media/lab11-sql-3.png)
 
-2. 
+2. On the **Create SQL Database - Geo Replica** page under **Server** select **Create new**.
 
+    ![image](../media/lab11-sql-4.png)
 
+3. On the **Create Database server** page, enter the following details and then select **Ok**.
+
+    | Settings | Values |
+    |  -- | -- |      
+    | Server name | **contososervwest** |
+    | Location | **West US** |
+    | Authentication method | **Use SQL authentication** |
+    | Server admin login | **contosoadmin** 
+    | Password |  **Contoso@123** 
+    | Confirm password | **Contoso@123** |  
+    
+    ![image](../media/lab11-sql-5.png)
+
+4. 
 ### Review
 
 In this lab, you have deployed an Azure SQL database.
