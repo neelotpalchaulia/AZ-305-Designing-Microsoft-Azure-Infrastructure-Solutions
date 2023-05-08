@@ -54,14 +54,14 @@ In this task, you are going to do a failover on Azure virtual machines and revie
 
     ![img](../media/ver8lab11.png)
 
-12. Monitor cleanup progress in notifications. After succeeding with the cleanup, please check on the **Virtual machines** page, you can see **contoso-vm-1-test** virtual machine delected. 
+12. Monitor cleanup progress in notifications. After succeeding with the cleanup, please check on the **Virtual machines** page, you can notice that the **contoso-vm-1-test** virtual machine has been deleted. 
 
     ![img](../media/ver7lab11.png)
 
 In this task, you ran a disaster recovery drill to check that failover works as expected. 
 
 ### Task 2: Failover Virtual Machine
-In this task, you are verifying virtual machine setings.
+In this task, you will be verifying virtual machine settings.
 
 #### Steps:
 
@@ -111,14 +111,13 @@ In this task, you are verifying virtual machine setings.
     ![img](../media/fa6.png)
 
 
-
 ### Task 3: Reprotect the VM
 
 After failover, you reprotect the VM in the secondary region, so that it replicates back to the primary region.
 
 #### Steps:
 
-1. Make sure that VM Status is **Failover committed** before you start. Please select the virtaul machine **contoso-vm-1**.
+1. Make sure that VM Status is **Failover committed** before you start. Please select the virtual machine **contoso-vm-1**.
 
     ![img](../media/fa7.png)
 
@@ -144,4 +143,4 @@ In this exercise, you have:
 
 - Verified Virtual Machine settings.
 - Done a Fail over Azure Virtual Machine to a secondary region.
-- Reprotected the VM
+- Reprotected the VM.
