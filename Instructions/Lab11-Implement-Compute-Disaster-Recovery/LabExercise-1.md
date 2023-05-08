@@ -35,7 +35,7 @@ In this exercise, you are going to deploy a Azure site recovery. Azure Site Reco
 ### In this exercise, you will:
 
 + Task 1: Create a two Virtual Networks.
-+ Task 2: Create two Virtual Machines.
++ Task 2: Create a Virtual Machine.
 + Task 3: Create a Recovery Services Vault and enable Replication.
 
 ### Estimated Timing: 60 minutes
@@ -83,7 +83,7 @@ In this task you are going to create two virtual networks. One will be in the We
    
    After completing this task, two virtual networks will be created.
 
-### Task 2: Create two Virtual Machines
+### Task 2: Create a Virtual Machine
 
 In this task, you will learn how to use Azure portal to create two virtual machines
 
@@ -120,10 +120,8 @@ In this task, you will learn how to use Azure portal to create two virtual machi
 6. After validation is passed, click on **Create**.
 
 7. Once the deployment is succeeded, select **Go to resource**.
-
-8. Repeat steps 2-6 to create another Virtual machine with name **contoso-vm-2**.
    
-After completing this task, two Virtual machines named **contoso-vm-1** and **contoso-vm-2** will be present in the Resource group.
+After completing this task, you have a Virtual machine named **contoso-vm-1** in the Resource group.
 
 ### Task 3: Create a Recovery Services Vault
 
