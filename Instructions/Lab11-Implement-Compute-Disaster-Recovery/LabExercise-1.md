@@ -180,15 +180,13 @@ In this task you are going to a Recovery service vault.
 
 13. It will take 5-7 minutes to complete the replication. Select **Replicated items** on **contosovault1** page. You can see the Virtual machine enabled for replication. Please keep refreshing as the status of replicated Virtual machine should be **0% Synchronized**.
 
-14. Replication of **contoso-vm-2** is also need to be enabled. For this, repeat steps 6-12. However under the **Virtual machines** tab of the **Enable Replication** page ensure to check **contoso-vm-2**.
-
-You have successfully enabled the replication for **contoso-vm-1**. Replication will take 10-15 minutes to complete, so in next exercise you will be setting up the traffic manager for the webapp and in exercise three you will continue to failover the VMs in secondary region.
+You have successfully enabled the replication for **contoso-vm-1**. Replication will take 10-15 minutes to complete, so in next exercise you will be setting up the traffic manager for the webapp and then in the following you will continue to failover the VMs in a secondary region.
 
 
 #### Review
 
 In this exercise, you have:
 
-- Created a Virtual network
-- Created two Virtual Machines.
+- Created two Virtual networks.
+- Created a Virtual Machine.
 - Created a Recovery Services Vault and enable Replication.
