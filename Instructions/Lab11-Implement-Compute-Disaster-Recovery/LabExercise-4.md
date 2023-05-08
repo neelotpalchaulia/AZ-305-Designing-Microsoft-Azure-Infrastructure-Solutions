@@ -70,7 +70,7 @@ In this task, you will learn how to use Azure portal to create a single database
 
 9. Select **Next: Additional settings** at the bottom of the page.
 
-10. On the **Additional settings** tab, in the **Data source** section, select **Sample** for Use existing data and click **Ok** on the **AdventureWorksLT** dialogue box. Instead of an empty blank database, this creates an AdventureWorksLT sample database with tables and data to query and experiment with.
+10. On the **Additional settings** tab, in the **Data source** section, select **Sample** for using a pre-existing sample data and click **Ok** on the **AdventureWorksLT** dialogue box. This creates an AdventureWorksLT sample database with tables having dummy data to query and experiment with.
 
     ![image](../media/db9.png)
 
