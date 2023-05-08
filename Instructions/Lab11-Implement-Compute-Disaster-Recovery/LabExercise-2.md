@@ -161,10 +161,7 @@ The primary endpoint isn't available, so you were routed to the failover endpoin
 
 In this exercise, you have:
 
-- Created two Web Apps
-- Created a Traffic Manager profile
+- Created two Web Apps.
+- Created a Traffic Manager profile.
 - Added Traffic Manager endpoints.
-- Tested Traffic Manager profile
-
-
-
+- Tested Traffic Manager profile.
