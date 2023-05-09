@@ -88,6 +88,9 @@ Completed Exercise 1 & Exercise 2 - Task 1
 
     ![img](../media/az_305-trafficmanger_config.png)
     
+   >**NOTE**:  Time To Live, or TTL for short, is a sort of expiration date that is put on a DNS record. The TTL serves to tell the recursive server or local resolver how long it should keep the said record in its cache. The longer the TTL, the longer the resolver holds that information in its cache and the shorter the TTL, the shorter amount of time the resolver holds that information. In this lab for simplicity and for the interest of time, we set it to 1 second.
+    
+    
    >**NOTE**: After having completed the above step, please wait for 2 minutes before proceeding in order to allow the configurations to be applied successfully.  
 
 ### Task 3: Add Traffic Manager endpoints
