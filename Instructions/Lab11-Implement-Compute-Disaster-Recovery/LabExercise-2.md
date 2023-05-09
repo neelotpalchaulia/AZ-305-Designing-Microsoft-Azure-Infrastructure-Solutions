@@ -82,7 +82,15 @@ Completed Exercise 1 & Exercise 2 - Task 1
  
     ![img](../media/az_305-trafficmanager.png)
  
-After completing the deployment, you can see the **contosotrafficmanager-1** or the name that you have set.
+After completing the deployment, you can see the **contosotrafficmanager-1** has been successfully created.
+
+4. In the **Load balancing | Traffic Manager** page, select **contosotrafficmanager-1**. Within the **contosotrafficmanager-1 | Configuration** blade, select **Configuration** under the **Settings** column. Make sure to change the **DNS time to live (TTL)** field from 60 seconds to **1 second**. Click on **Save**.
+
+The below screenshot is attached for your reference: 
+
+    ![img](../media/az_305-trafficmanger_config.png)
+    
+   >**NOTE**: After having completed the above step, please wait for 2 minutes before proceeding in order to allow the configurations to be applied successfully.  
 
 ### Task 3: Add Traffic Manager endpoints
 
@@ -90,8 +98,7 @@ In this task, you are going to add the website in the **East US** as primary end
 
 #### Steps:
 
-1. In **Load balancing | Traffic Manager** page, select **contosotrafficmanager-1** under **Settings**. The, select **Endpoints**, and click on **+ Add**. 
-
+1. In **Load balancing | Traffic Manager** page, select **contosotrafficmanager-1**. On the left navigation menu, select **Endpoints** under **Settings** and click on **+ Add**. 
 
 2. On the **Add Endpoint** side screen, enter the following details and then select **Add**.
 
