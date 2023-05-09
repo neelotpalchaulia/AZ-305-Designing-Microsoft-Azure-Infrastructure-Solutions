@@ -84,9 +84,7 @@ Completed Exercise 1 & Exercise 2 - Task 1
  
 After completing the deployment, you can see the **contosotrafficmanager-1** has been successfully created.
 
-4. In the **Load balancing | Traffic Manager** page, select **contosotrafficmanager-1**. Within the **contosotrafficmanager-1 | Configuration** blade, select **Configuration** under the **Settings** column. Make sure to change the **DNS time to live (TTL)** field from 60 seconds to **1 second**. Click on **Save**.
-
-The below screenshot is attached for your reference: 
+4. In the **Load balancing | Traffic Manager** page, select **contosotrafficmanager-1**. Within the **contosotrafficmanager-1 | Configuration** blade, select **Configuration** under the **Settings** column. Make sure to change the **DNS time to live (TTL)** field from 60 seconds to **1 second**. Click on **Save**. The below screenshot is attached for your reference: 
 
     ![img](../media/az_305-trafficmanger_config.png)
     
