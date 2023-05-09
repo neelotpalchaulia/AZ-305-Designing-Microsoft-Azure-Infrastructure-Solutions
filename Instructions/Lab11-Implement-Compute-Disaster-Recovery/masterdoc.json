@@ -1,0 +1,33 @@
+[
+      {
+        "Name": "Module 03 - Design business continuity solutions (Implement Compute Disaster Recovery-LAB 11)",
+        "Language": "English",
+        "BaseURL": "https://github.com/neelotpalchaulia/AZ-305-Designing-Microsoft-Azure-Infrastructure-Solutions",
+        "Files": [
+          {
+            "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabs-MOC/AZ-305-Designing-Microsoft-Azure-Infrastructure-Solutions/main/Instructions/Lab11-Implement-Compute-Disaster-Recovery/Instructions.md",
+            "Order": 1
+          },
+          {
+            "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabs-MOC/AZ-305-Designing-Microsoft-Azure-Infrastructure-Solutions/main/Instructions/Lab11-Implement-Compute-Disaster-Recovery/LabIntro.md",
+            "Order": 2
+          },
+          {
+            "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabs-MOC/AZ-305-Designing-Microsoft-Azure-Infrastructure-Solutions/main/Instructions/Lab11-Implement-Compute-Disaster-Recovery/LabExercise-1.md",
+            "Order": 3
+          },
+          {
+            "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabs-MOC/AZ-305-Designing-Microsoft-Azure-Infrastructure-Solutions/main/Instructions/Lab11-Implement-Compute-Disaster-Recovery/LabExercise-2.md",
+            "Order": 4
+          },
+          {
+            "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabs-MOC/AZ-305-Designing-Microsoft-Azure-Infrastructure-Solutions/main/Instructions/Lab11-Implement-Compute-Disaster-Recovery/LabExercise-3.md",
+            "Order": 5
+          },
+          {
+            "RawFilePath": "https://raw.githubusercontent.com/neelotpalchaulia/AZ-305-Designing-Microsoft-Azure-Infrastructure-Solutions/main/Instructions/Lab11-Implement-Compute-Disaster-Recovery/LabExercise-4.md",
+            "Order": 6
+          }
+        ]
+      }
+    ]
